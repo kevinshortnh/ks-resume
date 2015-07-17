@@ -1,0 +1,77 @@
+<style type="text/css">
+  <!--
+    body {
+      font-family: sans-serif;
+      font-weight: normal;
+      font-size: 10pt;
+      line-height: 11pt;
+      }
+    .text {
+      margin: 1ex 0em 1ex 1em;
+      }
+    .note {
+      float: right;
+      font-style: italic;
+      font-weight: normal;
+      }
+    .contact_name {
+      margin: 0ex 0em 2ex 0em;
+      text-align: center;
+      font-weight: bold;
+      }
+    .contact_other {
+      margin: 0ex 0em 0ex 0em;
+      text-align: center;
+      }
+    .group_header {
+      margin: 3ex 0em 2ex 0em;
+      font-weight: bold;
+      }
+    .group_header_no_space_after {
+      margin: 3ex 0em 0ex 0em;
+      font-weight: bold;
+      }
+    .skill_outer_box {
+      border: white solid 1px;
+      }
+    .skill_column_one {
+      float: left;
+      margin: 0ex 0em 0ex 0em;
+      border: white solid 1px;
+      width: 14em;
+      text-align: right;
+      }
+    .skill_column_two {
+      margin: 0ex 0em 0ex 14.5em;
+      border: white solid 1px;
+      text-align: left;
+      }
+    .exp_column_one {
+      float: left;
+      margin: 2ex 0em 0ex 0em;
+      border: white solid 1px;
+      width: 6em;
+      text-align: right;
+      font-weight: bold;
+      }
+    .exp_column_two_assignment {
+      margin: 1ex 0em 0ex 1em;
+      border: white solid 1px;
+      text-align: left;
+      font-weight: bold;
+      }
+    .exp_column_two_position {
+      margin: 0ex 0em 0ex 1em;
+      border: white solid 1px;
+      text-align: left;
+      }
+    .exp_column_two_task {
+      margin: 0ex 0em 0ex 0em;
+      border: white solid 1px;
+      text-align: left;
+      }
+    .simple {
+      border: white solid 1px;
+      }
+  -->
+</style>

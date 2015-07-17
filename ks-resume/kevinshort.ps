@@ -1,0 +1,2558 @@
+%!PS-Adobe-3.0
+%%Creator: (Apache FOP Version 1.1)
+%%CreationDate: 2014-10-19T15:49:41
+%%LanguageLevel: 3
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%HiResBoundingBox: (atend)
+%%DocumentSuppliedResources: (atend)
+%%EndComments
+%%BeginDefaults
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Version: 1.2 0
+%%Copyright: (Copyright 2001-2003,2010 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+%%Title: (Basic set of procedures used by the XML Graphics project \(Batik and FOP\))
+/bd{bind def}bind def
+/ld{load def}bd
+/GR/grestore ld
+/M/moveto ld
+/LJ/setlinejoin ld
+/C/curveto ld
+/f/fill ld
+/LW/setlinewidth ld
+/GC/setgray ld
+/t/show ld
+/N/newpath ld
+/CT/concat ld
+/cp/closepath ld
+/S/stroke ld
+/L/lineto ld
+/CC/setcmykcolor ld
+/A/ashow ld
+/GS/gsave ld
+/RC/setrgbcolor ld
+/RM/rmoveto ld
+/ML/setmiterlimit ld
+/re {4 2 roll M
+1 index 0 rlineto
+0 exch rlineto
+neg 0 rlineto
+cp } bd
+/_ctm matrix def
+/_tm matrix def
+/BT { _ctm currentmatrix pop matrix _tm copy pop 0 0 moveto } bd
+/ET { _ctm setmatrix } bd
+/iTm { _ctm setmatrix _tm concat } bd
+/Tm { _tm astore pop iTm 0 0 moveto } bd
+/ux 0.0 def
+/uy 0.0 def
+/F {
+  /Tp exch def
+  /Tf exch def
+  Tf findfont Tp scalefont setfont
+  /cf Tf def  /cs Tp def
+} bd
+/ULS {currentpoint /uy exch def /ux exch def} bd
+/ULE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add moveto  Tcx uy To add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/OLE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs add moveto Tcx uy To add cs add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/SOE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs 10 mul 26 idiv add moveto Tcx uy To add cs 10 mul 26 idiv add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/QT {
+/Y22 exch store
+/X22 exch store
+/Y21 exch store
+/X21 exch store
+currentpoint
+/Y21 load 2 mul add 3 div exch
+/X21 load 2 mul add 3 div exch
+/X21 load 2 mul /X22 load add 3 div
+/Y21 load 2 mul /Y22 load add 3 div
+/X22 load /Y22 load curveto
+} bd
+/SSPD {
+dup length /d exch dict def
+{
+/v exch def
+/k exch def
+currentpagedevice k known {
+/cpdv currentpagedevice k get def
+v cpdv ne {
+/upd false def
+/nullv v type /nulltype eq def
+/nullcpdv cpdv type /nulltype eq def
+nullv nullcpdv or
+{
+/upd true def
+} {
+/sametype v type cpdv type eq def
+sametype {
+v type /arraytype eq {
+/vlen v length def
+/cpdvlen cpdv length def
+vlen cpdvlen eq {
+0 1 vlen 1 sub {
+/i exch def
+/obj v i get def
+/cpdobj cpdv i get def
+obj cpdobj ne {
+/upd true def
+exit
+} if
+} for
+} {
+/upd true def
+} ifelse
+} {
+v type /dicttype eq {
+v {
+/dv exch def
+/dk exch def
+/cpddv cpdv dk get def
+dv cpddv ne {
+/upd true def
+exit
+} if
+} forall
+} {
+/upd true def
+} ifelse
+} ifelse
+} if
+} ifelse
+upd true eq {
+d k v put
+} if
+} if
+} if
+} forall
+d length 0 gt {
+d setpagedevice
+} if
+} bd
+%%EndResource
+%%BeginResource: procset (Apache XML Graphics EPS ProcSet) 1.0 0
+%%Version: 1.0 0
+%%Copyright: (Copyright 2002-2003 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+%%Title: (EPS procedures used by the Apache XML Graphics project \(Batik and FOP\))
+/BeginEPSF { %def
+/b4_Inc_state save def         % Save state for cleanup
+/dict_count countdictstack def % Count objects on dict stack
+/op_count count 1 sub def      % Count objects on operand stack
+userdict begin                 % Push userdict on dict stack
+/showpage { } def              % Redefine showpage, { } = null proc
+0 setgray 0 setlinecap         % Prepare graphics state
+1 setlinewidth 0 setlinejoin
+10 setmiterlimit [ ] 0 setdash newpath
+/languagelevel where           % If level not equal to 1 then
+{pop languagelevel             % set strokeadjust and
+1 ne                           % overprint to their defaults.
+{false setstrokeadjust false setoverprint
+} if
+} if
+} bd
+/EndEPSF { %def
+count op_count sub {pop} repeat            % Clean up stacks
+countdictstack dict_count sub {end} repeat
+b4_Inc_state restore
+} bd
+%%EndResource
+%%BeginResource: procset (Apache FOP Std ProcSet) 1.0 0
+%%Version: 1.0 0
+%%Copyright: (Copyright 2009 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+%%Title: (Basic set of procedures used by Apache FOP)
+/TJ { % Similar but not equal to PDF's TJ operator
+  {
+    dup type /stringtype eq
+    { show }
+    { neg 1000 div 0 rmoveto }
+    ifelse
+  } forall
+} bd
+/ATJ { % As TJ but adds letter-spacing
+  /ATJls exch def
+  {
+    dup type /stringtype eq
+    { ATJls 0 3 2 roll ashow }
+    { neg 1000 div 0 rmoveto }
+    ifelse
+  } forall
+} bd
+%%EndResource
+%%EndProlog
+%%BeginSetup
+%FOPBeginFontDict
+%%IncludeResource: font Courier-Bold
+%%IncludeResource: font Courier-BoldOblique
+%%IncludeResource: font Courier-Oblique
+%%IncludeResource: font Times-BoldItalic
+%%IncludeResource: font Courier
+%%IncludeResource: font Times-Italic
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Symbol
+%%IncludeResource: font ZapfDingbats
+%%IncludeResource: font Helvetica
+%%IncludeResource: font Times-Roman
+%%IncludeResource: font Helvetica-BoldOblique
+%%IncludeResource: font Helvetica-Bold
+%%IncludeResource: font Helvetica-Oblique
+%FOPEndFontDict
+%%BeginResource: encoding WinAnsiEncoding
+/WinAnsiEncoding [
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one
+/two /three /four /five /six
+/seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at
+/A /B /C /D /E
+/F /G /H /I /J
+/K /L /M /N /O
+/P /Q /R /S /T
+/U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum
+/underscore /quoteleft /a /b /c
+/d /e /f /g /h
+/i /j /k /l /m
+/n /o /p /q /r
+/s /t /u /v /w
+/x /y /z /braceleft /bar
+/braceright /asciitilde /bullet /Euro /bullet
+/quotesinglbase /florin /quotedblbase /ellipsis /dagger
+/daggerdbl /circumflex /perthousand /Scaron /guilsinglleft
+/OE /bullet /Zcaron /bullet /bullet
+/quoteleft /quoteright /quotedblleft /quotedblright /bullet
+/endash /emdash /asciitilde /trademark /scaron
+/guilsinglright /oe /bullet /zcaron /Ydieresis
+/space /exclamdown /cent /sterling /currency
+/yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /sfthyphen /registered
+/macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /middot /cedilla
+/onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex
+/Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis
+/multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave
+/aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex
+/otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn
+/ydieresis
+] def
+%%EndResource
+%FOPBeginFontReencode
+/Courier-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Bold exch definefont pop
+/Courier-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-BoldOblique exch definefont pop
+/Courier-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Oblique exch definefont pop
+/Times-BoldItalic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-BoldItalic exch definefont pop
+/Courier findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier exch definefont pop
+/Times-Italic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Italic exch definefont pop
+/Times-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Bold exch definefont pop
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica exch definefont pop
+/Times-Roman findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Roman exch definefont pop
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-BoldOblique exch definefont pop
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Bold exch definefont pop
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Oblique exch definefont pop
+%FOPEndFontReencode
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 0 0 612 792
+%%PageHiResBoundingBox: 0 0 612 792
+%%PageResources: (atend)
+%FOPSimplePageMaster: only
+%%BeginPageSetup
+%FOPBeginSetPageDevice
+<<
+/PageSize [612 792]
+/ImagingBBox null
+>> setpagedevice
+%FOPEndSetPageDevice
+[1 0 0 -1 0 792] CT
+%%EndPageSetup
+GS
+[1 0 0 1 54 720] CT
+GS
+-8 0 M
+530 0 L
+530 0.283 L
+-8 0.283 L
+cp
+clip N
+0.283 LW
+-8 0.141 M 530 0.141 L S N
+GR
+GS
+BT
+/Helvetica 8 F
+1 0 0 -1 0 12.327 Tm
+(Resume of Kevin L. Short, dated 19 October 2014, generated using XML, XSLT & XSL-FO.) t
+1 0 0 -1 481.08 12.327 Tm
+(Page ) t
+1 0 0 -1 501.984 12.327 Tm
+(1) t
+1 0 0 -1 506.432 12.327 Tm
+( of ) t
+1 0 0 -1 517.552 12.327 Tm
+(8) t
+ET
+GR
+GR
+GS
+[1 0 0 1 54 36] CT
+GS
+BT
+/Times-Bold 10 F
+1 0 0 -1 220.02 8.355 Tm
+(KEVIN L. SHORT) t
+/Times-Roman 10 F
+1 0 0 -1 132.73 32.33 Tm
+(18 Sunridge Road, Windham, NH 03087 \225 Cell: \(603\) 785-7165) t
+1 0 0 -1 161.175 44.33 Tm
+(kshort@oxmicro.com \225 http://www.oxmicro.com/) t
+ET
+GR
+GS
+458 1.5 translate
+64 64 scale
+%AXGBeginBitmap: http://www.oxmicro.com/ks-resume/images/JavCertDev4c_ks_64x64.jpg
+{{
+/RawData currentfile /ASCII85Decode filter def
+/Data RawData << >> /DCTDecode filter def
+/DeviceRGB setcolorspace
+<<
+  /Decode [0 1 0 1 0 1]
+  /Width 64
+  /BitsPerComponent 8
+  /ImageType 1
+  /DataSource Data
+  /ImageMatrix [64 0 0 64 0 0]
+  /Height 64
+>> image
+} stopped {handleerror} if
+  RawData flushfile
+} exec
+s4IA0!"_al8O`[\!<E0k!([(is4[N@!!<9(!s/N+!s8W.!s8Z0#R(A7"9f,;#6kGB$4I=N$4@4N%MB<^
+%M90Y$P4'b&JGin'bq,f(Dmo%(_RMt'`Znf6NI8l"9eo3#mCJ='FbEZ'GM5q'GM5q'GM5q'GM5q'GM5q
+'GM5q'GM5q'GM5q'GM5q'GM5q'GM5q'GM5q'GUSa!"fJ:5QF%O!>,;5&HMtG!WU(<)uos>"9SZ)zz!!!
+!%"U555!XAi-_uLbX!!*6(!<E0#zz!!<?-"pb82#QNKX$j-M1!Y>GF!!!&_2qX$iQgO%r=&dF=Hgt#up
+J9-c51?3/>fgjAIq41WJmMqVO@o+u/UNR[?.N:k9XT.ph\gFO`$:".k,n2g/7PE@W:mB0\kT6Kp@Yf5^
+]4?7<.1Z2ZoP/=N[\$),aL/_:JuK='d%/:XR9u6`gh"=cQ:/Li>SeP[-bj^DAfZm4m1et'ii9s!!!l@D
+nB*L4SD*s9P\^IVP15%5QAY%+qO_U!WiE)!WrE&z!!!*(!X/Q)"r%e0&0MPu(B<(g#QXr+!<iPC4`uaO
+C;?l:F9cn<DA.jMnuSZ+QHiR&j0#W"MoVAo`%9-$IJ4sr7Un/ULjJCT4f^_G</RV8>?]>o*<U$`9@kbl
+_2*F+\<!J#I,Lb_nfQ.DrH$0HU40*ZfSN.Vhu\t*9Ldnc'Qm[+geU.b\]$'m,e>;IJMWrmkSH9+cA?LV
+fWhq@A7Do%`%X!78_V>h`JGs#?^,"m'$($j!%8EZ!<WB,"9AZ+z!!!!#!!*0)&ePck+X.I?0f)ZO0LC?
+\s4RGY!<W?'564_iL/Q5LNPp@e6+Bc_+m%074(@$1R'f"`U`tp"Vt!YU@jRl(3g?3RZTf)U1rU:Nrg@B
+@dTZ+u[oC:9'+sl2oJ3GBcK%/g0FS&hZ*kIffp5H<_n+#-&o8YQKIn4U;0j2J;\bPK/P+o;q-(Of9iM:
+M]sR6F/h*V6gQ3b\!GAnXHu*!oei1I!o)X^EA<Ng[,)q8AW\pf5C8+n1QDugCNFGPDh/9bS8T)'ls24m
+r&HDh4"p5#3#m:>1z!!*-$!sAc>+VHM,"qs:2JJKGln.6<W20#=pdGYcn11F.%nc.;C#QXu-!C$U%YP5
+rkT15*gU1Wl'0]T.RHqQpp^4:U0G_FI1U#7,(L*nCJb=h)K4IP6;3a$Xq:lf+$;MEFtQ\L+B3]%O4M0'
+Y(]cfu*1<7]W%;YUDG+N%I'*+s#/#(FS\<HnS1I$:\9B"^OjXPi\0B)3$rIN;@_4F8-ULN1&@IGT\O&,
+F-WRB>+0]&t!/mnI>3]NGs$3a0"J#LGYm!2NC*(.Te?9!WQ8n^8:hPXQR2S\,[H@6`FG*PsX\VLDa^16
+-FQWBVO@OD\k4gIOEJFiOOAOS$9+rlgjj4&UR%g"?`3FjjWb)@Ze-1^%/])FZ[WM]lNDpSp!f&ARX+2^
+;r*M(/_/"*N]k#uI5W2KU`.P4W\I/a3(7b@Ormn]kJD&b=+2M"]h2c0Uf55f0P\kq5>kI[$lQXR3$2%L
+d6)H^Tu\Q"Pkk0:l_U#P&;:(U10(T4T(GJ;coh.]cVL0V"UC5QH[$Bf1q:09i`ePr]:/G;XLq+*+^<C9
+'"7ef:--ob$E**>e0%p[LZ$L\"u<6Gb^O1u(.G#A*r'YFZ3f\2^A7hE:+i=c;/\9)7=oQn@r<n[j*AB&
+*L-6*FARs&+NT^cpCbk)r.fnl;Q`OdcZd!3$2k#r92m'Or%il*NK>3a'Z5WA<1A<bT,(o83/+-lrCV0q
+%c`@cZt5&"r)"M=+[*<uP^!'(Sj!<NB+"9o&<!<<*"!!!!"!WrE*&J?6A5nbG>OUr3^@<&Op1I?/6Td)
+6Y;IXZuP*<`1iW%U3#QXr+#!W0G5B;f5g,s`qT$`5(b-+.>ME'MuQ)8eGJ>A:&S3\3LYsNA*QVA.6#[*
+ZqRohbpV07=o92)g9DB7lU^^`&TY?<537T]@[OZ_aBe0m%&J3C+)r^Ok&$QGGGeH(8Kr*cKF<QeB<_bZ
+UeT=IIVD&FM-J]B']`Mgbng0)uEA]2eRb:>&-.F_p-X>\54edc#M6![2/EM1OuHH?sQR199W9'oY;\X;
+TEpF,V/L)qP4''WC[&[HC+%q/E^HT`kc-t<<2hc<nSG=+r4.<h^!753ccZF`H&/<`G`h1/gn6Z+.Zbm,
+/46^q4:_%g#<"rA>#].2I;O>%Lik?T:.Pp\$_7Q%CFL>>iZYIi3I>Q-o$mALDSg/;qYN/'C6F,Yc_3Q=
+FVC!IU#0#b,i['WX_&f'sWi`)nT>&A_sJ8X1HIbZs%\m'0kT]/;'W>`S+D1[)N_Q6$Mg7'qA+%g`3UM@
+6PCTluW2Mc@L)g=V`T%UiUo$Sh$%Y[i.kl&,JIFP>X#19n<TG"'Z6:`s&'J]X+!%/<Y!!*0(!sAZ-z!!
+!!"&HEt/5uD&%EKMApZ1+I70Z!;Zg&MBZ!<<-b+g8W7;b6DLaL#DF+S^+q6H4]uJYt>?c:ULs9^sl+UM
+>Vl/-g%h8'U9dSWFfc52`4^&VchN?2W1)c(k>q4-Rgo43;aeW*%$aB.Cp+1M1X[kGR3ST\5Rgrr?qbWX
+.bM0@`Q3cam@$R)_!SOg:Ne$[]$mD.q9QYDNeiq.LbX22kn?hei>tFSmo1TQ$(s*&($+PjU(6h$T00SN
+nMb4X`>9_4kfS`k'8S:,bLkV()[;eX]U0.0YgO2Hm=,f4r$BD3=Tk<iBo"-3`G.`N!"LK@3ZGrr@PAJu
+-FS10iZ<HF+NH"9;:O?oOH'%T>i.()M0QW>RGs('^HFP%%TB2&@B<,KmJGcW9gs7:<BWdTXGhhBY]e[]
+^\#HjM<7Qo$-ef384.!"8r1!!3-&!!!!1jN7E%r&%"+Wa=lg!<3&aC&\1uAe.hLl"KaUs24mc&HMk4!s
+8T."T\T'z!!*Z3+Yc8[@=aOPEM9Z,+MlIanM(!s!!iT-!<GCrn2'7)XVbajH6Ut<p=#HeP!;9(9+<@S3
+rP37pL]-%Jk`f?qV$_d!oYk3k/&3"[f6?)Zl:KRF6BW6SdAWnETnMi0Mb@)q<:c"QS6TIAq34"QIL%Nn
+OY*5Q7"0f]<>sW3m"f^@,R]j@Ga<19\tBJ:gO=sJn[n=Dg0Nf.7#jgkj.m$1BUO-&htB([PtT^"f8RAP
+gu+ff1KkuQYar[#P2+mQ"_)dIgm`$pi-)X'lpkAe`V+YB=2eDX.AW_YA+[pC)%1'!,?ZFr22O=hLnJrH
+hp^OTgW['s24m`&HMn4!<`H)"9SZ)z!!*ZT!&6c:@IS7J+JH%oJ^KV[g&MBZ!W`<d&D+&CW86Tk`!ipS
+X1"1TnpZ_S'-^jB?7D-@[L*1W(%J*HZp]_;7,^>P$.B7f<c\]6VZP4;>aSG84TI<+NG)^&*&%@KZ_4:f
+G6CH3n4/8._tp?5W<$Kq"PVHO$j5;J#b-f%UJ;aVZ9ohA7d`c2:Kt_3*;0ito6EFE>U*p:fcJ1T\"2[^
+%9;+,JLNB`OrAKki++1YLu:mW+pub;dq'pm3-O9m+DCqAW^>]VTu0m1QTn8M_tXM!.<[*U8ua3oP3CBs
+-LOO43b,5t+K#?TB#M.YLrLW*Ui;(SK*cJNG4W-Tb`<(MP*N@'KHQ'P!(m6&kb1n`UQhI:!hdDQ/9:,q
+.[[Y1"/>rA@0MQF3thg:HEi__."c18DBNHRk'tEGJN7/T2OX_dJ&[#nfC?"^?hLU@rb6borrA%)rrDXf
+$R!H4+J5"G2&-I8^1:U'rFpib0^7S4UUVh4%bm#`r>MBQZMaZFWQ^(@cHHeVIl\L4nX^u7Rk_[;0,>i%
+1^(ANU1*AIJ,dFe,7jkV!!<3&!<`K*z!!!$3!$O'_;%R00dGZ3%EUa"^!!iT+!!,:qGl2A\>g(!MAX9H
+LS-W70nf7s+lpj"qLkOt!+(BY;(T^M'&NV;_a#j`,N`G)Mb$[VZ-EW1+8SY+<34mZmVf-=:7^+/)lDOu
+:[NA9fa0]CnpZM[\m?-5oX"gK57Zr^4B%*I]F?rn$BOf*C6S?.mE+g42Nbq?'HR(aii-kIP>\$2k'a@K
+=;!ITg=r1F-%AO!(:gqk,qG<n#dri8B.3UALBOF8T5Tg%Dnc"N/**Z8G!hjW;kcFE,&5F8>3?9A;2`,V
+'9@h0\FFG%K9ojhZ)aAtq/05L51jL&C"J>a(U9Ld%Y&Nu%mA$?l,,b_P%p1TI!8Nm6NYR.lK83+d/\7<
+@-P71d"]A(H\)Dsm&m#5=!;S)!=PFp)diRZO!(Z'+U8-.Hp;J5_hZ!RL)?>(J9`G*`pqi#nj(2LYWD.3
+Rah+7TW(Xr`2!5XWH:8t-e-Uc2;lN\a#9_Bpg81>d(''!GftG[ob]T_3RpDA5"k7R%5"_6C7SjO%@fiI
+EKFX3Eci;Y~>
+
+%AXGEndBitmap
+GR
+GS
+BT
+/Times-Bold 10 F
+1 0 0 -1 0 89.525 Tm
+(PROFESSIONAL OBJECTIVE) t
+/Times-Roman 10 F
+1 0 0 -1 10 113.5 Tm
+(Seeking a hands-on software development position in a senior, principal, leadership, or architecture role.) t
+1 0 0 -1 10 125.5 Tm
+(Proven track record of building highly reliable, robust software systems. Brought start-up and early stage projects to) t
+1 0 0 -1 10 137.5 Tm
+(successful, timely completion. Defined software architectures, instituted software engineering processes, automated application) t
+1 0 0 -1 10 149.5 Tm
+(deployment, built software and SQA teams and labs, performed initial hardware/software bring-up.) t
+/Times-Bold 10 F
+1 0 0 -1 0 173.525 Tm
+(BACKGROUND SUMMARY) t
+1 0 0 -1 24.5 197.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 197.5 Tm
+(Over 35 year's commercial software development experience.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 209.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 209.5 Tm
+(Internet scale deployment, operation, and monitoring.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 221.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 221.5 Tm
+[(Automate ) -473 (software ) -473 (development ) -473 (processes: ) -473 (Continuous ) -473 (Delivery, ) -473 (Integration, ) -473 (Deployment, ) -473 (and ) -473 (Improvement, ) -473 (following)] TJ
+1 0 0 -1 34 233.5 Tm
+(patterns of the DevOps movement.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 245.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 245.5 Tm
+(Agile, Iterative, and Waterfall software development processes.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 257.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 257.5 Tm
+(Expert level: C, C++, Java, Ruby, Python, Perl, Tcl/Tk, Expect, Bash, and AWK.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 269.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 269.5 Tm
+[(Expert ) -665 (level: ) -665 (Linux ) -665 (\(Ubuntu, ) -665 (Debian, ) -665 (CentOS, ) -665 (RedHat\), ) -665 (BSD ) -665 (\(Mac ) -665 (OS ) -665 (X, ) -665 (FreeBSD, ) -665 (NetBSD, ) -665 
+(OpenBSD\), ) -665 (and ) -665 (System)] TJ
+1 0 0 -1 34 281.5 Tm
+(V UNIX \(Solaris, AIX, HP-UX\).) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 293.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 293.5 Tm
+(High-performance, concurrent, multi-threaded, "hard" real-time and embedded systems.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 305.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 305.5 Tm
+(Network programming and network management systems.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 317.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 317.5 Tm
+(Excellent debugging and troubleshooting skills.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 329.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 329.5 Tm
+(Excellent communication skills.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 341.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 341.5 Tm
+(Technical leadership experience.) t
+/Times-Bold 10 F
+1 0 0 -1 24.5 353.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 34 353.5 Tm
+(BA in Computer Science.) t
+/Times-Bold 10 F
+1 0 0 -1 0 377.525 Tm
+(BACKGROUND HIGHLIGHTS) t
+/Times-Roman 10 F
+1 0 0 -1 10 401.5 Tm
+(Automation \225 DevOps \225 Embedded Systems \225 Real-Time Systems \225 SNMP \225 Network Management Systems \225 Java) t
+1 0 0 -1 10 413.5 Tm
+(Technologies \225 Object-Oriented Design & Analysis \225 Voice over IP \225 Optical Networking \225 Robotics \225 XML Technologies) t
+/Times-Bold 10 F
+1 0 0 -1 0 437.525 Tm
+(PROFESSIONAL EXPERIENCE) t
+1 0 0 -1 10 461.525 Tm
+(Manager, Automation Engineering: Dyn, Manchester, NH. \(Apr 2014 \226 Present\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 461.56 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 485.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 485.5 Tm
+(Evolving a DevOps culture, breaking down silos between Development, Operations, and separate DevOps teams.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 497.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 497.5 Tm
+(Instituting processes of Continuous Delivery, Integration, Deployment, and Improvement.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 509.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 509.5 Tm
+(Managing rapid growth within Engineering, growing from 20 to 100 members over an 18-month period.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 521.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 521.5 Tm
+(Hands-on position, working side-by-side with colleagues on implementing automation.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 533.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 533.5 Tm
+(Serving in multiple roles: as manager, and as scrum master / technical owner for multiple Agile squads and Roadmaps.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 545.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 545.5 Tm
+[(Architecture ) -117 (and ) -117 (system ) -117 (design ) -117 (for ) -117 (Automation ) -117 (and ) -117 (infrastructure-as-code ) -117 (solutions ) -117 (for ) -117 (Development, ) -117 
+(Integration, ) -117 (Staging, ) -117 (and)] TJ
+1 0 0 -1 10 557.5 Tm
+(Production environments.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 569.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 569.5 Tm
+[(Metal ) 482 (as ) 482 (a ) 482 (Service ) 482 (\(MaaS\) ) 482 (bare ) 482 (metal ) 482 (automated ) 482 (provisioning ) 482 (solutions, ) 482 (deploying ) 482 (hundreds ) 482 (of ) 482 (servers ) 482 
+(with ) 482 (Ubuntu, ) 482 (Chef, ) 482 (KVM,)] TJ
+1 0 0 -1 10 581.5 Tm
+(Docker, and standard configuration across multiple data centers.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 593.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 593.5 Tm
+(Self-service provisioning for bare metal, virtual machines, and containers, in a hybrid cloud of data centers and AWS EC2.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 605.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 605.5 Tm
+[(Skills: ) 126 (Chef, ) 126 (Docker, ) 126 (Rundeck, ) 126 (Ansible, ) 126 (KVM, ) 126 (Ruby, ) 126 (Python, ) 126 (Perl, ) 126 (Bash, ) 126 (AWK, ) 126 (Go, ) 126 (Java, ) 126 (C/C++, ) 126 
+(Makefiles, ) 126 (Cobbler, ) 126 (Jenkins,)] TJ
+1 0 0 -1 10 617.5 Tm
+(Makefiles, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, FreeBSD.) t
+/Times-Bold 10 F
+1 0 0 -1 10 641.525 Tm
+(Manager, Platform Engineering: Dyn, Manchester, NH. \(Oct 2013 \226 Apr 2014\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 641.56 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 665.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 665.5 Tm
+(Manager in a matrix organization, and scrum master / technical owner for an Agile squad.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 677.525 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 677.5 Tm
+(Managed development, testing, fully automated deployment and monitoring of DNS services to new China Network.) t
+ET
+GR
+GR
+showpage
+%%PageTrailer
+%%PageResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-Roman
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Page: 2 2
+%%PageBoundingBox: 0 0 612 792
+%%PageHiResBoundingBox: 0 0 612 792
+%%PageResources: (atend)
+%FOPSimplePageMaster: only
+%%BeginPageSetup
+%FOPBeginSetPageDevice
+<<
+/PageSize [612 792]
+/ImagingBBox null
+>> setpagedevice
+%FOPEndSetPageDevice
+[1 0 0 -1 0 792] CT
+%%EndPageSetup
+GS
+[1 0 0 1 54 720] CT
+GS
+-8 0 M
+530 0 L
+530 0.283 L
+-8 0.283 L
+cp
+clip N
+0.283 LW
+-8 0.141 M 530 0.141 L S N
+GR
+GS
+BT
+/Helvetica 8 F
+1 0 0 -1 0 12.327 Tm
+(Resume of Kevin L. Short, dated 19 October 2014, generated using XML, XSLT & XSL-FO.) t
+1 0 0 -1 481.08 12.327 Tm
+(Page ) t
+1 0 0 -1 501.984 12.327 Tm
+(2) t
+1 0 0 -1 506.432 12.327 Tm
+( of ) t
+1 0 0 -1 517.552 12.327 Tm
+(8) t
+ET
+GR
+GR
+GS
+[1 0 0 1 54 36] CT
+GS
+BT
+/Times-Bold 10 F
+1 0 0 -1 1.5 8.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 8.33 Tm
+(Lead design of Development, Integration, Staging, and Production environments.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 20.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 20.33 Tm
+(Lead design of Continuous Integration pipeline and Automated Testing framework.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 32.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 32.33 Tm
+(Built local and mirrored Ubuntu repositories.) t
+/Times-Bold 10 F
+1 0 0 -1 10 56.355 Tm
+(DevOps & Tools Engineer: Dyn, Manchester, NH. \(Feb 2013 \226 Oct 2013\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 56.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 80.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 80.33 Tm
+(Agile software development.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 92.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 92.33 Tm
+(Built Dyn's first automated application deployment using Chef, and package delivery using Debian \(.deb\) packaging.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 104.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 104.33 Tm
+(Debian packaging for C++, Java, Go, Python, Perl, and Node.js applications.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 116.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 116.33 Tm
+(Chef installers for Cassandra and MySQL databases, and Dyn traffic management \(DNS\) applications.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 128.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 128.33 Tm
+[(Skills: ) 152 (Chef, ) 152 (Berkshelf, ) 152 (Vagrant, ) 152 (Debian ) 152 (pbuilder, ) 152 (Makefiles, ) 152 (VirtualBox, ) 152 (VMware ) 152 (ESXi/vCenter, ) 152 (Cassandra, ) 152 (MySQL, ) 152 
+(Ubuntu.)] TJ
+/Times-Bold 10 F
+1 0 0 -1 10 152.355 Tm
+(Senior Software Engineer: Coyote Point Systems, Millerton, NY. \(Nov 2011 \226 Dec 2012\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 152.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 176.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 176.33 Tm
+[(Application ) -842 (Delivery ) -842 (Controllers: ) -842 (Network ) -842 (load ) -842 (balancing ) -842 (and ) -842 (global ) -842 (server ) -842 (load ) -842 (balancing ) -842 (products, ) -842 (on ) -842 
+(physical ) -842 (and ) -842 (virtual)] TJ
+1 0 0 -1 10 188.33 Tm
+(systems.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 200.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 200.33 Tm
+[(Responsible ) 140 (for: ) 140 (L3 ) 140 (\(ICMP\), ) 140 (L4 ) 140 (\(TCP/UDP\), ) 140 (L7 ) 140 (\(active ) 140 (content ) 140 (verification\) ) 140 (monitoring, ) 140 (and ) 140 (server ) 140 
+(load ) 140 (balancing ) 140 (subsystems.)] TJ
+/Times-Bold 10 F
+1 0 0 -1 1.5 212.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 212.33 Tm
+[(New ) 594 (feature ) 594 (design ) 594 (and ) 594 (development ) 594 (included: ) 594 (health ) 594 (checking ) 594 (and ) 594 (load ) 594 (balancing ) 594 (features ) 594 (that ) 594 (interacted ) 594 
+(with ) 594 (server ) 594 (side ) 594 (agents,)] TJ
+1 0 0 -1 10 224.33 Tm
+(VMware ESXi hypervisor, and SNMP agents.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 236.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 236.33 Tm
+[(Shared ) 293 (responsibility ) 293 (for: ) 293 (disaster ) 293 (recovery ) 293 (and ) 293 (failover: ) 293 (active/passive, ) 293 (active/active, ) 293 (and ) 293 (N+1 ) 293 (configurations; ) 293 
+(and ) 293 (configuration)] TJ
+1 0 0 -1 10 248.33 Tm
+(management.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 260.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 260.33 Tm
+(Built the NetBSD-based products using cross-compilation on Mac OS X.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 272.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 272.33 Tm
+[(Skills: ) 192 (C, ) 192 (assembler, ) 192 (Tcl, ) 192 (Python, ) 192 (Perl; ) 192 (NetBSD, ) 192 (Mac ) 192 (OS ) 192 (X, ) 192 (FreeBSD, ) 192 (Linux; ) 192 (VMware ) 192 (ESXi, ) 192 (vSphere, ) 192 
+(and ) 192 (Fusion; ) 192 (Net-SNMP,)] TJ
+1 0 0 -1 10 284.33 Tm
+(OpenSSL, pfSense, DNS, Doxygen, Eclipse, Perforce, Bugzilla, Intel x86.) t
+/Times-Bold 10 F
+1 0 0 -1 10 308.355 Tm
+(Consultant: Proliphix, Westford, MA. \(Sep 2011 \226 Nov 2011\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 308.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 332.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 332.33 Tm
+[(Internet-managed ) -128 (energy ) -128 (control ) -128 (system ) -128 (\(IP ) -128 (thermostat, ) -128 (HVAC, ) -128 (and ) -128 (building ) -128 (control\), ) -128 (running ) -128 (embedded ) -128 
+(Linux ) -128 (and ) -128 (embedded)] TJ
+1 0 0 -1 10 344.33 Tm
+(Java on ARM processors.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 356.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 356.33 Tm
+[(Responsible ) -169 (for ) -169 (updating ) -169 (entire ) -169 (platform: ) -169 (energy ) -169 (control ) -169 (application ) -169 (and ) -169 (features, ) -169 (Linux ) -169 (kernel, ) -169 
+(driver ) -169 (development, ) -169 (embedded)] TJ
+1 0 0 -1 10 368.33 Tm
+(database, RFS, U-boot, and boot ROM.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 380.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 380.33 Tm
+(Skills: Java, C, assembler, Perl; Timesys Linux; Eclipse, Jira, Mercurial, CruiseControl, Atmel ARM.) t
+/Times-Bold 10 F
+1 0 0 -1 10 404.355 Tm
+(Principal Software Engineer: Lantiq Broadband HoldCo Inc., Bedford, MA. \(Apr 2011 \226 Sep 2011\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 404.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 428.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 428.33 Tm
+[(System-on-Chip ) -268 (\(SoC\) ) -268 (software ) -268 (for ) -268 (a ) -268 (G.HN ) -268 (Home ) -268 (Networking ) -268 (protocol ) -268 (engine, ) -268 (running ) -268 (embedded ) -268 (Linux ) -268 
+(and ) -268 (ThreadX ) -268 (RTOS)] TJ
+1 0 0 -1 10 440.33 Tm
+(on MIPS virtual processing engines.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 452.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 452.33 Tm
+(Responsible for Linux kernel porting \(2.6.32\); driver development; U-boot; and boot ROM.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 464.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 464.33 Tm
+[(Stabilized ) -505 (the ) -505 (board ) -505 (support ) -505 (package ) -505 (\(BSP\) ) -505 (software ) -505 (development ) -505 (team ) -505 (by: ) -505 (establishing ) -505 (source ) -505 (code ) -505 
+(management ) -505 (disciplines;)] TJ
+1 0 0 -1 10 476.33 Tm
+[(standardizing ) -525 (software ) -525 (release ) -525 (procedures; ) -525 (preparing ) -525 (and ) -525 (tracking ) -525 (software ) -525 (schedules; ) -525 (coordinating ) -525 (efforts ) -525 
+(with ) -525 (multiple ) -525 (sites;)] TJ
+1 0 0 -1 10 488.33 Tm
+(implementing defect and project milestone tracking; and implementing a continuous integration environment.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 500.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 500.33 Tm
+(Skills: C, C++, assembler, Tcl/Tk, Expect, ThreadX, Eclipse, Jira, Mercurial, CruiseControl, MIPS34Kc, Lauterbach Trace32.) t
+/Times-Bold 10 F
+1 0 0 -1 10 524.355 Tm
+(Consultant: Constitution Medical, Inc., Boston, MA. \(Jan 2011 \226 Apr 2011\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 524.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 548.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 548.33 Tm
+(User interface components in Java for an integrated hematology instrument.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 560.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 560.33 Tm
+(Skills: Java, Eclipse, Jira, FogBugz, Mercurial.) t
+/Times-Bold 10 F
+1 0 0 -1 10 584.355 Tm
+(Technical Director, Consulting Software Engineer, Principal Software Engineer: Cedar Point Communications, Inc.,) t
+1 0 0 -1 10 596.355 Tm
+(Derry, NH. \(Apr 2005 \226 Apr 2011\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 584.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 620.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 620.33 Tm
+(VoIP software subsystems for embedded platforms in C and assembler.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 632.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 632.33 Tm
+(IMS software subsystems for off-the-shelf servers, in Java.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 644.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 644.33 Tm
+(Debugging, troubleshooting, and performance analysis for Voice over IP products.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 656.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 656.33 Tm
+(IP Multimedia Subsystem \(IMS\) and PacketCable 2.0 lab and development environment.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 668.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 668.33 Tm
+[(Proactively ) -1175 (isolated ) -1175 (performance ) -1175 (issues ) -1175 (for ) -1175 (our ) -1175 (products ) -1175 (and ) -1175 (our ) -1175 (development ) -1175 (environment, ) -1175 (and ) -1175 
+(provided ) -1175 (timely ) -1175 (support ) -1175 (of)] TJ
+1 0 0 -1 10 680.33 Tm
+(development and test teams, working closely with software and hardware developers, on both embedded systems and EMS.) t
+ET
+GR
+GR
+showpage
+%%PageTrailer
+%%PageResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-Roman
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Page: 3 3
+%%PageBoundingBox: 0 0 612 792
+%%PageHiResBoundingBox: 0 0 612 792
+%%PageResources: (atend)
+%FOPSimplePageMaster: only
+%%BeginPageSetup
+%FOPBeginSetPageDevice
+<<
+/PageSize [612 792]
+/ImagingBBox null
+>> setpagedevice
+%FOPEndSetPageDevice
+[1 0 0 -1 0 792] CT
+%%EndPageSetup
+GS
+[1 0 0 1 54 720] CT
+GS
+-8 0 M
+530 0 L
+530 0.283 L
+-8 0.283 L
+cp
+clip N
+0.283 LW
+-8 0.141 M 530 0.141 L S N
+GR
+GS
+BT
+/Helvetica 8 F
+1 0 0 -1 0 12.327 Tm
+(Resume of Kevin L. Short, dated 19 October 2014, generated using XML, XSLT & XSL-FO.) t
+1 0 0 -1 481.08 12.327 Tm
+(Page ) t
+1 0 0 -1 501.984 12.327 Tm
+(3) t
+1 0 0 -1 506.432 12.327 Tm
+( of ) t
+1 0 0 -1 517.552 12.327 Tm
+(8) t
+ET
+GR
+GR
+GS
+[1 0 0 1 54 36] CT
+GS
+BT
+/Times-Bold 10 F
+1 0 0 -1 1.5 8.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 8.33 Tm
+[(Skills: ) -80 (Java, ) -80 (C, ) -80 (Python, ) -80 (Perl, ) -80 (Tcl/Tk, ) -80 (Expect, ) -80 (XML, ) -80 (XSLT, ) -80 (Enea ) -80 (OSE, ) -80 (MySQL, ) -80 (Eclipse, ) -80 (JBoss, ) -80 (JUnit4, ) -80 
+(Ant, ) -80 (Log4j, ) -80 (Cisco ) -80 (IOS,)] TJ
+1 0 0 -1 10 20.33 Tm
+(Juniper JunOS, SonicWall firewall, DNS, LACP, OSPF, DHCP.) t
+/Times-Bold 10 F
+1 0 0 -1 10 44.355 Tm
+(Consultant: Quintron Systems, Inc., Santa Maria, CA. \(Dec 2004 \226 Apr 2005\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 44.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 68.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 68.33 Tm
+[(Java ) -1000 (code ) -1000 (integrating ) -1000 (Facial ) -1000 (Biometric ) -1000 (Devices ) -1000 (for ) -1000 (an ) -1000 (Access-Control ) -1000 (System. ) -1000 (Plug-in ) -1000 (modules ) -1000 
+(supporting ) -1000 (distributed ) -1000 (facial)] TJ
+1 0 0 -1 10 80.33 Tm
+[(biometric ) -88 (devices. ) -88 (Implemented ) -88 (use ) -88 (cases ) -88 (for ) -88 (subject ) -88 (enrollment, ) -88 (standalone ) -88 (identification, ) -88 (and ) -88 (verification ) -88 (in ) -88 
+(conjunction ) -88 (with)] TJ
+1 0 0 -1 10 92.33 Tm
+(card readers.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 104.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 104.33 Tm
+[(Multi-threaded ) 174 (application, ) 174 (device ) 174 (drivers, ) 174 (and ) 174 (Java ) 174 (SWT/JFace ) 174 (GUI ) 174 (interfaces, ) 174 (with ) 174 (a ) 174 (persistent ) 174 (store ) 174 
+(managed ) 174 (with ) 174 (Hibernate.)] TJ
+/Times-Bold 10 F
+1 0 0 -1 1.5 116.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 116.33 Tm
+[(Cross-platform ) -715 (access ) -715 (control ) -715 (system ) -715 (supported ) -715 (Windows ) -715 (and ) -715 (Linux, ) -715 (and ) -715 (was ) -715 (database-independent, ) -715 (supporting ) -715 
+(SQL ) -715 (Server,)] TJ
+1 0 0 -1 10 128.33 Tm
+(Sybase, Oracle, MySQL, embedded databases, and more.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 140.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 140.33 Tm
+(This was a telecommute development environment.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 152.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 152.33 Tm
+(Skills: Java, SWT/JFace, Hibernate, HSQLDB, SQLServer, Eclipse, JUnit, Apache Ant, Apache Log4j.) t
+/Times-Bold 10 F
+1 0 0 -1 10 176.355 Tm
+(Consultant: Cellular Specialties, Inc., Manchester, NH. \(Dec 2004 \226 Apr 2005\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 176.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 200.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 200.33 Tm
+[(Embedded ) -100 (software ) -100 (for ) -100 (a ) -100 (Digital ) -100 (Repeater ) -100 (\(Bi-Directional ) -100 (Amplifier\) ) -100 (for ) -100 (in-building ) -100 (wireless ) -100 (solutions. ) -100 
+(SNMP ) -100 (MIB ) -100 (and ) -100 (agent;)] TJ
+1 0 0 -1 10 212.33 Tm
+[(event ) -760 (reporting ) -760 (protocol; ) -760 (inter-process ) -760 (communication, ) -760 (command ) -760 (line ) -760 (interpreter; ) -760 (low-level ) -760 (hardware ) -760 (interfaces ) -760 
+(for ) -760 (SPI, ) -760 (I2C,)] TJ
+1 0 0 -1 10 224.33 Tm
+(PCMCIA, USB, A/D, digital I/O.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 236.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 236.33 Tm
+[(Introduced ) -357 (software ) -357 (engineering ) -357 (practices; ) -357 (source ) -357 (code ) -357 (control; ) -357 (software ) -357 (defect ) -357 (management; ) -357 (software ) -357 (life ) -357 
+(cycle ) -357 (management;)] TJ
+1 0 0 -1 10 248.33 Tm
+(mentored team members.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 260.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 260.33 Tm
+[(Skills: ) -347 (C, ) -347 (Tcl, ) -347 (Expect, ) -347 (Perl, ) -347 (SNMP, ) -347 (Embedded ) -347 (Linux, ) -347 (User-Mode ) -347 (Linux, ) -347 (Linux ) -347 (From ) -347 (Scratch, ) -347 (Red ) -347 
+(Hat ) -347 (Linux, ) -347 (CVS, ) -347 (Bugzilla,)] TJ
+1 0 0 -1 10 272.33 Tm
+(MySQL.) t
+/Times-Bold 10 F
+1 0 0 -1 10 296.355 Tm
+(Consultant: Envisn, Incorporated, Bolton, MA. \(May 2004 \226 Sep 2004\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 296.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 320.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 320.33 Tm
+[(Framework ) -1397 (for ) -1397 (integrating ) -1397 (new ) -1397 (applications ) -1397 (with ) -1397 (the ) -1397 (Cognos ) -1397 (ReportNet ) -1397 (Enterprise ) -1397 (Business ) -1397 
+(Intelligence ) -1397 (\(BI\) ) -1397 (product. ) -1397 (The)] TJ
+1 0 0 -1 10 332.33 Tm
+[(solution ) 131 (comprised ) 131 (servlets, ) 131 (XML, ) 131 (XSLT, ) 131 (JavaScript, ) 131 (DHTML ) 131 (and ) 131 (the ) 131 (ReportNet ) 131 (Java ) 131 (SDK, ) 131 (for ) 131 (improved ) 131 
+(data ) 131 (exploration ) 131 (and)] TJ
+1 0 0 -1 10 344.33 Tm
+(integration with Cognos Connection, Report Studio and Query Studio.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 356.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 356.33 Tm
+[(Skills: ) 604 (Java, ) 604 (J2EE, ) 604 (J2SE, ) 604 (Servlets, ) 604 (JSPs, ) 604 (XML, ) 604 (XPath, ) 604 (XSL, ) 604 (XSLT, ) 604 (Eclipse, ) 604 (MyEclipse, ) 604 (JavaScript, ) 604 (DOM4j, ) 604 
+(DOM, ) 604 (SAX, ) 604 (SOAP,)] TJ
+1 0 0 -1 10 368.33 Tm
+[(WSDL4j, ) 698 (CSS, ) 698 (DHTML, ) 698 (HTML, ) 698 (HTTP, ) 698 (JAXRPC, ) 698 (JSTL, ) 698 (JUnit, ) 698 (SAAJ, ) 698 (Apache ) 698 (Ant, ) 698 (Apache ) 698 (Axis, ) 698 (Apache ) 698 (Commons ) 698 
+(Discovery,)] TJ
+1 0 0 -1 10 380.33 Tm
+[(Apache ) -269 (Commons ) -269 (Logging, ) -269 (Apache ) -269 (Log4j, ) -269 (Apache ) -269 (Tomcat, ) -269 (Apache ) -269 (Xalan, ) -269 (Apache ) -269 (Xerces, ) -269 (Apache ) -269 (XML ) -269 
+(Commons, ) -269 (Cognos)] TJ
+1 0 0 -1 10 392.33 Tm
+(ReportNet, Sun iPlanet LDAP Server, Microsoft SQL Server 2000.) t
+/Times-Bold 10 F
+1 0 0 -1 10 416.355 Tm
+(Principal Software Engineer: Brightline Technology, Incorporated, Rye, NH. \(Apr 2003 \226 Mar 2004\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 416.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 440.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 440.33 Tm
+(Architect for an enterprise-quality Java application server for IBM/Lotus Domino customers.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 452.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 452.33 Tm
+[(The ) -1456 ("Brightline ) -1456 (Application ) -1456 (Server ) -1456 (- ) -1456 (Enterprise ) -1456 (Edition" ) -1456 (allows ) -1456 (customers ) -1456 (to ) -1456 (host ) -1456 (existing ) -1456 
+(J2EE ) -1456 (applications ) -1456 (in ) -1456 (a ) -1456 (Domino)] TJ
+1 0 0 -1 10 464.33 Tm
+[(environment, ) -702 (scale ) -702 (Domino-based ) -702 (web ) -702 (applications ) -702 (through ) -702 (J2EE ) -702 (technologies, ) -702 (add ) -702 (Notes ) -702 (and ) -702 (Domino ) -702 
+(functionality ) -702 (to ) -702 (J2EE)] TJ
+1 0 0 -1 10 476.33 Tm
+[(applications, ) 370 (add ) 370 (J2EE ) 370 (functionality ) 370 (to ) 370 (Notes ) 370 (and ) 370 (Domino ) 370 (applications, ) 370 (and ) 370 (use ) 370 (the ) 370 (Domino ) 370 (security ) 370 
+(model ) 370 (in ) 370 (J2EE ) 370 (applications.)] TJ
+/Times-Bold 10 F
+1 0 0 -1 1.5 488.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 488.33 Tm
+[(The ) -2954 (server ) -2954 (technology ) -2954 (includes ) -2954 (an ) -2954 (extensible ) -2954 (software ) -2954 (backbone ) -2954 (that ) -2954 (provides ) -2954 (all ) -2954 (standard ) -2954 
+(J2EE ) -2954 (services ) -2954 (to ) -2954 (Domino,)] TJ
+1 0 0 -1 10 500.33 Tm
+[(administration ) 826 (and ) 826 (deployment ) 826 (tools ) 826 (for ) 826 (managing ) 826 (J2EE ) 826 (servers ) 826 (and ) 826 (applications ) 826 (from ) 826 (either ) 826 (a ) 826 (Notes ) 826 
+(Admin ) 826 (client ) 826 (or ) 826 (web ) 826 (browser,)] TJ
+1 0 0 -1 10 512.33 Tm
+(and a fully transactional, enterprise-ready data store to complement NSF \(Notes Storage Facility\).) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 524.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 524.33 Tm
+[(Skills: ) -882 (Java, ) -882 (JavaScript, ) -882 (Expect, ) -882 (XML, ) -882 (XSLT, ) -882 (XSL, ) -882 (XSL-FO, ) -882 (Red ) -882 (Hat ) -882 (Linux, ) -882 (SuSE ) -882 (Linux, ) -882 (Lotus ) -882 
+(Domino ) -882 (& ) -882 (Notes, ) -882 (SSL ) -882 (&)] TJ
+1 0 0 -1 10 536.33 Tm
+[(OpenSSL, ) 359 (LDAPv3, ) 359 (SSH ) 359 (& ) 359 (OpenSSH, ) 359 (SMTP, ) 359 (IMAP, ) 359 (J2SE, ) 359 (J2EE, ) 359 (Eclipse, ) 359 (JBoss, ) 359 (Apache ) 359 (Tomcat, ) 359 (Apache ) 359 (Ant, ) 359 
+(Apache ) 359 (Log4j,)] TJ
+1 0 0 -1 10 548.33 Tm
+[(Apache ) -420 (Xalan, ) -420 (Apache ) -420 (Xerces, ) -420 (Apache ) -420 (HTTPD, ) -420 (Saxon, ) -420 (Apache ) -420 (Axis, ) -420 (Apache ) -420 (Cactus, ) -420 (Apache ) -420 (Watchdog, ) -420 
+(AWT, ) -420 (CSS, ) -420 (DOM,)] TJ
+1 0 0 -1 10 560.33 Tm
+[(ECPerf, ) -160 (EJB, ) -160 (HTML, ) -160 (HTTP, ) -160 (HttpUnit, ) -160 (JAAS, ) -160 (JAF, ) -160 (Java ) -160 (IDL, ) -160 (JavaBeans ) -160 (Component ) -160 (API, ) -160 (JavaMail, ) -160 
+(JAXP, ) -160 (JCA, ) -160 (JCE, ) -160 (JDBC,)] TJ
+1 0 0 -1 10 572.33 Tm
+[(JFC/Swing, ) -1494 (JMS, ) -1494 (JMX, ) -1494 (JNDI, ) -1494 (JSP, ) -1494 (JSTL, ) -1494 (JSW, ) -1494 (JTA, ) -1494 (JTS, ) -1494 (JUnit, ) -1494 (JUnitEE, ) -1494 (OTS, ) -1494 (RMI, ) -1494 
+(RMI-IIOP, ) -1494 (SAX, ) -1494 (Servlets, ) -1494 (SOAP,)] TJ
+1 0 0 -1 10 584.33 Tm
+[(TagUnit, ) -1610 (WSDL, ) -1610 (XHTML, ) -1610 (XLink, ) -1610 (XML ) -1610 (Schema, ) -1610 (XPath, ) -1610 (XPointer, ) -1610 (PostgreSQL, ) -1610 (MySQL, ) -1610 (Oracle, ) -1610 (Microsoft ) -1610 
+(SQL ) -1610 (Server,)] TJ
+1 0 0 -1 10 596.33 Tm
+(Hypersonic HSQLDB, Adobe FrameMaker, CVS, Jira Issue Management, Jive Forums, ZeroG InstallAnywhere.) t
+/Times-Bold 10 F
+1 0 0 -1 10 620.355 Tm
+(Consultant: Confluent Photonics Corporation , Salem, NH. \(Aug 2003 \226 Feb 2004\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 620.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 644.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 644.33 Tm
+[(Lightchip ) -1349 (RAM-20-200-PSM/PSD ) -1349 (Rack ) -1349 (Mountable ) -1349 (Intelligent ) -1349 (200 ) -1349 (GHz ) -1349 (DWDM ) -1349 (Mux/Demux. ) -1349 (The ) -1349 (monitoring ) -1349 (and ) -1349 
+(control)] TJ
+1 0 0 -1 10 656.33 Tm
+[(features ) 536 (include ) 536 (optical ) 536 (power ) 536 (detection, ) 536 (traffic-direction ) 536 (LEDs, ) 536 (visual ) 536 (alarms, ) 536 (and ) 536 (craft ) 536 (interface ) 536 (that ) 536 
+(provides ) 536 (access ) 536 (to ) 536 (the ) 536 (unit's)] TJ
+1 0 0 -1 10 668.33 Tm
+[(identification ) -582 (data. ) -582 (The ) -582 (product ) -582 (is ) -582 (a ) -582 (bi-directional ) -582 (dense ) -582 (wavelength ) -582 (division ) -582 (multiplexor ) -582 (\(DWDM\) ) -582 
+(with ) -582 (power ) -582 (loss ) -582 (detection)] TJ
+ET
+GR
+GR
+showpage
+%%PageTrailer
+%%PageResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-Roman
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Page: 4 4
+%%PageBoundingBox: 0 0 612 792
+%%PageHiResBoundingBox: 0 0 612 792
+%%PageResources: (atend)
+%FOPSimplePageMaster: only
+%%BeginPageSetup
+%FOPBeginSetPageDevice
+<<
+/PageSize [612 792]
+/ImagingBBox null
+>> setpagedevice
+%FOPEndSetPageDevice
+[1 0 0 -1 0 792] CT
+%%EndPageSetup
+GS
+[1 0 0 1 54 720] CT
+GS
+-8 0 M
+530 0 L
+530 0.283 L
+-8 0.283 L
+cp
+clip N
+0.283 LW
+-8 0.141 M 530 0.141 L S N
+GR
+GS
+BT
+/Helvetica 8 F
+1 0 0 -1 0 12.327 Tm
+(Resume of Kevin L. Short, dated 19 October 2014, generated using XML, XSLT & XSL-FO.) t
+1 0 0 -1 481.08 12.327 Tm
+(Page ) t
+1 0 0 -1 501.984 12.327 Tm
+(4) t
+1 0 0 -1 506.432 12.327 Tm
+( of ) t
+1 0 0 -1 517.552 12.327 Tm
+(8) t
+ET
+GR
+GR
+GS
+[1 0 0 1 54 36] CT
+GS
+BT
+/Times-Roman 10 F
+1 0 0 -1 10 8.33 Tm
+[(on ) -255 (the ) -255 (primary ) -255 (fiber ) -255 (that ) -255 (can ) -255 (trigger ) -255 (alarm ) -255 (LEDs ) -255 (and ) -255 (relays. ) -255 (Integrated ) -255 (power ) -255 (taps ) -255 
+(allow ) -255 (monitoring ) -255 (of ) -255 (incoming ) -255 (and ) -255 (outgoing)] TJ
+1 0 0 -1 10 20.33 Tm
+(signals in the primary fiber.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 32.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 32.33 Tm
+(Skills: C) t
+/Times-Bold 10 F
+1 0 0 -1 10 56.355 Tm
+(Software Director, Optical Wavelength Management Group, Network Management Systems: Digital Lightwave,) t
+1 0 0 -1 10 68.355 Tm
+(Incorporated , North Chelmsford, MA. \(Oct 1999 \226 Apr 2003\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 56.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 10 92.355 Tm
+(Manager, Software Quality & Infrastructure, Systems Engineering Group: Lightchip, Incorporated, Salem, NH. \(Oct) t
+1 0 0 -1 10 104.355 Tm
+(1999 \226 Apr 2003\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 92.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 128.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 128.33 Tm
+[(Software ) 437 (Quality ) 437 (Assurance: ) 437 (Responsible ) 437 (for ) 437 (defining ) 437 (SQA ) 437 (needs, ) 437 (implementing ) 437 (a ) 437 (lab ) 437 (environment ) 437 (for ) 437 (testing ) 437 
+(multiple ) 437 (products,)] TJ
+1 0 0 -1 10 140.33 Tm
+[(platforms ) 773 (and ) 773 (releases ) 773 (using ) 773 (a ) 773 (collection ) 773 (of ) 773 (highly ) 773 (configurable ) 773 (optical ) 773 (instruments, ) 773 (GPIB ) 773 (instruments ) 773 (and ) 773 
+(network ) 773 (interfaces. ) 773 (The)] TJ
+1 0 0 -1 10 152.33 Tm
+[(SQA ) 577 (Lab ) 577 (was ) 577 (a ) 577 (showcase ) 577 (and ) 577 (was ) 577 (considered ) 577 (an ) 577 (essential ) 577 (stop ) 577 (when ) 577 (showing ) 577 (customers ) 577 (our ) 577 
+(product ) 577 (and ) 577 (engineering ) 577 (capabilities.)] TJ
+/Times-Bold 10 F
+1 0 0 -1 1.5 164.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 164.33 Tm
+(Release Engineering: Responsible for all source code control, release engineering, builds and DCOs.) t
+/Times-Bold 10 F
+1 0 0 -1 10 188.355 Tm
+(Principal Software Engineer: Lightchip, Incorporated, Salem, NH. \(Oct 1999 \226 Apr 2003\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 188.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 212.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 212.33 Tm
+[(Software ) 286 (architect ) 286 (for ) 286 (the ) 286 (Optical ) 286 (Wavelength ) 286 (Manager ) 286 (\(OWM\), ) 286 (utilizing ) 286 (StrongARM ) 286 (processors ) 286 (running ) 286 (VxWorks. ) 286 
+(The ) 286 (OWM)] TJ
+1 0 0 -1 10 224.33 Tm
+[(monitors ) -7 (power, ) -7 (wavelength ) -7 (and ) -7 (signal-to-noise ) -7 (ratio ) -7 (for ) -7 (multiple ) -7 (channels ) -7 (on ) -7 (dense ) -7 (wavelength ) -7 (division ) -7 (multiplexed ) -7 
+(networks)] TJ
+1 0 0 -1 10 236.33 Tm
+[(with ) 760 (programmable ) 760 (alarm ) 760 (thresholds ) 760 (and ) 760 (data ) 760 (logging. ) 760 (Configuration ) 760 (is ) 760 (done ) 760 (remotely ) 760 (or ) 760 (locally ) 760 (through ) 760 
+(a ) 760 (command ) 760 (line ) 760 (interface)] TJ
+1 0 0 -1 10 248.33 Tm
+(\(telnet and RS232\), SNMP, TL1 and/or Java based graphical user interface.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 260.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 260.33 Tm
+[(Board ) -475 (Support ) -475 (Package ) -475 (for ) -475 (two ) -475 (StrongARM ) -475 (processor ) -475 (boards, ) -475 (using ) -475 (logic ) -475 (analyzers ) -475 (to ) -475 (debug ) -475 
+(assembler ) -475 (and ) -475 ("C" ) -475 (source ) -475 (code.)] TJ
+1 0 0 -1 10 272.33 Tm
+(Worked with technologists at Intel and Wind River to resolve problems encountered with early releases of silicon.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 284.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 284.33 Tm
+[(Comprehensive ) -361 (SNMPv1/v2c ) -361 (MIB ) -361 (for ) -361 (the ) -361 (OWM, ) -361 (including ) -361 (device ) -361 (traps, ) -361 (advanced ) -361 (row ) -361 (creation ) -361 (features, ) -361 
+(and ) -361 (integration ) -361 (with)] TJ
+1 0 0 -1 10 296.33 Tm
+(OEM customers' existing enterprise MIB trees. This MIB was advertised as "the world's first Optical MIB".) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 308.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 308.33 Tm
+(Java GUI for the OWM; a patent application was filed for the GUI.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 320.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 320.33 Tm
+[(Evaluated ) -407 (and ) -407 (selected ) -407 (real-time ) -407 (operating ) -407 (systems, ) -407 (prototype ) -407 (hardware ) -407 (systems ) -407 (and ) -407 (software ) -407 (development ) -407 
+(tools ) -407 (for ) -407 (bleeding-)] TJ
+1 0 0 -1 10 332.33 Tm
+(edge target \(Intel StrongARM processor\) hardware.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 344.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 344.33 Tm
+[(Skills: ) -2504 (Java, ) -2504 (C, ) -2504 (Expect, ) -2504 (Tcl, ) -2504 (Perl, ) -2504 (bison ) -2504 (& ) -2504 (flex, ) -2504 (VxWorks, ) -2504 (Linux, ) -2504 (FreeBSD, ) -2504 (Solaris, ) -2504 
+(Microsoft ) -2504 (SQL ) -2504 (Server, ) -2504 (SNMPv1/)] TJ
+1 0 0 -1 10 356.33 Tm
+[(v2c, ) -817 (HP ) -817 (OpenView, ) -817 (SNMPinfo ) -817 (SMICng, ) -817 (InterWorking ) -817 (Labs ) -817 (SilverCreek, ) -817 (SimpleSoft ) -817 (SimpleTester, ) -817 (MG-Soft ) -817 (MIB ) -817 
+(Browser,)] TJ
+1 0 0 -1 10 368.33 Tm
+[(Ethereal, ) -1183 (SNTP, ) -1183 (PPP, ) -1183 (SLIP, ) -1183 (Microsoft ) -1183 (Visual ) -1183 (SourceSafe, ) -1183 (Concurrent ) -1183 (Versions ) -1183 (System ) -1183 (\(CVS\), ) -1183 (Adobe ) -1183 
+(FrameMaker, ) -1183 (ZeroG)] TJ
+1 0 0 -1 10 380.33 Tm
+[(InstallAnywhere, ) -153 (Rational ) -153 (Team ) -153 (Test, ) -153 (National ) -153 (Instruments ) -153 (Lab ) -153 (Windows/CVI, ) -153 (Apache ) -153 (Web ) -153 (Server, ) -153 (Avensoft ) -153 
+(PerfectTracker,)] TJ
+1 0 0 -1 10 392.33 Tm
+(Intel StrongARM, HP Logic Analyzer, TestPoint for GPIB, RS232, RS485, USB 1.1, PCMCIA.) t
+/Times-Bold 10 F
+1 0 0 -1 10 416.355 Tm
+(Principal Software Engineer, Alcatel Internetworking, Voice Over IP: Alcatel Internetworking , Salem, NH. \(Aug 1998) t
+1 0 0 -1 10 428.355 Tm
+(\226 Sep 1999\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 416.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 452.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 452.33 Tm
+[(Principal ) 706 (architect ) 706 (for ) 706 (a ) 706 (Voice ) 706 (over ) 706 (IP ) 706 (Gateway ) 706 (for ) 706 (the ) 706 (Enterprise ) 706 (market. ) 706 (The ) 706 (VoIP ) 706 (Gateway ) 706 
+(supported ) 706 (digital ) 706 (\(T1/E1\) ) 706 (and ) 706 (analog)] TJ
+1 0 0 -1 10 464.33 Tm
+[(interfaces. ) -298 (A ) -298 (typical ) -298 (configuration ) -298 (would ) -298 (connect ) -298 (to ) -298 (one ) -298 (or ) -298 (more ) -298 (PBXs ) -298 (to ) -298 (the ) -298 (PSTN ) -298 (and ) -298 
+(to ) -298 (an ) -298 (enterprise ) -298 (network. ) -298 (Capabilities)] TJ
+1 0 0 -1 10 476.33 Tm
+(included fax relay, modem, voice and data.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 488.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 488.33 Tm
+(Integrated software components for the VoIP blade into existing Alcatel switches.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 500.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 500.33 Tm
+(VoIP configuration interfaces for signaling, coding, network, dialing plan and hardware.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 512.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 512.33 Tm
+(Selected and purchased software development tools, telephony products and test equipment.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 524.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 524.33 Tm
+[(Performed ) 100 (system ) 100 (and ) 100 (network ) 100 (administration ) 100 (for ) 100 (a ) 100 (Sun ) 100 (450 ) 100 (Enterprise ) 100 (Server ) 100 (in ) 100 (the ) 100 (Salem, ) 100 (NH ) 100 
+(office. ) 100 (Installed ) 100 (and ) 100 (configured)] TJ
+1 0 0 -1 10 536.33 Tm
+(development tools and coordinated the build process with teams in Calabasas, CA.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 548.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 548.33 Tm
+[(Coordinated ) -268 (development ) -268 (between ) -268 (teams ) -268 (in ) -268 (the ) -268 (U.S. ) -268 (and ) -268 (Alcatel ) -268 (headquarters ) -268 (in ) -268 (Colombes, ) -268 (France, ) -268 
+(building ) -268 (an ) -268 (IP-based ) -268 (PBX)] TJ
+1 0 0 -1 10 560.33 Tm
+(and other packetized voice products.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 572.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 572.33 Tm
+(Advised Network Management development team on Java design topics.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 584.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 584.33 Tm
+[(Skills: ) 628 (Java, ) 628 (C, ) 628 (bison, ) 628 (flex; ) 628 (PowerPC ) 628 (860, ) 628 (TMS320C5xx, ) 628 (SPARC; ) 628 (H.323, ) 628 (ISDN, ) 628 (Q.921/LAPD, ) 628 (Q.931/Call ) 628 (Control, ) 628 
+(HDLC, ) 628 (RTP,)] TJ
+1 0 0 -1 10 596.33 Tm
+(RTCP, UDP, TCP; VxWorks, EST visionICE/visionCLICK, Solaris, Windows/NT; Alcatel IP PCX 4400.) t
+/Times-Bold 10 F
+1 0 0 -1 10 620.355 Tm
+(Principal Software Engineer / Software Systems Architect: NBX Corporation , Andover, MA. \(May 1997 \226 Jul 1998\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 620.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 644.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 644.33 Tm
+[(System ) -232 (software ) -232 (architecture ) -232 (for ) -232 (an ) -232 (Ethernet ) -232 (based ) -232 (telephone ) -232 (system ) -232 (\(NBX ) -232 (100\) ) -232 (with ) -232 (high ) -232 
+(performance ) -232 (telephony, ) -232 (messaging,)] TJ
+1 0 0 -1 10 656.33 Tm
+[(and ) -57 (computer ) -57 (integration ) -57 (via ) -57 (a ) -57 (single ) -57 (infrastructure. ) -57 (The ) -57 (NBX ) -57 (system ) -57 (provided ) -57 (a ) -57 (voice ) -57 (and ) -57 (data ) -57 
+(management ) -57 (platform ) -57 (merging)] TJ
+1 0 0 -1 10 668.33 Tm
+(packetized audio with an Ethernet LAN.) t
+ET
+GR
+GR
+showpage
+%%PageTrailer
+%%PageResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-Roman
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Page: 5 5
+%%PageBoundingBox: 0 0 612 792
+%%PageHiResBoundingBox: 0 0 612 792
+%%PageResources: (atend)
+%FOPSimplePageMaster: only
+%%BeginPageSetup
+%FOPBeginSetPageDevice
+<<
+/PageSize [612 792]
+/ImagingBBox null
+>> setpagedevice
+%FOPEndSetPageDevice
+[1 0 0 -1 0 792] CT
+%%EndPageSetup
+GS
+[1 0 0 1 54 720] CT
+GS
+-8 0 M
+530 0 L
+530 0.283 L
+-8 0.283 L
+cp
+clip N
+0.283 LW
+-8 0.141 M 530 0.141 L S N
+GR
+GS
+BT
+/Helvetica 8 F
+1 0 0 -1 0 12.327 Tm
+(Resume of Kevin L. Short, dated 19 October 2014, generated using XML, XSLT & XSL-FO.) t
+1 0 0 -1 481.08 12.327 Tm
+(Page ) t
+1 0 0 -1 501.984 12.327 Tm
+(5) t
+1 0 0 -1 506.432 12.327 Tm
+( of ) t
+1 0 0 -1 517.552 12.327 Tm
+(8) t
+ET
+GR
+GR
+GS
+[1 0 0 1 54 36] CT
+GS
+BT
+/Times-Bold 10 F
+1 0 0 -1 1.5 8.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 8.33 Tm
+[(Object-oriented ) 287 (architectures ) 287 (for ) 287 (Call ) 287 (Processing, ) 287 (Voice ) 287 (Mail, ) 287 (Automated ) 287 (Attendant, ) 287 (TAPI ) 287 (Service ) 287 (Provider, ) 287 
+(Web-based ) 287 (System)] TJ
+1 0 0 -1 10 20.33 Tm
+(Administration, and system services layers.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 32.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 32.33 Tm
+[(Selected ) -1399 (software ) -1399 (tools ) -1399 (and ) -1399 (components ) -1399 (for ) -1399 (product ) -1399 (development ) -1399 (and ) -1399 (deployment, ) -1399 (including ) -1399 (embedded ) -1399 
+(real-time ) -1399 (operating)] TJ
+1 0 0 -1 10 44.33 Tm
+(systems and object-oriented software development tools.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 56.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 56.33 Tm
+(Reliable messaging protocols for system controller and DSP-based telephony devices.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 68.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 68.33 Tm
+[(Pioneered ) 103 (development ) 103 (from ) 103 (ObjecTime ) 103 (models ) 103 (to ) 103 (Windows ) 103 (NT ) 103 (\(Microsoft ) 103 (Visual ) 103 (C++\) ) 103 (simulation ) 103 (environment ) 103 
+(and ) 103 (Tornado/)] TJ
+1 0 0 -1 10 80.33 Tm
+(VxWorks \(Cygnus GNU C++\) target environment.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 92.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 92.33 Tm
+[(Skills: ) 68 (Java, ) 68 (C++, ) 68 (C, ) 68 (ObjecTime, ) 68 (ROOM ) 68 (\(Real-Time ) 68 (Object-Oriented ) 68 (Modeling\), ) 68 (Tornado/VxWorks, ) 68 (IEEE ) 68 (802.2 ) 68 (Logical ) 68 (Link)] TJ
+1 0 0 -1 10 104.33 Tm
+(Control \(LLC\), IEEE 802.3 CSMA/CD \(Ethernet\), TCP/IP, H.323, GNU C++, Microsoft Visual C++.) t
+/Times-Bold 10 F
+1 0 0 -1 10 128.355 Tm
+(Technical Lead, Advanced Systems, New Technologies & Software Engineering Teams: Oxford Health Plans,) t
+1 0 0 -1 10 140.355 Tm
+(Incorporated, Trumbull, CT. \(Jun 1995 \226 Apr 1997\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 128.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 164.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 164.33 Tm
+[(Intranet ) 50 (and ) 50 (Internet ) 50 (applications ) 50 (and ) 50 (infrastructure ) 50 (including ) 50 (a ) 50 ("Back-End ) 50 (Server ) 50 (for ) 50 (Intranet ) 50 (Applications" ) 50 (that ) 50 
+(enabled ) 50 (access)] TJ
+1 0 0 -1 10 176.33 Tm
+[(to ) -957 (Oracle ) -957 (enterprise ) -957 (databases ) -957 (from ) -957 (web-oriented ) -957 (technologies. ) -957 (Server ) -957 (written ) -957 (in ) -957 (object-oriented ) -957 (Tcl ) -957 
+(\([incr ) -957 (Tcl]\) ) -957 (with ) -957 (Oracle)] TJ
+1 0 0 -1 10 188.33 Tm
+[(SQL*Net ) -73 (client ) -73 (libraries ) -73 (and ) -73 (handled ) -73 (high-volume ) -73 (database ) -73 (transactions ) -73 (through ) -73 (pooled ) -73 (TCP/IP ) -73 (socket-based ) -73 
+(connections. ) -73 (The)] TJ
+1 0 0 -1 10 200.33 Tm
+(CGI client interfaces used Java, JavaScript, Perl5, Tcl, C, C++ and Korn Shell.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 212.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 212.33 Tm
+[(Secure ) 329 (Internet ) 329 (infrastructure ) 329 (for ) 329 (Electronic ) 329 (Commerce ) 329 (and ) 329 (Electronic ) 329 (Data ) 329 (Interchange ) 329 (systems ) 329 (utilizing ) 329 
+(technologies ) 329 (including)] TJ
+1 0 0 -1 10 224.33 Tm
+[(routers, ) -2036 (firewalls, ) -2036 (demilitarized ) -2036 (zones, ) -2036 (Secure ) -2036 (Socket ) -2036 (Layer ) -2036 (\(SSL\), ) -2036 (authentication/certificates, ) -2036 (Netscape ) -2036 
+(Enterprise ) -2036 (Server,)] TJ
+1 0 0 -1 10 236.33 Tm
+[(VeriSign ) -2885 (certificates, ) -2885 (Checkpoint/Firewall-1 ) -2885 (and ) -2885 (Sun ) -2885 (Netra ) -2885 (Internet ) -2885 (Servers. ) -2885 (Built ) -2885 (a ) -2885 (message ) -2885 
+(routing ) -2885 (system ) -2885 (based ) -2885 (on)] TJ
+1 0 0 -1 10 248.33 Tm
+(asynchronous Remote Procedure Calls \(RPC\). Built CGI applications in Java, Perl5, Tcl, C, and C++.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 260.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 260.33 Tm
+(Optical Character Recognition, Imaging Systems and Handwriting Recognition Systems.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 272.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 272.33 Tm
+(Provided trouble-shooting for system and network security, configuration and administration groups.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 284.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 284.33 Tm
+[(Skills: ) -44 (Java, ) -44 (JavaScript, ) -44 (Perl5, ) -44 (Tcl, ) -44 (Expect, ) -44 (C, ) -44 (C++, ) -44 ([incr ) -44 (Tcl], ) -44 (Solaris, ) -44 (SunOS, ) -44 (AIX, ) -44 (HP-UX, ) -44 
+(Pyramid, ) -44 (Microsoft ) -44 (Windows ) -44 (95/)] TJ
+1 0 0 -1 10 296.33 Tm
+[(NT, ) -370 (IBM ) -370 (OS/2, ) -370 (Apple ) -370 (Mac ) -370 (OS ) -370 (7; ) -370 (Oracle ) -370 (SQL*Net, ) -370 (TCP/IP, ) -370 (RPC, ) -370 (PPP, ) -370 (CVS; ) -370 (HTTP, ) -370 (HTML, ) -370 
+(CGI; ) -370 (Apache ) -370 (Web ) -370 (Server, ) -370 (Java)] TJ
+1 0 0 -1 10 308.33 Tm
+(Applets, Netscape Servers.) t
+/Times-Bold 10 F
+1 0 0 -1 10 332.355 Tm
+(Consultant: Quaker Farms Research, Southbury, CT. \(Jun 1995 \226 Dec 1995\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 332.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 356.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 356.33 Tm
+(Projects: Telephone Key System. Embedded system software.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 368.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 368.33 Tm
+(System and network security, configuration and administration; Internet, DNS & PPP configuration.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 380.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 380.33 Tm
+(Skills: C, Perl5, assembler & M68K; SunOS, WinNT; DNS, PPP, NFS, NIS, automounter.) t
+/Times-Bold 10 F
+1 0 0 -1 10 404.355 Tm
+(Consultant: General DataComm Incorporated, Middlebury, CT. \(Oct 1992 \226 Jun 1995\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 404.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 428.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 428.33 Tm
+[(Ported ) -901 (GDC ) -901 (network ) -901 (management ) -901 (applications ) -901 (from ) -901 (HP ) -901 (OpenView/SunOS ) -901 (to ) -901 (HP ) -901 (OpenView/HP-UX ) -901 (and ) -901 (IBM ) -901 
+(NetView ) -901 (for)] TJ
+1 0 0 -1 10 440.33 Tm
+[(AIX. ) -118 (This ) -118 (required ) -118 (knowledge ) -118 (of ) -118 (BSD ) -118 (& ) -118 (SVR4 ) -118 (UNIX ) -118 (variants, ) -118 (multi-platform ) -118 (software ) -118 (development ) -118 
+(environments, ) -118 (SNMP, ) -118 (C)] TJ
+1 0 0 -1 10 452.33 Tm
+(++, X11 window managers, and system & network administration.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 464.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 464.33 Tm
+[(Tool ) -2703 (for ) -2703 (importing ) -2703 (cross-product ) -2703 (databases ) -2703 (that ) -2703 (enabled ) -2703 (legacy ) -2703 (systems ) -2703 (to ) -2703 (be ) -2703 (managed ) -2703 (by ) -2703 
+(GDC's ) -2703 (Megaview ) -2703 (Network)] TJ
+1 0 0 -1 10 476.33 Tm
+(Management System.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 488.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 488.33 Tm
+[(Created ) -898 (an ) -898 (extensible ) -898 (scripting ) -898 (language ) -898 (interface ) -898 (that ) -898 (enabled ) -898 (integration ) -898 (of ) -898 (third ) -898 (party ) -898 (network ) -898 
+(management ) -898 (protocols ) -898 (into)] TJ
+1 0 0 -1 10 500.33 Tm
+[(GDC's ) -93 (Integrated ) -93 (Network ) -93 (Management ) -93 (Systems. ) -93 (This ) -93 (interface ) -93 (eliminated ) -93 (the ) -93 (need ) -93 (for ) -93 (Engineering ) -93 (to ) -93 (rebuild ) -93 
+(and ) -93 (redistribute)] TJ
+1 0 0 -1 10 512.33 Tm
+(system binaries to accommodate new protocols and reduced the frequency of software update releases.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 524.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 524.33 Tm
+(Peer-to-peer network alarm-reporting interface for INMS.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 536.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 536.33 Tm
+(Skills: C, C++, Perl5, Tcl, Expect; SunOS, AIX, HP-UX, Solaris; SNMP, TCP/IP, RPC, XView, CVS, Informix.) t
+/Times-Bold 10 F
+1 0 0 -1 10 560.355 Tm
+(Consultant: Data Switch Corporation , Shelton, CT. \(Apr 1990 \226 May 1994\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 560.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 584.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 584.33 Tm
+(Element Management & Control Systems.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 596.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 596.33 Tm
+(Ported a real-time control system from PL/M to C for the SunOS Sun386I and SPARC platforms.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 608.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 608.33 Tm
+(VT100 and IBM 3164 terminal emulators for SunView and X11.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 620.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 620.33 Tm
+(Network Terminal Server interface over BSD sockets.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 632.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 632.33 Tm
+(Redundancy and fail-over systems for complex wide area networks.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 644.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 644.33 Tm
+(GUI for drag & drop port configuration and management.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 656.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 656.33 Tm
+(Skills: C, PL/M, Perl4, Tcl, Expect; SunOS; TCP/IP, RPC, NFS, NIS, Automounter, X11, XView.) t
+/Times-Bold 10 F
+1 0 0 -1 10 680.355 Tm
+(Consultant: IBM T.J. Watson Research Center, Eastview, NY. \(Jul 1990 \226 Aug 1991\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 680.39 Tm
+( ) t
+ET
+GR
+GR
+showpage
+%%PageTrailer
+%%PageResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-Roman
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Page: 6 6
+%%PageBoundingBox: 0 0 612 792
+%%PageHiResBoundingBox: 0 0 612 792
+%%PageResources: (atend)
+%FOPSimplePageMaster: only
+%%BeginPageSetup
+%FOPBeginSetPageDevice
+<<
+/PageSize [612 792]
+/ImagingBBox null
+>> setpagedevice
+%FOPEndSetPageDevice
+[1 0 0 -1 0 792] CT
+%%EndPageSetup
+GS
+[1 0 0 1 54 720] CT
+GS
+-8 0 M
+530 0 L
+530 0.283 L
+-8 0.283 L
+cp
+clip N
+0.283 LW
+-8 0.141 M 530 0.141 L S N
+GR
+GS
+BT
+/Helvetica 8 F
+1 0 0 -1 0 12.327 Tm
+(Resume of Kevin L. Short, dated 19 October 2014, generated using XML, XSLT & XSL-FO.) t
+1 0 0 -1 481.08 12.327 Tm
+(Page ) t
+1 0 0 -1 501.984 12.327 Tm
+(6) t
+1 0 0 -1 506.432 12.327 Tm
+( of ) t
+1 0 0 -1 517.552 12.327 Tm
+(8) t
+ET
+GR
+GR
+GS
+[1 0 0 1 54 36] CT
+GS
+BT
+/Times-Bold 10 F
+1 0 0 -1 1.5 8.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 8.33 Tm
+(Project: Servo Controller for a 12-Axis Robotics System; this was a "hard" real-time system.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 20.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 20.33 Tm
+[(Software ) -478 (architecture ) -478 (for ) -478 (the ) -478 (robotics ) -478 (system, ) -478 (a ) -478 (network ) -478 (of ) -478 (INMOS ) -478 (Transputers, ) -478 (with ) -478 (parallel ) -478 
+(processing ) -478 (and ) -478 (coordination ) -478 (for)] TJ
+1 0 0 -1 10 32.33 Tm
+(a 12-axis servo controller.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 44.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 44.33 Tm
+(Network layer stack for distributing files and messages between Transputer nodes.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 56.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 56.33 Tm
+[(Low ) 70 (level ) 70 (programming, ) 70 (command ) 70 (& ) 70 (data ) 70 (upload/download ) 70 (interface ) 70 (between ) 70 (host ) 70 (programming ) 70 (system ) 70 (and ) 70 (real-time ) 70 
+(robotics)] TJ
+1 0 0 -1 10 68.33 Tm
+(system. GUI to control and monitor robotics system.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 80.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 80.33 Tm
+(Skills: C, assembler, INMOS Transputer; AIX RS/6000, DOS, OS/2; TCP/IP, NFS, X11, VM/CMS.) t
+/Times-Bold 10 F
+1 0 0 -1 10 104.355 Tm
+(Consultant: JANUS Systems, Incorporated, New York, NY. \(Feb 1990 \226 Apr 1990\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 104.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 128.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 128.33 Tm
+(Project: Total Integrated Graphics and Retrieval \(TIGER\) system for Ameritech Publishing, Inc.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 140.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 140.33 Tm
+(Skills: C; SunOS 3.5; Sun Tools; SunView; DEC VAX/VMS; RPC, NFS, Automounter.) t
+/Times-Bold 10 F
+1 0 0 -1 10 164.355 Tm
+(Consultant: General DataComm Incorporated, Middlebury, CT. \(Jul 1988 \226 Dec 1998\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 164.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 188.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 188.33 Tm
+(Integrated Network Management System: AT&T Accumaster Protocol interface for INMS.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 200.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 200.33 Tm
+(NetView/PC Alarm Reporting Interface for IBM SNA and multiplexor control system.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 212.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 212.33 Tm
+(Skills: C, assembler; SCO XENIX & device drivers; IBM NetView/PC; IBM SNA protocols; Informix.) t
+/Times-Bold 10 F
+1 0 0 -1 10 236.355 Tm
+(Consultant: IBM T.J. Watson Research Center, Yorktown Heights, NY. \(Aug 1987 \226 Jun 1988\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 236.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 260.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 260.33 Tm
+[(Projects: ) 785 (Robotic ) 785 (Fine ) 785 (Positioning ) 785 (Device. ) 785 (Distributed ) 785 (Robotics ) 785 (Communications. ) 785 (Digital ) 785 (Signal ) 785 (Processor ) 785 (Interface ) 785 
+(for ) 785 (Robotics.)] TJ
+/Times-Bold 10 F
+1 0 0 -1 1.5 272.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 272.33 Tm
+(All embedded software for these devices.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 284.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 284.33 Tm
+(Skills: C, assembler; Masscomp RTU & device drivers; VMEbus, Multibus, PC/AT bus.) t
+/Times-Bold 10 F
+1 0 0 -1 10 308.355 Tm
+(Consultant: Telecomp, Incorporated , Milford, CT. \(Oct 1986 \226 Aug 1987\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 308.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 332.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 332.33 Tm
+(Project: Point-Of-Sale System for Auto Parts Dealers.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 344.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 344.33 Tm
+(Migrated from NCR UNIX to SCO XENIX.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 356.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 356.33 Tm
+(Skills: C, assembler; NCR UNIX; SCO XENIX; Motorola 68000; Intel 80286.) t
+/Times-Bold 10 F
+1 0 0 -1 10 380.355 Tm
+(Consultant: Pitney Bowes, Norwalk, CT. \(Oct 1986 \226 Jan 1987\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 380.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 404.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 404.33 Tm
+(Project: Manifest Mailing System.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 416.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 416.33 Tm
+(Prototype system for recharging postage meters using EFT and DES hardware.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 428.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 428.33 Tm
+(Skills: C, assembler, FORTRAN; SCO XENIX; MS-DOS; DES encryption devices.) t
+/Times-Bold 10 F
+1 0 0 -1 10 452.355 Tm
+(Consultant: IBM T.J. Watson Research Center, Yorktown Heights, NY. \(Jun 1985 \226 Sep 1986\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 452.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 476.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 476.33 Tm
+(Project: General Purpose Automation Controller & Programming System.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 488.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 488.33 Tm
+(Download/debug module for embedded system. Scheduler/dispatcher/messaging for real-time & programming systems.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 500.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 500.33 Tm
+(Skills: C, assembler; Masscomp RTU & device drivers; Motorola 68020; Multibus, RCS, VM/CMS.) t
+/Times-Bold 10 F
+1 0 0 -1 10 524.355 Tm
+(Consultant: Digitech Industries, Incorporated, Ridgefield, CT. \(Aug 1984 \226 Jul 1985\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 524.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 548.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 548.33 Tm
+(Project: Network Protocol Analyzer. Event programming language for embedded real-time system.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 560.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 560.33 Tm
+(Skills: C, assembler; MS-DOS, CP/M-68K; Motorola 68000; VMEbus, protocol analyzers.) t
+/Times-Bold 10 F
+1 0 0 -1 10 584.355 Tm
+(Consultant: Telecomp, Incorporated , Milford, CT. \(May 1984 \226 Nov 1984\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 584.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 608.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 608.33 Tm
+(Project: Point-Of-Sale System for Auto Parts Dealers.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 620.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 620.33 Tm
+(Skills: C, assembler, NCR UNIX.) t
+/Times-Bold 10 F
+1 0 0 -1 10 644.355 Tm
+(Senior Software Engineer: Dictaphone Corporation, Norwalk, CT. \(Mar 1982 \226 Apr 1984\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 644.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 668.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 668.33 Tm
+(Projects: Digital Voice Operating System. Dictation Control and Management System.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 680.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 680.33 Tm
+(Skills: C, PL/M & assembler; UNIX V6, V7, System III on DEC PDP-11 and VAX; Intel 8085, SCCS.) t
+ET
+GR
+GR
+showpage
+%%PageTrailer
+%%PageResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-Roman
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Page: 7 7
+%%PageBoundingBox: 0 0 612 792
+%%PageHiResBoundingBox: 0 0 612 792
+%%PageResources: (atend)
+%FOPSimplePageMaster: only
+%%BeginPageSetup
+%FOPBeginSetPageDevice
+<<
+/PageSize [612 792]
+/ImagingBBox null
+>> setpagedevice
+%FOPEndSetPageDevice
+[1 0 0 -1 0 792] CT
+%%EndPageSetup
+GS
+[1 0 0 1 54 720] CT
+GS
+-8 0 M
+530 0 L
+530 0.283 L
+-8 0.283 L
+cp
+clip N
+0.283 LW
+-8 0.141 M 530 0.141 L S N
+GR
+GS
+BT
+/Helvetica 8 F
+1 0 0 -1 0 12.327 Tm
+(Resume of Kevin L. Short, dated 19 October 2014, generated using XML, XSLT & XSL-FO.) t
+1 0 0 -1 481.08 12.327 Tm
+(Page ) t
+1 0 0 -1 501.984 12.327 Tm
+(7) t
+1 0 0 -1 506.432 12.327 Tm
+( of ) t
+1 0 0 -1 517.552 12.327 Tm
+(8) t
+ET
+GR
+GR
+GS
+[1 0 0 1 54 36] CT
+GS
+BT
+/Times-Bold 10 F
+1 0 0 -1 10 8.355 Tm
+(Vice President, Consulting Services: InfoSoft Systems, Incorporated, Westport, CT. \(Jul 1978 \226 Mar 1982\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 8.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 10 32.355 Tm
+(Consultant: Control Process, Incorporated, Plantsville, CT. \(Jul 1978 \226 Mar 1982\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 32.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 56.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 56.33 Tm
+(Projects: Embedded process control systems.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 68.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 68.33 Tm
+(Skills: C, assembler, Zilog Z80, CP/M; DEC RSX-11S/M; Data General Nova/Eclipse RDOS.) t
+/Times-Bold 10 F
+1 0 0 -1 10 92.355 Tm
+(Consultant: Learning Unlimited, New Canaan, CT & Research Triangle Park, NC. \(Jul 1978 \226 Mar 1982\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 92.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 116.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 116.33 Tm
+(Project: Prescription-based Learning System.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 128.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 128.33 Tm
+(Skills: FORTRAN, PL/1, assembler; Data General Nova/Eclipse RDOS; IBM TSO, OS & DOS.) t
+/Times-Bold 10 F
+1 0 0 -1 10 152.355 Tm
+(Consultant: Sales Maids of America division of GELCO, Southport, CT. \(Jul 1978 \226 Mar 1982\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 152.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 176.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 176.33 Tm
+(Projects: Payroll System. Point-Of-Sale Data Collection System.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 188.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 188.33 Tm
+(Skills: COBOL; Data General Nova/Eclipse RDOS & ICOS.) t
+/Times-Bold 10 F
+1 0 0 -1 10 212.355 Tm
+(Consultant: PR Data Systems, Wilton, CT. \(Jul 1978 \226 Mar 1982\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 212.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 236.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 236.33 Tm
+(Projects: Press Release Distribution System. Mailing List Maintenance System.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 248.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 248.33 Tm
+(Skills: COBOL; Data General Nova/Eclipse RDOS & ICOS.) t
+/Times-Bold 10 F
+1 0 0 -1 10 272.355 Tm
+(Consultant: Mnemonics Incorporated, Norwalk, CT. \(Jul 1978 \226 Mar 1982\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 272.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 296.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 296.33 Tm
+(Project: Market Tabulation System.) t
+/Times-Bold 10 F
+1 0 0 -1 1.5 308.355 Tm
+(\225) t
+/Times-Roman 10 F
+1 0 0 -1 10 308.33 Tm
+(Skills: FORTRAN, PL/1; Data General Nova/Eclipse RDOS.) t
+/Times-Bold 10 F
+1 0 0 -1 0 332.355 Tm
+(EDUCATION) t
+1 0 0 -1 10 356.355 Tm
+(Bachelor of Arts in Computer Science: Indiana University, Bloomington, IN. \(Sep 1975 \226 May 1978\)) t
+/Times-Italic 10 F
+1 0 0 -1 519.5 356.39 Tm
+( ) t
+/Times-Bold 10 F
+1 0 0 -1 0 380.355 Tm
+(PROFESSIONAL CERTIFICATION) t
+/Times-Roman 10 F
+1 0 0 -1 10 404.33 Tm
+(Sun Certified Java Developer \(SCJD\) \225 Sun Certified Java Programmer \(SCJP\)) t
+/Times-Bold 10 F
+1 0 0 -1 0 428.355 Tm
+(PATENTS) t
+/Times-Roman 10 F
+1 0 0 -1 10 452.33 Tm
+(Recording and Dictation System, United States 4621350, Issued November 4, 1986) t
+/Times-Bold 10 F
+1 0 0 -1 0 476.355 Tm
+(PROFESSIONAL ASSOCIATIONS) t
+/Times-Roman 10 F
+1 0 0 -1 10 500.33 Tm
+(USENIX Association \225 League of Professional System Administrators \(formerly SAGE\)) t
+/Times-Bold 10 F
+1 0 0 -1 0 524.355 Tm
+(TECHNICAL SEMINARS) t
+/Times-Roman 10 F
+1 0 0 -1 10 548.33 Tm
+(Mirantis: OpenStack Bootcamp \225 USENIX: System & Network Security \225 ObjectWorld: Managing Object-Oriented) t
+1 0 0 -1 10 560.33 Tm
+(Development Projects \225 Wind River Systems: VxWorks & Tornado) t
+/Times-Bold 10 F
+1 0 0 -1 0 584.355 Tm
+(HONORS AND AWARDS) t
+/Times-Roman 10 F
+1 0 0 -1 10 608.33 Tm
+(Cornell Society of Engineers "Ingenuity in Science and Mathematics Award," 1976.) t
+ET
+GR
+GR
+showpage
+%%PageTrailer
+%%PageResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-Roman
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Page: 8 8
+%%PageBoundingBox: 0 0 612 792
+%%PageHiResBoundingBox: 0 0 612 792
+%%PageResources: (atend)
+%FOPSimplePageMaster: only
+%%BeginPageSetup
+%FOPBeginSetPageDevice
+<<
+/PageSize [612 792]
+/ImagingBBox null
+>> setpagedevice
+%FOPEndSetPageDevice
+[1 0 0 -1 0 792] CT
+%%EndPageSetup
+GS
+[1 0 0 1 54 720] CT
+GS
+-8 0 M
+530 0 L
+530 0.283 L
+-8 0.283 L
+cp
+clip N
+0.283 LW
+-8 0.141 M 530 0.141 L S N
+GR
+GS
+BT
+/Helvetica 8 F
+1 0 0 -1 0 12.327 Tm
+(Resume of Kevin L. Short, dated 19 October 2014, generated using XML, XSLT & XSL-FO.) t
+1 0 0 -1 481.08 12.327 Tm
+(Page ) t
+1 0 0 -1 501.984 12.327 Tm
+(8) t
+1 0 0 -1 506.432 12.327 Tm
+( of ) t
+1 0 0 -1 517.552 12.327 Tm
+(8) t
+ET
+GR
+GR
+GS
+[1 0 0 1 54 36] CT
+GS
+BT
+/Times-Bold 10 F
+1 0 0 -1 0 8.355 Tm
+(TECHNICAL SKILLS) t
+1 0 0 -1 3.06 32.355 Tm
+(Programming Languages:) t
+/Times-Roman 10 F
+1 0 0 -1 120 32.33 Tm
+(C, C++, Java, Go, Ruby, Python, Perl, Node.js, Tcl/Tk, Expect, AWK, JavaScript, yacc & lex,) t
+1 0 0 -1 120 44.33 Tm
+(assembly languages.) t
+/Times-Bold 10 F
+1 0 0 -1 2.52 56.355 Tm
+(Professional Certification:) t
+/Times-Roman 10 F
+1 0 0 -1 120 56.33 Tm
+(Sun Certified Java Developer \(SCJD\), Sun Certified Java Programmer \(SCJP\).) t
+/Times-Bold 10 F
+1 0 0 -1 24.18 68.355 Tm
+(Config Management:) t
+/Times-Roman 10 F
+1 0 0 -1 120 68.33 Tm
+(Chef, Vagrant, Berkshelf, Ansible, Rundeck, CFEngine.) t
+/Times-Bold 10 F
+1 0 0 -1 51.67 80.355 Tm
+(Virtualization:) t
+/Times-Roman 10 F
+1 0 0 -1 120 80.33 Tm
+(Docker \(containers\), KVM \(kernel-based virtual machines\), VirtualBox, VMware ESXi.) t
+/Times-Bold 10 F
+1 0 0 -1 13.6 92.355 Tm
+(Hybrid Cloud & MaaS:) t
+/Times-Roman 10 F
+1 0 0 -1 120 92.33 Tm
+(Amazon Web Services - Elastic Compute Cloud \(EC2\), Cobbler, Fog.) t
+/Times-Bold 10 F
+1 0 0 -1 24.73 104.355 Tm
+(Release Engineering:) t
+/Times-Roman 10 F
+1 0 0 -1 120 104.33 Tm
+(GitHub Enterprise, GitHub, Apache Subversion, Perforce, Mercurial, IBM Rational ClearCase,) t
+1 0 0 -1 120 116.33 Tm
+(Concurrent Versions System \(CVS\).) t
+/Times-Bold 10 F
+1 0 0 -1 30.84 128.355 Tm
+(Operating Systems:) t
+/Times-Roman 10 F
+1 0 0 -1 120 128.33 Tm
+(Ubuntu Linux, Debian Linux, CentOS Linux, Scientific Linux, FreeBSD, NetBSD, Red Hat) t
+1 0 0 -1 120 140.33 Tm
+(Enterprise Linux, Fedora Linux, Embedded Linux, SuSE Linux, Sun Solaris, ExpressLogic) t
+1 0 0 -1 120 152.33 Tm
+(ThreadX, Enea OSE, Wind River VxWorks, IBM AIX, HP HP-UX, Microsoft Windows.) t
+/Times-Bold 10 F
+1 0 0 -1 35.83 164.355 Tm
+(Database Engines:) t
+/Times-Roman 10 F
+1 0 0 -1 120 164.33 Tm
+(Apache Cassandra, PostgreSQL, MySQL, Microsoft SQL Server, Hypersonic SQL, PostgreSQL,) t
+1 0 0 -1 120 176.33 Tm
+(Oracle, IBM Informix, IBM DB2.) t
+/Times-Bold 10 F
+1 0 0 -1 15.86 188.355 Tm
+(Network Management:) t
+/Times-Roman 10 F
+1 0 0 -1 120 188.33 Tm
+(SNMP MIB design & agent development, SNMP verification, HP OpenView, IBM Tivoli) t
+1 0 0 -1 120 200.33 Tm
+(NetView.) t
+/Times-Bold 10 F
+1 0 0 -1 37.51 212.355 Tm
+(Network Routing:) t
+/Times-Roman 10 F
+1 0 0 -1 120 212.33 Tm
+(Juniper JunOS, pfSense, Cisco IOS, SonicWall Firewalls, LACP, BFD, OSPF.) t
+/Times-Bold 10 F
+1 0 0 -1 31.97 224.355 Tm
+(Network Protocols:) t
+/Times-Roman 10 F
+1 0 0 -1 120 224.33 Tm
+(TCP/IP, UDP/IP, Socket Programming, Domain Name System \(DNS\), Dynamic Host) t
+1 0 0 -1 120 236.33 Tm
+(Configuration Protocol \(DHCP\), Simple Network Management Protocol \(SNMP\), Secure Shell) t
+1 0 0 -1 120 248.33 Tm
+(\(SSH\) & OpenSSH, Secure Sockets Layer \(SSL\) & OpenSSL, Lightweight Directory Access) t
+1 0 0 -1 120 260.33 Tm
+(Protocol \(LDAPv3\), Simple Mail Transfer Protocol \(SMTP\), Internet Message Access Protocol) t
+1 0 0 -1 120 272.33 Tm
+(\(IMAP\), Simple Network Time Protocol \(SNTP\), Voice over IP \(VoIP\), IP Multimedia Subsystem) t
+1 0 0 -1 120 284.33 Tm
+(\(IMS\), PacketCable 2.0, Media Gateway Control Protocol \(MGCP\), Network-Based Call Signaling) t
+1 0 0 -1 120 296.33 Tm
+(\(NCS\), Session Initiation Protocol \(SIP\), Signaling System #7 \(SS7\), Point-to-Point Protocol \(PPP\),) t
+1 0 0 -1 120 308.33 Tm
+(ISDN Q.921/LAPD, ISDN Q.931/Call Control, High-level Data Link Control \(HDLC\), IEEE 802.2) t
+1 0 0 -1 120 320.33 Tm
+(Logical Link Control \(LLC\), IEEE 802.3 CSMA/CD \(Ethernet\), X11 Window System, Network) t
+1 0 0 -1 120 332.33 Tm
+(Information Service \(NIS\).) t
+/Times-Bold 10 F
+1 0 0 -1 6.41 344.355 Tm
+(Web Services & Content:) t
+/Times-Roman 10 F
+1 0 0 -1 120 344.33 Tm
+(nginx, Apache HTTP Server, HyperText Transfer Protocol \(HTTP\), XML-RPC, HyperText Markup) t
+1 0 0 -1 120 356.33 Tm
+(Language \(HTML\), Cascading Style Sheets \(CSS\).) t
+/Times-Bold 10 F
+1 0 0 -1 5.31 368.355 Tm
+(Web Performance & QA:) t
+/Times-Roman 10 F
+1 0 0 -1 120 368.33 Tm
+(JUnit4, HttpUnit, Apache JMeter, Apache Cactus, ECPerf, JUnitEE, TagUnit, Apache Watchdog.) t
+/Times-Bold 10 F
+1 0 0 -1 33.61 380.355 Tm
+(Java Technologies:) t
+/Times-Roman 10 F
+1 0 0 -1 120 380.33 Tm
+(Apache Ant, Eclipse, Hibernate, XDoclet, Apache Log4j, Java Management Extensions \(JMX\),) t
+1 0 0 -1 120 392.33 Tm
+(Java Service Wrapper \(JSW\).) t
+/Times-Bold 10 F
+1 0 0 -1 31.68 404.355 Tm
+(Java Web Services:) t
+/Times-Roman 10 F
+1 0 0 -1 120 404.33 Tm
+(JBoss, Apache Tomcat, Java Servlets, Java Server Pages \(JSP\), Java Server Pages Standard Tag) t
+1 0 0 -1 120 416.33 Tm
+(Library \(JSTL\), Java API for XML Processing \(JAXP\).) t
+/Times-Bold 10 F
+1 0 0 -1 7.48 428.355 Tm
+(Java 2 Standard Edition:) t
+/Times-Roman 10 F
+1 0 0 -1 120 428.33 Tm
+(Java Naming and Directory Interface \(JNDI\), Java Database Connectivity \(JDBC\), Java) t
+1 0 0 -1 120 440.33 Tm
+(Authentication & Authorization Service \(JAAS\), Java Cryptography Extension \(JCE\), Java) t
+1 0 0 -1 120 452.33 Tm
+(Foundation Classes \(JFC/Swing\), Java IDL, Java Remote Method Invocation \(RMI\), JavaBeans) t
+1 0 0 -1 120 464.33 Tm
+(Activation Framework \(JAF\), JavaBeans Component API, Abstract Window Toolkit \(AWT\).) t
+/Times-Bold 10 F
+1 0 0 -1 1.94 476.355 Tm
+(Java 2 Enterprise Edition:) t
+/Times-Roman 10 F
+1 0 0 -1 120 476.33 Tm
+(Enterprise JavaBeans \(EJB\), J2EE Connector Architecture \(JCA\), Java Message Service \(JMS\),) t
+1 0 0 -1 120 488.33 Tm
+(Java RMI over IIOP \(RMI-IIOP\), Java Transaction API \(JTA\), Java Transaction Service \(JTS\),) t
+1 0 0 -1 120 500.33 Tm
+(JavaMail, OMG Object Transaction Service \(OTS\).) t
+/Times-Bold 10 F
+1 0 0 -1 30.28 512.355 Tm
+(XML Technologies:) t
+/Times-Roman 10 F
+1 0 0 -1 120 512.33 Tm
+(Document Object Model \(DOM\), Simple API for XML \(SAX\), Extensible Markup Language) t
+1 0 0 -1 120 524.33 Tm
+(\(XML\), Extensible HyperText Markup Language \(XHTML\), XML Schema, XML Path Language) t
+1 0 0 -1 120 536.33 Tm
+(\(XPath\), XML Pointer language \(XPointer\), XML Linking Language \(XLink\), Extensible) t
+1 0 0 -1 120 548.33 Tm
+(Stylesheet Language \(XSL\), XSL Transformations \(XSLT\), XSL Formatting Objects \(XSL-FO\),) t
+1 0 0 -1 120 560.33 Tm
+(Apache Xalan XSLT processor, Apache Xerces parser, Saxon XSLT processor.) t
+/Times-Bold 10 F
+1 0 0 -1 15.29 572.355 Tm
+(Object-Oriented Tools:) t
+/Times-Roman 10 F
+1 0 0 -1 120 572.33 Tm
+(IBM Rational Rose RealTime, Real-time Object-Oriented Modeling \(ROOM\).) t
+/Times-Bold 10 F
+1 0 0 -1 42.52 584.355 Tm
+(Defect Tracking:) t
+/Times-Roman 10 F
+1 0 0 -1 120 584.33 Tm
+(Jira Issue Management, IBM Rational ClearQuest, Bugzilla, Jive Forums.) t
+/Times-Bold 10 F
+1 0 0 -1 60.28 596.355 Tm
+(Other Tools:) t
+/Times-Roman 10 F
+1 0 0 -1 120 596.33 Tm
+(Adobe FrameMaker, DejaGnu, ZeroG InstallAnywhere.) t
+/Times-Bold 10 F
+1 0 0 -1 37.5 608.355 Tm
+(Other Languages:) t
+/Times-Roman 10 F
+1 0 0 -1 120 608.33 Tm
+(PostScript, PL/M, FORTRAN, COBOL, PL/1, Pascal, LISP, BASIC.) t
+/Times-Bold 10 F
+1 0 0 -1 40.58 620.355 Tm
+(Microprocessors:) t
+/Times-Roman 10 F
+1 0 0 -1 120 620.33 Tm
+(Intel x86, Atmel SAM9G \(ARM\), MIPS32, Freescale MPC8548, Freescale MPC7410, Intel) t
+1 0 0 -1 120 632.33 Tm
+(StrongARM, Freescale MPC860, Freescale MC680X0, Sun SPARC, Zilog 80180, Intel 8051) t
+1 0 0 -1 120 644.33 Tm
+(Microcontroller.) t
+ET
+GR
+GR
+showpage
+%%PageTrailer
+%%PageResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Roman
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Trailer
+%%Pages: 8
+%%BoundingBox: 0 0 612 792
+%%HiResBoundingBox: 0 0 612 792
+%%DocumentNeededResources: font Helvetica
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-Roman
+%%DocumentSuppliedResources: encoding WinAnsiEncoding
+%%+ procset (Apache FOP Std ProcSet) 1.0 0
+%%+ procset (Apache XML Graphics EPS ProcSet) 1.0 0
+%%+ procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%EOF
