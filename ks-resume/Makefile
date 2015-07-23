@@ -7,6 +7,8 @@
 # XALAN_HOME      = /Users/kevinshort/xalan-j_2_7_2
 # FOP_HOME        = /Users/kevinshort/fop-1.1
 
+INPUTS		+= resume.xml
+
 TARGETS         += kevinshort.html
 TARGETS         += kevinshort.xml
 TARGETS         += kevinshort.pdf
@@ -28,3 +30,11 @@ kevinshort.pdf: resume.xml resume2fo.xsl
 
 kevinshort.ps: resume.xml resume2fo.xsl
 	sh $(FOP_HOME)/fop -xml resume.xml -xsl resume2fo.xsl -ps   kevinshort.ps
+
+spell: FORCE
+	for i in $(INPUTS); do aspell --lang=en --mode=html check $$i;done
+
+passive: FORCE
+	-for i in is are was were be been; do fgrep -w $$i $(ALL_TEX);done
+
+FORCE:

@@ -11,7 +11,7 @@
 <!ENTITY euro   "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="19 October 2014">
+<resume date="13 July 2015">
 
     <contact_info first="Kevin" middle="L" last="Short">
         <street>18 Sunridge Road</street>
@@ -25,17 +25,18 @@
     </contact_info>
 
     <objectives>
-        <objectiveTech>Seeking a hands-on software development position in a senior, principal, leadership, or architecture role.</objectiveTech>
-        <objectiveSupv>Seeking a position as a Software Engineering Manager or Technical Lead.</objectiveSupv>
+        <objectiveTech>Seeking a hands-on DevOps or Software Development position in a senior, principal, leadership, or architecture role.</objectiveTech>
         <objectiveAll>
             Proven track record of building highly reliable, robust software systems.
             Brought start-up and early stage projects to successful, timely completion.
-            Defined software architectures, instituted software engineering processes, automated application deployment, built software and SQA teams and labs, performed initial hardware/software bring-up.</objectiveAll>
+            Defined software, automation, and operational architectures, software engineering processes, built engineering teams and labs, performed initial hardware/software bring-up.</objectiveAll>
     </objectives>
 
     <highlights>
-        <highlight>Automation</highlight>
+        <highlight>Cloud Computing</highlight>
         <highlight>DevOps</highlight>
+        <highlight>Automation</highlight>
+        <highlight>Full Stack</highlight>
         <highlight>Embedded Systems</highlight>
         <highlight>Real-Time Systems</highlight>
         <highlight>SNMP</highlight>
@@ -49,23 +50,40 @@
     </highlights>
 
     <overview>
-        <overview_item>Over 35 year's commercial software development experience.</overview_item>
-        <overview_item>Internet scale deployment, operation, and monitoring.</overview_item>
-        <overview_item>Automate software development processes: Continuous Delivery, Integration, Deployment, and Improvement, following patterns of the DevOps movement.</overview_item>
-        <overview_item>Agile, Iterative, and Waterfall software development processes.</overview_item>
+        <overview_item>Internet scale deployment, operation, and monitoring, for Cloud and physical servers.</overview_item>
+        <overview_item>DevOps and Automation of software development : Continuous Delivery, Integration, Deployment, and Improvement.</overview_item>
+        <overview_item>Full Stack developer, experienced in Agile, Iterative, and Waterfall software development processes.</overview_item>
         <overview_item>Expert level: C, C++, Java, Ruby, Python, Perl, Tcl/Tk, Expect, Bash, and AWK.</overview_item>
         <overview_item>Expert level: Linux (Ubuntu, Debian, CentOS, RedHat), BSD (Mac OS X, FreeBSD, NetBSD, OpenBSD), and System V UNIX (Solaris, AIX, HP-UX).</overview_item>
         <overview_item>High-performance, concurrent, multi-threaded, "hard" real-time and embedded systems.</overview_item>
         <overview_item>Network programming and network management systems.</overview_item>
         <overview_item>Excellent debugging and troubleshooting skills.</overview_item>
-        <overview_item>Excellent communication skills.</overview_item>
-        <overview_item>Technical leadership experience.</overview_item>
-        <overview_item>BA in Computer Science.</overview_item>
+        <overview_item>Excellent communication skills and technical leadership experience.</overview_item>
+        <overview_item>Over 35 year's commercial software development experience. BA in Computer Science.</overview_item>
     </overview>
 
     <experience>
 
-        <period start_month="4" start_year="2014">
+        <period start_month="11" start_year="2014">
+            <assignment>
+                <institution>Dyn</institution>
+                <url>http://www.dyn.com/</url>
+                <location>Manchester, NH</location>
+                <position title="Principal Automation Engineer, Infrastructure"/>
+            </assignment>
+            <tasks>
+                <taskTerse>taskTerse</taskTerse>
+                <taskTech>Evolving a DevOps culture, breaking down silos between Development, Operations, and separate DevOps teams.</taskTech>
+                <taskTech>Defining the engineering and operations road maps for Automation and related development and infrastructure projects.</taskTech>
+                <taskTech>Instituting processes of Continuous Delivery, Integration, Deployment, and Improvement.</taskTech>
+                <taskTech>Architecture and system design for Automation and infrastructure-as-code for Development, Integration, Staging, and Production.</taskTech>
+                <taskTech>Self-service provisioning for bare metal, virtual machines, and containers, in a hybrid cloud of data centers and AWS EC2.</taskTech>
+                <taskTech>Metal as a Service bare metal automated provisioning solutions, deploying hundreds of servers across multiple sites.</taskTech>
+                <taskSkills>Skills: AWS, EC2, Chef, Ansible, Rundeck, KVM, Docker, Vagrant, Terraform, OpenStack, Ruby, Python, Perl, Bash, AWK, Go, Java, C/C++, Makefiles, Cobbler, Jenkins, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, CentOS, FreeBSD.</taskSkills>
+            </tasks>
+        </period>
+
+        <period start_month="4" start_year="2014" end_month="11" end_year="2014">
             <assignment>
                 <institution>Dyn</institution>
                 <url>http://www.dyn.com/</url>
@@ -74,15 +92,9 @@
             </assignment>
             <tasks>
                 <taskTerse>taskTerse</taskTerse>
-                <taskSupv>taskSupv</taskSupv>
-                <taskTech>Evolving a DevOps culture, breaking down silos between Development, Operations, and separate DevOps teams.</taskTech>
-                <taskTech>Instituting processes of Continuous Delivery, Integration, Deployment, and Improvement.</taskTech>
-                <taskTech>Managing rapid growth within Engineering, growing from 20 to 100 members over an 18-month period.</taskTech>
+                <taskTech>Managed rapid growth within Engineering, growing from 20 to 100 members over an 18-month period.</taskTech>
                 <taskTech>Hands-on position, working side-by-side with colleagues on implementing automation.</taskTech>
-                <taskTech>Serving in multiple roles: as manager, and as scrum master / technical owner for multiple Agile squads and Roadmaps.</taskTech>
-                <taskTech>Architecture and system design for Automation and infrastructure-as-code solutions for Development, Integration, Staging, and Production environments.</taskTech>
-                <taskTech>Metal as a Service (MaaS) bare metal automated provisioning solutions, deploying hundreds of servers with Ubuntu, Chef, KVM, Docker, and standard configuration across multiple data centers.</taskTech>
-                <taskTech>Self-service provisioning for bare metal, virtual machines, and containers, in a hybrid cloud of data centers and AWS EC2.</taskTech>
+                <taskTech>Served multiple roles: manager, as scrum master, and technical owner for multiple Agile squads.</taskTech>
                 <taskSkills>Skills: Chef, Docker, Rundeck, Ansible, KVM, Ruby, Python, Perl, Bash, AWK, Go, Java, C/C++, Makefiles, Cobbler, Jenkins, Makefiles, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, FreeBSD.</taskSkills>
             </tasks>
         </period>
@@ -96,9 +108,8 @@
             </assignment>
             <tasks>
                 <taskTerse>taskTerse</taskTerse>
-                <taskSupv>taskSupv</taskSupv>
-                <taskTech>Manager in a matrix organization, and scrum master / technical owner for an Agile squad.</taskTech>
                 <taskTech>Managed development, testing, fully automated deployment and monitoring of DNS services to new <link url="http://dyn.com/blog/dyn-launches-new-network-in-china/">China Network</link>.</taskTech>
+                <taskTech>Manager in a matrix organization, scrum master, and technical owner for an Agile squad.</taskTech>
                 <taskTech>Lead design of Development, Integration, Staging, and Production environments.</taskTech>
                 <taskTech>Lead design of Continuous Integration pipeline and Automated Testing framework.</taskTech>
                 <taskTech>Built local and mirrored Ubuntu repositories.</taskTech>
@@ -114,8 +125,6 @@
             </assignment>
             <tasks>
                 <taskTerse>taskTerse</taskTerse>
-                <taskSupv>taskSupv</taskSupv>
-                <taskTech>Agile software development.</taskTech>
                 <taskTech>Built Dyn's first automated application deployment using Chef, and package delivery using Debian (.deb) packaging.</taskTech>
                 <taskTech>Debian packaging for C++, Java, Go, Python, Perl, and Node.js applications.</taskTech>
                 <taskTech>Chef installers for Cassandra and MySQL databases,  and Dyn traffic management (DNS) applications.</taskTech>
@@ -132,7 +141,6 @@
             </assignment>
             <tasks>
                 <taskTerse>Application Delivery Controllers.</taskTerse>
-                <taskSupv>Supervisory stuff.</taskSupv>
                 <taskTech>Application Delivery Controllers: Network load
                     balancing and global server load balancing products, on physical and virtual
                     systems.</taskTech>
@@ -159,7 +167,6 @@
             </assignment>
             <tasks>
                 <taskTerse>Internet-managed energy control.</taskTerse>
-                <taskSupv>Supervisory stuff.</taskSupv>
                 <taskTech>Internet-managed energy control system (IP
                     thermostat, HVAC, and building control), running embedded Linux and embedded
                     Java on ARM processors.</taskTech>
@@ -180,7 +187,6 @@
             </assignment>
             <tasks>
                 <taskTerse>System-on-Chip (SoC) for G.HN Home Networking design.</taskTerse>
-                <taskSupv>Supervisory stuff.</taskSupv>
                 <taskTech>System-on-Chip (SoC) software for a G.HN Home Networking
                     protocol engine, running embedded Linux and ThreadX RTOS on MIPS virtual
                     processing engines.</taskTech>
@@ -237,7 +243,7 @@
             </assignment>
             <tasks>
                 <taskTerse>Carrier-class Voice over IP Media Switching System.</taskTerse>
-                <taskSupv>Daily hands-on management of a team performing dailing integration,
+                <taskSupv>Daily hands-on management of a team performing dialing integration,
                     regression, load testing, and software development lab support for the Safari C3
                     (Voice over IP Multimedia Switching System), SafariView (Element Management
                     System), and SafariFusion (IMS/PacketCable 2.0) product suites.</taskSupv>
@@ -911,7 +917,7 @@
     <seminars>
         <seminar> <link url="https://www.mirantis.com/">Mirantis</link>: OpenStack Bootcamp</seminar>
         <seminar> <link url="http://www.usenix.org">USENIX</link>: System &amp; Network Security </seminar>
-        <seminar> <link url="http://www.javaworld.com/javaworld/jw-06-1996/jw-06-objectworld.html"> ObjectWorld</link>: Managing Object-Oriented Development Projects </seminar>
+        <!--<seminar> <link url="http://www.javaworld.com/javaworld/jw-06-1996/jw-06-objectworld.html"> ObjectWorld</link>: Managing Object-Oriented Development Projects </seminar>-->
         <seminar> <link url="http://www.windriver.com/">Wind River Systems</link>: VxWorks &amp; Tornado </seminar>
         <!--<seminar> <link url="http://www.alcatel.com/enterprise/en/">Alcatel</link>: SwitchExpert </seminar>-->
         <!--<seminar> <link url="http://www.motorola.com">Motorola</link>: PowerPC 860 </seminar>-->
