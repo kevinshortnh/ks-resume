@@ -1,4 +1,4 @@
 #!/usr/bin/env make -f
 
-default:
-	make --directory=ks-resume
+default clean:
+	make --directory=ks-resume $@
