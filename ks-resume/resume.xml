@@ -11,7 +11,7 @@
 <!ENTITY euro   "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="13 July 2015">
+<resume date="31 August 2015">
 
     <contact_info first="Kevin" middle="L" last="Short">
         <street>18 Sunridge Road</street>
@@ -64,12 +64,60 @@
 
     <experience>
 
-        <period start_month="11" start_year="2014">
+        <period start_month="8" start_year="2015">
             <assignment>
-                <institution>Dyn</institution>
+                <institution>Conjur, Inc.</institution>
+                <url>http://www.conjur.net/</url>
+                <location>Waltham, MA</location>
+                <position title="DevOps Enchanter / Senior Software Engineer"/>
+            </assignment>
+            <tasks>
+                <taskTerse>taskTerse</taskTerse>
+
+		<taskTech>Building security orchestration software to manage,
+		enforce and audit infrastructure applications with modern IT
+		systems.</taskTech>
+
+		<taskTech>Cloud-Native Directory, Authorization, Audit, and
+		Compliance Software. Built for DevOps teams and their entire
+		infrastructure.</taskTech>
+		
+		<taskTech>Software-Defined firewall: Conjur's Identity-Defined
+		perimeter provides strong identity, authorization, and audit
+		for all hosts, services and micro-services running in your
+		infrastructure environment at the API, virtual machine, and
+		container levels.</taskTech>
+
+		<taskTech>SSH Access Management: Centralized SSH host access
+		control enables authentication to hosts with or without sudo
+		privileges with a full audit log and public/private key pairs
+		without copying keys manually among hosts.</taskTech>
+
+		<taskTech>General Secrets Management: Protect private keys, API
+		keys and tokens, and passwords. Stop checking these secrets
+		into source control or relying on point solution vaults, hidden
+		files and other half-baked solutions.</taskTech>
+
+		<taskTech> Enterprise Feature Set: Conjur uses modern
+		role-based access control to define policies and privileges for
+		users, groups, hosts, and layers (groups of hosts).</taskTech>
+
+		<taskSkills>Skills: Amazon Web Services, Docker, Cloud Foundry,
+		Microsoft Azure, OpenStack, Chef, Ansible, Puppet, SaltStack,
+		Rundeck, Jenkins, GitHub, Vagrant, Terraform, VirtualBox, Ruby,
+		Python, Perl, Bash, AWK, Tcl, Expect, Go, Java, C/C++, OpenSSL,
+		OpenSSH, Mac OS X, Ubuntu Linux, RedHat Enterprise Linux,
+		CentOS Linux.</taskSkills>
+
+            </tasks>
+        </period>
+
+        <period start_month="11" start_year="2014" end_month="7" end_year="2015">
+            <assignment>
+                <institution>Dyn (Dynamic Network Services, Inc.)</institution>
                 <url>http://www.dyn.com/</url>
                 <location>Manchester, NH</location>
-                <position title="Principal Automation Engineer, Infrastructure"/>
+                <position title="Principal Automation Engineer"/>
             </assignment>
             <tasks>
                 <taskTerse>taskTerse</taskTerse>
@@ -198,7 +246,7 @@
                     multiple sites; implementing defect and project milestone tracking; and
                     implementing a continuous integration environment.</taskTech>
                 <taskSkills>Skills: C, C++, assembler, Tcl/Tk, Expect, ThreadX, Eclipse, Jira,
-                    Mercurial, CruiseControl, MIPS34Kc, Lauterbach Trace32.</taskSkills>
+                    Mercurial, CruiseControl, MIPS34Kc.<!-- Lauterbach Trace32. --></taskSkills>
             </tasks>
         </period>
 
@@ -263,9 +311,12 @@
                     development environment, and provided timely support of development and test
                     teams, working closely with software and hardware developers, on both embedded
                     systems and EMS.</taskTech>
-                <taskSkills>Skills: Java, C, Python, Perl, Tcl/Tk, Expect, XML, XSLT, Enea OSE,
-                    MySQL, Eclipse, JBoss, JUnit4, Ant, Log4j, Cisco IOS, Juniper JunOS, SonicWall
-                    firewall, DNS, LACP, OSPF, DHCP.</taskSkills>
+
+		<taskSkills>Skills: Java, C, Python, Perl, Tcl/Tk, Expect, Enea
+		OSE, Solaris, CentOS. <!-- XML, XSLT, MySQL, Eclipse, JBoss,
+		JUnit4, Ant, Log4j, Cisco IOS, Juniper JunOS, SonicWall
+		firewall, DNS, LACP, OSPF, DHCP. --></taskSkills>
+
             </tasks>
         </period>
 
@@ -309,8 +360,11 @@
                     low-level hardware interfaces for SPI, I2C, PCMCIA, USB, A/D, digital I/O.</taskTech>
                 <taskTech>Introduced software engineering practices; source code control; software
                     defect management; software life cycle management; mentored team members.</taskTech>
-                <taskSkills>Skills: C, Tcl, Expect, Perl, SNMP, Embedded Linux, User-Mode Linux,
-                    Linux From Scratch, Red Hat Linux, CVS, Bugzilla, MySQL.</taskSkills>
+
+		<taskSkills>Skills: C, Perl, SNMP, Tcl, Expect, Embedded Linux.
+		<!-- User-Mode Linux, Linux From Scratch, Red Hat Linux, CVS,
+		Bugzilla, MySQL. --></taskSkills>
+
             </tasks>
         </period>
 
@@ -328,12 +382,16 @@
                     servlets, XML, XSLT, JavaScript, DHTML and the ReportNet Java SDK, for improved
                     data exploration and integration with Cognos Connection, Report Studio and Query
                     Studio.</taskTech>
-                <taskSkills>Skills: Java, J2EE, J2SE, Servlets, JSPs, XML, XPath, XSL, XSLT,
-                    Eclipse, MyEclipse, JavaScript, DOM4j, DOM, SAX, SOAP, WSDL4j, CSS, DHTML, HTML,
-                    HTTP, JAXRPC, JSTL, JUnit, SAAJ, Apache Ant, Apache Axis, Apache Commons
-                    Discovery, Apache Commons Logging, Apache Log4j, Apache Tomcat, Apache Xalan,
-                    Apache Xerces, Apache XML Commons, Cognos ReportNet, Sun iPlanet LDAP Server,
-                    Microsoft SQL Server 2000. </taskSkills>
+
+		<taskSkills>Skills: Java, J2EE, J2SE, Servlets, JSPs, SOAP,
+		WSDL4j, Cognos ReportNet, XML. <!-- XPath, XSL, XSLT, Eclipse,
+		MyEclipse, JavaScript, DOM4j, DOM, SAX, CSS, DHTML, HTML, HTTP,
+		JAXRPC, JSTL, JUnit, SAAJ, Apache Ant, Apache Axis, Apache
+		Commons Discovery, Apache Commons Logging, Apache Log4j, Apache
+		Tomcat, Apache Xalan, Apache Xerces, Apache XML Commons, Sun
+		iPlanet LDAP Server, Microsoft SQL Server 2000.
+		--></taskSkills>
+
             </tasks>
         </period>
 
@@ -357,17 +415,22 @@
                     tools for managing J2EE servers and applications from either a Notes Admin
                     client or web browser, and a fully transactional, enterprise-ready data store to
                     complement NSF (Notes Storage Facility).</taskTech>
-                <taskSkills>Skills: Java, JavaScript, Expect, XML, XSLT, XSL, XSL-FO, Red Hat Linux,
-                    SuSE Linux, Lotus Domino &amp; Notes, SSL &amp; OpenSSL, LDAPv3, SSH
-                    &amp; OpenSSH, SMTP, IMAP, J2SE, J2EE, Eclipse, JBoss, Apache Tomcat, Apache
-                    Ant, Apache Log4j, Apache Xalan, Apache Xerces, Apache HTTPD, Saxon, Apache
-                    Axis, Apache Cactus, Apache Watchdog, AWT, CSS, DOM, ECPerf, EJB, HTML, HTTP,
-                    HttpUnit, JAAS, JAF, Java IDL, JavaBeans Component API, JavaMail, JAXP, JCA,
-                    JCE, JDBC, JFC/Swing, JMS, JMX, JNDI, JSP, JSTL, JSW, JTA, JTS, JUnit, JUnitEE,
-                    OTS, RMI, RMI-IIOP, SAX, Servlets, SOAP, TagUnit, WSDL, XHTML, XLink, XML
-                    Schema, XPath, XPointer, PostgreSQL, MySQL, Oracle, Microsoft SQL Server,
-                    Hypersonic HSQLDB, Adobe FrameMaker, CVS, Jira Issue Management, Jive Forums,
-                    ZeroG InstallAnywhere.</taskSkills>
+
+		<taskSkills>Skills: Java, JavaScript, SSH &amp; OpenSSH,
+		LDAPv3, XML, Red Hat Linux, SuSE Linux, JBoss, Lotus Domino
+		&amp; Notes.  <!-- Expect, XSLT, XSL, XSL-FO, SSL &amp;
+		OpenSSL, SMTP, IMAP, J2SE, J2EE, Eclipse, Apache Tomcat, Apache
+		Ant, Apache Log4j, Apache Xalan, Apache Xerces, Apache HTTPD,
+		Saxon, Apache Axis, Apache Cactus, Apache Watchdog, AWT, CSS,
+		DOM, ECPerf, EJB, HTML, HTTP, HttpUnit, JAAS, JAF, Java IDL,
+		JavaBeans Component API, JavaMail, JAXP, JCA, JCE, JDBC,
+		JFC/Swing, JMS, JMX, JNDI, JSP, JSTL, JSW, JTA, JTS, JUnit,
+		JUnitEE, OTS, RMI, RMI-IIOP, SAX, Servlets, SOAP, TagUnit,
+		WSDL, XHTML, XLink, XML Schema, XPath, XPointer, PostgreSQL,
+		MySQL, Oracle, Microsoft SQL Server, Hypersonic HSQLDB, Adobe
+		FrameMaker, CVS, Jira Issue Management, Jive Forums, ZeroG
+		InstallAnywhere. --></taskSkills>
+
             </tasks>
         </period>
 
@@ -462,14 +525,18 @@
                 <taskTech>Evaluated and selected real-time operating systems, prototype hardware
                     systems and software development tools for bleeding-edge target (Intel StrongARM
                     processor) hardware.</taskTech>
-                <taskSkills>Skills: Java, C, Expect, Tcl, Perl, bison &amp; flex, VxWorks,
-                    Linux, FreeBSD, Solaris, Microsoft SQL Server, SNMPv1/v2c, HP OpenView, SNMPinfo
-                    SMICng, InterWorking Labs SilverCreek, SimpleSoft SimpleTester, MG-Soft MIB
-                    Browser, Ethereal, SNTP, PPP, SLIP, Microsoft Visual SourceSafe, Concurrent
-                    Versions System (CVS), Adobe FrameMaker, ZeroG InstallAnywhere, Rational Team
-                    Test, National Instruments Lab Windows/CVI, Apache Web Server, Avensoft
-                    PerfectTracker, Intel StrongARM, HP Logic Analyzer, TestPoint for GPIB, RS232,
-                    RS485, USB 1.1, PCMCIA. </taskSkills>
+
+		<taskSkills>Skills: Java, C, Perl, SNMPv1/v2c, VxWorks, Linux,
+		FreeBSD, Solaris. <!-- Expect, Tcl, bison &amp; flex, Microsoft
+		SQL Server, HP OpenView, SNMPinfo SMICng, InterWorking Labs
+		SilverCreek, SimpleSoft SimpleTester, MG-Soft MIB Browser,
+		Ethereal, SNTP, PPP, SLIP, Microsoft Visual SourceSafe,
+		Concurrent Versions System (CVS), Adobe FrameMaker, ZeroG
+		InstallAnywhere, Rational Team Test, National Instruments Lab
+		Windows/CVI, Apache Web Server, Avensoft PerfectTracker, Intel
+		StrongARM, HP Logic Analyzer, TestPoint for GPIB, RS232, RS485,
+		USB 1.1, PCMCIA. --></taskSkills>
+
             </tasks>
         </period>
 
@@ -500,9 +567,13 @@
                     in Colombes, France, building an IP-based PBX and other packetized voice
                     products.</taskTech>
                 <taskTech>Advised Network Management development team on Java design topics.</taskTech>
-                <taskSkills>Skills: Java, C, bison, flex; PowerPC 860, TMS320C5xx, SPARC; H.323,
-                    ISDN, Q.921/LAPD, Q.931/Call Control, HDLC, RTP, RTCP, UDP, TCP; VxWorks, EST
-                    visionICE/visionCLICK, Solaris, Windows/NT; Alcatel IP PCX 4400.</taskSkills>
+
+		<taskSkills>Skills: Java, C, H.323, Q.921/LAPD, Q.931/Call
+		Control, RTP, RTCP, VxWorks. <!-- bison, flex; PowerPC 860,
+		TMS320C5xx, SPARC; ISDN, HDLC, UDP, TCP; EST
+		visionICE/visionCLICK, Solaris, Windows/NT; Alcatel IP PCX
+		4400. --></taskSkills>
+
             </tasks>
         </period>
 
@@ -533,10 +604,14 @@
                 <taskTech>Pioneered development from ObjecTime models to Windows NT (Microsoft
                     Visual C++) simulation environment and Tornado/VxWorks (Cygnus GNU C++) target
                     environment.</taskTech>
+
                 <!--<taskTech>Java-based telephone simulator that interfaced with the NBX100, to support development prior to availability of telephone set hardware.</taskTech>-->
-                <taskSkills>Skills: Java, C++, C, ObjecTime, ROOM (Real-Time Object-Oriented
-                    Modeling), Tornado/VxWorks, IEEE 802.2 Logical Link Control (LLC), IEEE 802.3
-                    CSMA/CD (Ethernet), TCP/IP, H.323, GNU C++, Microsoft Visual C++.</taskSkills>
+
+		<taskSkills>Skills: Java, C/C++, ObjecTime, ROOM (Real-Time
+		Object-Oriented Modeling), Tornado/VxWorks. <!-- IEEE 802.2
+		Logical Link Control (LLC), IEEE 802.3 CSMA/CD (Ethernet),
+		TCP/IP, H.323, GNU C++, Microsoft Visual C++. --></taskSkills>
+
             </tasks>
         </period>
 
@@ -569,10 +644,13 @@
                     Handwriting Recognition Systems.</taskTech>
                 <taskTech>Provided trouble-shooting for system and network security, configuration
                     and administration groups.</taskTech>
-                <taskSkills>Skills: Java, JavaScript, Perl5, Tcl, Expect, C, C++, [incr Tcl],
-                    Solaris, SunOS, AIX, HP-UX, Pyramid, Microsoft Windows 95/NT, IBM OS/2, Apple
-                    Mac OS 7; Oracle SQL*Net, TCP/IP, RPC, PPP, CVS; HTTP, HTML, CGI; Apache Web
-                    Server, Java Applets, Netscape Servers.</taskSkills>
+
+		<taskSkills>Skills: Java, JavaScript, Perl5, Tcl, Expect,
+		C/C++, Solaris, AIX, HP-UX, Oracle.  <!-- [incr Tcl], SunOS,
+		Pyramid, Microsoft Windows 95/NT, IBM OS/2, Apple Mac OS 7;
+		Oracle SQL*Net, TCP/IP, RPC, PPP, CVS; HTTP, HTML, CGI; Apache
+		Web Server, Java Applets, Netscape Servers. --> </taskSkills>
+
             </tasks>
         </period>
 
