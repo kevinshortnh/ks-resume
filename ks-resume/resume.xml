@@ -11,7 +11,7 @@
 <!ENTITY euro   "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="31 August 2015">
+<resume date="31 August 2016">
 
     <contact_info first="Kevin" middle="L" last="Short">
         <street>18 Sunridge Road</street>
@@ -19,7 +19,7 @@
         <state>NH</state>
         <zip>03087</zip>
         <cell>(603) 785-7165</cell>
-        <email>kshort@oxmicro.com</email>
+        <email>kevinshortnh@gmail.com</email>
         <website>http://www.oxmicro.com/</website>
         <image url="http://www.oxmicro.com/ks-resume/images/JavCertDev4c_ks_64x64.jpg"/>
     </contact_info>
@@ -64,7 +64,67 @@
 
     <experience>
 
-        <period start_month="8" start_year="2015">
+        <period start_month="11" start_year="2015">
+            <assignment>
+                <institution>Rackspace USA, Inc.</institution>
+                <url>http://www.rackspace.com/</url>
+                <location>San Antonio, TX</location>
+                <position title="Software Developer in Test (SDET IV)"/>
+            </assignment>
+            <tasks>
+                <taskTerse>taskTerse</taskTerse>
+
+                <taskTech>Technical Lead and Lead SDT for Floating IP subsystem
+                - Maintained and implemented tests for FLIP, including advanced
+                testing for usage tracking, FLIP functionality, and API
+                mgmt.</taskTech>
+
+                <taskTech>Technical Lead and Lead SDT for Shared IP subsystem -
+                Maintained and implemented tests for Shared IP, including
+                advanced testing for usage tracking, Shared IP functionality,
+                and API mgmt.</taskTech>
+
+                <taskTech>Technical Lead and Lead SDT for Ansible automation of
+                Networks QE and OpenStack Neutron QE.</taskTech>
+
+                <taskTech>Technical Lead and Lead SDT for Jenkins Job Builder
+                automation of Networks QE and OpenStack Neutron QE.</taskTech>
+
+                <!--
+                <taskTech>Technical Lead for RackConnectv3 (Hybrid Cloud
+                Solution) - Drove, provided technical expertise and insight,
+                and oversaw testing effort for high visibility corporate
+                initiative.</taskTech>
+                -->
+
+                <!--
+                <taskTech>Lead SDT for Container-based VM Server Solutions
+                (LXC) - Lead tester on cutting edge cloud solution to improve
+                provisioning times and provide portability of images across
+                platforms.</taskTech>
+                -->
+
+                <taskTech>Core Member of Open Source Projects: OpenCafe,
+                CloudCafe, CloudRoast - Test framework for testing cloud
+                products, especially OpenStack projects.</taskTech>
+
+                <taskTech>Mentored various SDTs within organization - provided
+                1-on-1 time to SDTs in the organization to discuss technical
+                topics, testing strategies and philosophies, and provide
+                guidance to each engineer as they solved problems.</taskTech>
+
+                <taskTech>Worked with other senior team members to improve
+                testing methodologies for highly improved testing strategies,
+                methodologies, and tools - built a MBT framework to leverage
+                CloudCafe. Goal - improved and easier coverage of functionality
+                while increasing integration test coverage, and use of a
+                'workflow' data model - which more closely models what
+                customers would do when using the product.</taskTech>
+
+            </tasks>
+        </period>
+
+        <period start_month="8" start_year="2015" end_month="9" end_year="2015">
             <assignment>
                 <institution>Conjur, Inc.</institution>
                 <url>http://www.conjur.net/</url>
