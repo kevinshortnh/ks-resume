@@ -11,7 +11,7 @@
 <!ENTITY euro   "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="31 August 2016">
+<resume date="12 September 2016">
 
     <contact_info first="Kevin" middle="L" last="Short">
         <street>18 Sunridge Road</street>
@@ -69,57 +69,66 @@
                 <institution>Rackspace USA, Inc.</institution>
                 <url>http://www.rackspace.com/</url>
                 <location>San Antonio, TX</location>
-                <position title="Software Developer in Test (SDET IV)"/>
+                <position title="Software Developer in Test (SDT IV)"/>
             </assignment>
             <tasks>
                 <taskTerse>taskTerse</taskTerse>
 
-                <taskTech>Technical Lead and Lead SDT for Floating IP subsystem
-                - Maintained and implemented tests for FLIP, including advanced
-                testing for usage tracking, FLIP functionality, and API
-                mgmt.</taskTech>
+                <taskTech>Embedded with the Cloud Networks Data Plane team and
+                Cloud Networks Control Plane team, to design and implement
+                Quality Engineering subsystems and tests for OpenStack Nova
+                Networks, OpenStack Neutron, OpenStack Quark, and Rackspace
+                SDN.</taskTech>
 
-                <taskTech>Technical Lead and Lead SDT for Shared IP subsystem -
-                Maintained and implemented tests for Shared IP, including
-                advanced testing for usage tracking, Shared IP functionality,
-                and API mgmt.</taskTech>
+                <taskTech>Active Technical Contributor (ATC) for
+                OpenStack.</taskTech>
 
-                <taskTech>Technical Lead and Lead SDT for Ansible automation of
-                Networks QE and OpenStack Neutron QE.</taskTech>
+                <taskTech>Core member of Open Source projects: OpenCAFE,
+                CloudCAFE, and CloudRoast (Python) test frameworks for testing
+                cloud products, including OpenStack.</taskTech>
 
-                <taskTech>Technical Lead and Lead SDT for Jenkins Job Builder
-                automation of Networks QE and OpenStack Neutron QE.</taskTech>
+                <taskTech>Remote WFH (work from home) Racker.</taskTech>
 
-                <!--
-                <taskTech>Technical Lead for RackConnectv3 (Hybrid Cloud
-                Solution) - Drove, provided technical expertise and insight,
-                and oversaw testing effort for high visibility corporate
-                initiative.</taskTech>
-                -->
+                <taskTech>Technical Lead / SDT for Floating IP and Shared IP
+                subsystems: implemented and maintained tests for same,
+                including advanced testing for usage tracking, subsystem
+                functionality, and management API.</taskTech>
 
-                <!--
-                <taskTech>Lead SDT for Container-based VM Server Solutions
-                (LXC) - Lead tester on cutting edge cloud solution to improve
-                provisioning times and provide portability of images across
-                platforms.</taskTech>
-                -->
+                <taskTech>Technical Lead / SDT for Ansible automation and
+                Jenkins Job Builder automation, for QE Continuous Integration
+                processes.</taskTech>
 
-                <taskTech>Core Member of Open Source Projects: OpenCafe,
-                CloudCafe, CloudRoast - Test framework for testing cloud
-                products, especially OpenStack projects.</taskTech>
+                <taskTech> Built High Availability (HA) environments for
+                testing Shared IP subsystem, using Pacemaker with Corosync, and
+                keepalived with HAProxy; plus Ansible.</taskTech>
 
-                <taskTech>Mentored various SDTs within organization - provided
-                1-on-1 time to SDTs in the organization to discuss technical
-                topics, testing strategies and philosophies, and provide
-                guidance to each engineer as they solved problems.</taskTech>
+                <taskTech>Performed troublshooting for OpenStack Compute, Xen,
+                and tap network interfaces.</taskTech>
+
+                <taskTech>Deployed new Jenkins master and slave servers in
+                multiple geographic regions, using Ansible and Jenkins Job
+                Builder.</taskTech>
+
+                <!-- <taskTech> Performed Gap Analyses for QE Networks.</taskTech> -->
+
+                <taskTech>Reviewed Cloud Load Balancer (CLB) performance
+                testing with team.</taskTech>
 
                 <taskTech>Worked with other senior team members to improve
-                testing methodologies for highly improved testing strategies,
-                methodologies, and tools - built a MBT framework to leverage
-                CloudCafe. Goal - improved and easier coverage of functionality
-                while increasing integration test coverage, and use of a
-                'workflow' data model - which more closely models what
-                customers would do when using the product.</taskTech>
+                testing methodologies, strategies, methodologies, and
+                tools.</taskTech>
+
+                <taskTech>Mentored other SDT's within my
+                organization.</taskTech>
+
+                <taskSkills>Skills: Rackspace, OpenStack, OpenCAFE, CloudCAFE,
+                CloudRoast, RaxCAFE, RaxRoast, Amazon Web Services, Microsoft
+                Azure, Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder,
+                Jira, Redmine, GitHub, Gerrit, Slack, IRC/ZNC, Confluence,
+                Vagrant, VirtualBox, Xen, Docker, Python, Ruby, Bash, AWK, Tcl,
+                Expect, YAML, JSON, REST, Pacemaker, Corosync, keepalived,
+                HAProxy, Mac OS X, Ubuntu Linux, RedHat Enterprise Linux,
+                CentOS Linux, FreeBSD.</taskSkills>
 
             </tasks>
         </period>
@@ -373,7 +382,7 @@
                     systems and EMS.</taskTech>
 
 		<taskSkills>Skills: Java, C, Python, Perl, Tcl/Tk, Expect, Enea
-		OSE, Solaris, CentOS. <!-- XML, XSLT, MySQL, Eclipse, JBoss,
+		OSE, Solaris, CentOS.<!-- XML, XSLT, MySQL, Eclipse, JBoss,
 		JUnit4, Ant, Log4j, Cisco IOS, Juniper JunOS, SonicWall
 		firewall, DNS, LACP, OSPF, DHCP. --></taskSkills>
 
@@ -444,7 +453,7 @@
                     Studio.</taskTech>
 
 		<taskSkills>Skills: Java, J2EE, J2SE, Servlets, JSPs, SOAP,
-		WSDL4j, Cognos ReportNet, XML. <!-- XPath, XSL, XSLT, Eclipse,
+		WSDL4j, Cognos ReportNet, XML.<!-- XPath, XSL, XSLT, Eclipse,
 		MyEclipse, JavaScript, DOM4j, DOM, SAX, CSS, DHTML, HTML, HTTP,
 		JAXRPC, JSTL, JUnit, SAAJ, Apache Ant, Apache Axis, Apache
 		Commons Discovery, Apache Commons Logging, Apache Log4j, Apache
@@ -478,7 +487,7 @@
 
 		<taskSkills>Skills: Java, JavaScript, SSH &amp; OpenSSH,
 		LDAPv3, XML, Red Hat Linux, SuSE Linux, JBoss, Lotus Domino
-		&amp; Notes.  <!-- Expect, XSLT, XSL, XSL-FO, SSL &amp;
+		&amp; Notes.<!-- Expect, XSLT, XSL, XSL-FO, SSL &amp;
 		OpenSSL, SMTP, IMAP, J2SE, J2EE, Eclipse, Apache Tomcat, Apache
 		Ant, Apache Log4j, Apache Xalan, Apache Xerces, Apache HTTPD,
 		Saxon, Apache Axis, Apache Cactus, Apache Watchdog, AWT, CSS,
@@ -512,7 +521,7 @@
                     to the unit's identification data. The product is a bi-directional dense
                     wavelength division multiplexor (DWDM) with power loss detection on the primary
                     fiber that can trigger alarm LEDs and relays. Integrated power taps allow
-                    monitoring of incoming and outgoing signals in the primary fiber. </taskTech>
+                    monitoring of incoming and outgoing signals in the primary fiber.</taskTech>
                 <taskSkills>Skills: C</taskSkills>
             </tasks>
         </period>
@@ -587,7 +596,7 @@
                     processor) hardware.</taskTech>
 
 		<taskSkills>Skills: Java, C, Perl, SNMPv1/v2c, VxWorks, Linux,
-		FreeBSD, Solaris. <!-- Expect, Tcl, bison &amp; flex, Microsoft
+		FreeBSD, Solaris.<!-- Expect, Tcl, bison &amp; flex, Microsoft
 		SQL Server, HP OpenView, SNMPinfo SMICng, InterWorking Labs
 		SilverCreek, SimpleSoft SimpleTester, MG-Soft MIB Browser,
 		Ethereal, SNTP, PPP, SLIP, Microsoft Visual SourceSafe,
@@ -629,7 +638,7 @@
                 <taskTech>Advised Network Management development team on Java design topics.</taskTech>
 
 		<taskSkills>Skills: Java, C, H.323, Q.921/LAPD, Q.931/Call
-		Control, RTP, RTCP, VxWorks. <!-- bison, flex; PowerPC 860,
+		Control, RTP, RTCP, VxWorks.<!-- bison, flex; PowerPC 860,
 		TMS320C5xx, SPARC; ISDN, HDLC, UDP, TCP; EST
 		visionICE/visionCLICK, Solaris, Windows/NT; Alcatel IP PCX
 		4400. --></taskSkills>
@@ -668,7 +677,7 @@
                 <!--<taskTech>Java-based telephone simulator that interfaced with the NBX100, to support development prior to availability of telephone set hardware.</taskTech>-->
 
 		<taskSkills>Skills: Java, C/C++, ObjecTime, ROOM (Real-Time
-		Object-Oriented Modeling), Tornado/VxWorks. <!-- IEEE 802.2
+		Object-Oriented Modeling), Tornado/VxWorks.<!-- IEEE 802.2
 		Logical Link Control (LLC), IEEE 802.3 CSMA/CD (Ethernet),
 		TCP/IP, H.323, GNU C++, Microsoft Visual C++. --></taskSkills>
 
@@ -706,7 +715,7 @@
                     and administration groups.</taskTech>
 
 		<taskSkills>Skills: Java, JavaScript, Perl5, Tcl, Expect,
-		C/C++, Solaris, AIX, HP-UX, Oracle.  <!-- [incr Tcl], SunOS,
+		C/C++, Solaris, AIX, HP-UX, Oracle.<!-- [incr Tcl], SunOS,
 		Pyramid, Microsoft Windows 95/NT, IBM OS/2, Apple Mac OS 7;
 		Oracle SQL*Net, TCP/IP, RPC, PPP, CVS; HTTP, HTML, CGI; Apache
 		Web Server, Java Applets, Netscape Servers. --> </taskSkills>
