@@ -11,7 +11,7 @@
 <!ENTITY euro   "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="12 September 2016">
+<resume date="13 September 2016">
 
     <contact_info first="Kevin" middle="L" last="Short">
         <street>18 Sunridge Road</street>
@@ -74,11 +74,11 @@
             <tasks>
                 <taskTerse>taskTerse</taskTerse>
 
-                <taskTech>Embedded with the Cloud Networks Data Plane team and
-                Cloud Networks Control Plane team, to design and implement
-                Quality Engineering subsystems and tests for OpenStack Nova
-                Networks, OpenStack Neutron, OpenStack Quark, and Rackspace
-                SDN.</taskTech>
+                <taskTech>Embedded with the Cloud Networks Data Plane and
+                Control Plane teams, to design and implement Quality
+                Engineering subsystems and tests for OpenStack Nova Networks,
+                Neutron, and Quark, and Rackspace SDN, at the data plane
+                through API levels.</taskTech>
 
                 <taskTech>Active Technical Contributor (ATC) for
                 OpenStack.</taskTech>
@@ -89,27 +89,21 @@
 
                 <taskTech>Remote WFH (work from home) Racker.</taskTech>
 
-                <taskTech>Technical Lead / SDT for Floating IP and Shared IP
-                subsystems: implemented and maintained tests for same,
-                including advanced testing for usage tracking, subsystem
-                functionality, and management API.</taskTech>
+                <taskTech>Lead SDT for Floating IP and Shared IP subsystems:
+                implemented and maintained tests for same, including advanced
+                testing for usage tracking, subsystem functionality, and
+                management API.</taskTech>
 
-                <taskTech>Technical Lead / SDT for Ansible automation and
-                Jenkins Job Builder automation, for QE Continuous Integration
-                processes.</taskTech>
+                <taskTech>Lead SDT for Ansible automation and Jenkins Job
+                Builder automation, for QE Continuous Integration processes
+                across multiple geographic regions.</taskTech>
 
                 <taskTech> Built High Availability (HA) environments for
                 testing Shared IP subsystem, using Pacemaker with Corosync, and
                 keepalived with HAProxy; plus Ansible.</taskTech>
 
-                <taskTech>Performed troublshooting for OpenStack Compute, Xen,
+                <taskTech>Performed troubleshooting for OpenStack Compute, Xen,
                 and tap network interfaces.</taskTech>
-
-                <taskTech>Deployed new Jenkins master and slave servers in
-                multiple geographic regions, using Ansible and Jenkins Job
-                Builder.</taskTech>
-
-                <!-- <taskTech> Performed Gap Analyses for QE Networks.</taskTech> -->
 
                 <taskTech>Reviewed Cloud Load Balancer (CLB) performance
                 testing with team.</taskTech>
@@ -121,14 +115,14 @@
                 <taskTech>Mentored other SDT's within my
                 organization.</taskTech>
 
-                <taskSkills>Skills: Rackspace, OpenStack, OpenCAFE, CloudCAFE,
-                CloudRoast, RaxCAFE, RaxRoast, Amazon Web Services, Microsoft
-                Azure, Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder,
-                Jira, Redmine, GitHub, Gerrit, Slack, IRC/ZNC, Confluence,
-                Vagrant, VirtualBox, Xen, Docker, Python, Ruby, Bash, AWK, Tcl,
-                Expect, YAML, JSON, REST, Pacemaker, Corosync, keepalived,
-                HAProxy, Mac OS X, Ubuntu Linux, RedHat Enterprise Linux,
-                CentOS Linux, FreeBSD.</taskSkills>
+                <taskSkills>Skills: OpenStack and Rackspace API's, OpenCAFE,
+                CloudCAFE, CloudRoast, Amazon Web Services, Microsoft Azure,
+                Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder, Jira,
+                Redmine, GitHub, Gerrit, Slack, IRC/ZNC, Confluence, Vagrant,
+                Virtual Box, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
+                YAML, JSON, REST, Pacemaker, Corosync, keepalived, HAProxy,
+                MySQL, RabbitMQ, Mac OS X, Ubuntu Linux, RedHat Enterprise
+                Linux, CentOS Linux, FreeBSD.</taskSkills>
 
             </tasks>
         </period>
@@ -151,29 +145,29 @@
 		Compliance Software. Built for DevOps teams and their entire
 		infrastructure.</taskTech>
 		
-		<taskTech>Software-Defined firewall: Conjur's Identity-Defined
+		<!-- <taskTech>Software-Defined firewall: Conjur's Identity-Defined
 		perimeter provides strong identity, authorization, and audit
 		for all hosts, services and micro-services running in your
 		infrastructure environment at the API, virtual machine, and
-		container levels.</taskTech>
+		container levels.</taskTech> -->
 
-		<taskTech>SSH Access Management: Centralized SSH host access
+		<!-- <taskTech>SSH Access Management: Centralized SSH host access
 		control enables authentication to hosts with or without sudo
 		privileges with a full audit log and public/private key pairs
-		without copying keys manually among hosts.</taskTech>
+		without copying keys manually among hosts.</taskTech> -->
 
-		<taskTech>General Secrets Management: Protect private keys, API
+		<!-- <taskTech>General Secrets Management: Protect private keys, API
 		keys and tokens, and passwords. Stop checking these secrets
 		into source control or relying on point solution vaults, hidden
-		files and other half-baked solutions.</taskTech>
+		files and other half-baked solutions.</taskTech> -->
 
-		<taskTech> Enterprise Feature Set: Conjur uses modern
+		<!-- <taskTech> Enterprise Feature Set: Conjur uses modern
 		role-based access control to define policies and privileges for
-		users, groups, hosts, and layers (groups of hosts).</taskTech>
+		users, groups, hosts, and layers (groups of hosts).</taskTech> -->
 
 		<taskSkills>Skills: Amazon Web Services, Docker, Cloud Foundry,
 		Microsoft Azure, OpenStack, Chef, Ansible, Puppet, SaltStack,
-		Rundeck, Jenkins, GitHub, Vagrant, Terraform, VirtualBox, Ruby,
+		Rundeck, Jenkins, GitHub, Vagrant, Terraform, Virtual Box, Ruby,
 		Python, Perl, Bash, AWK, Tcl, Expect, Go, Java, C/C++, OpenSSL,
 		OpenSSH, Mac OS X, Ubuntu Linux, RedHat Enterprise Linux,
 		CentOS Linux.</taskSkills>
@@ -750,18 +744,19 @@
             </assignment>
             <tasks>
                 <taskTerse>HP OpenView for SunOS &amp; HP-UX, IBM NetView for AIX.</taskTerse>
-                <taskTech>Ported GDC network management applications from HP OpenView/SunOS to HP
+                <taskTech>Project: HP OpenView for SunOS &amp; HP-UX, IBM NetView for AIX.</taskTech>
+                <!-- <taskTech>Ported GDC network management applications from HP OpenView/SunOS to HP
                     OpenView/HP-UX and IBM NetView for AIX. This required knowledge of BSD &amp;
                     SVR4 UNIX variants, multi-platform software development environments, SNMP, C++,
-                    X11 window managers, and system &amp; network administration.</taskTech>
-                <taskTech>Tool for importing cross-product databases that enabled legacy
-                    systems to be managed by GDC's Megaview Network Management System.</taskTech>
-                <taskTech>Created an extensible scripting language interface that enabled
+                    X11 window managers, and system &amp; network administration.</taskTech> -->
+                <!-- <taskTech>Tool for importing cross-product databases that enabled legacy
+                    systems to be managed by GDC's Megaview Network Management System.</taskTech> -->
+                <!-- <taskTech>Created an extensible scripting language interface that enabled
                     integration of third party network management protocols into GDC's Integrated
                     Network Management Systems. This interface eliminated the need for Engineering
                     to rebuild and redistribute system binaries to accommodate new protocols and
-                    reduced the frequency of software update releases.</taskTech>
-                <taskTech>Peer-to-peer network alarm-reporting interface for INMS.</taskTech>
+                    reduced the frequency of software update releases.</taskTech> -->
+                <!-- <taskTech>Peer-to-peer network alarm-reporting interface for INMS.</taskTech> -->
                 <taskSkills>Skills: C, C++, Perl5, Tcl, Expect; SunOS, AIX, HP-UX, Solaris; SNMP,
                     TCP/IP, RPC, XView, CVS, Informix.</taskSkills>
             </tasks>
@@ -777,13 +772,13 @@
             </assignment>
             <tasks>
                 <taskTerse>Network Element Management System (EMS).</taskTerse>
-                <taskTech>Element Management &amp; Control Systems.</taskTech>
-                <taskTech>Ported a real-time control system from PL/M to C for the SunOS Sun386I and
-                    SPARC platforms.</taskTech>
-                <taskTech>VT100 and IBM 3164 terminal emulators for SunView and X11.</taskTech>
-                <taskTech>Network Terminal Server interface over BSD sockets.</taskTech>
-                <taskTech>Redundancy and fail-over systems for complex wide area networks.</taskTech>
-                <taskTech>GUI for drag &amp; drop port configuration and management.</taskTech>
+                <taskTech>Project: Network Element Management &amp; Control Systems.</taskTech>
+                <!-- <taskTech>Ported a real-time control system from PL/M to C for the SunOS Sun386I and
+                    SPARC platforms.</taskTech> -->
+                <!-- <taskTech>VT100 and IBM 3164 terminal emulators for SunView and X11.</taskTech> -->
+                <!-- <taskTech>Network Terminal Server interface over BSD sockets.</taskTech> -->
+                <!-- <taskTech>Redundancy and fail-over systems for complex wide area networks.</taskTech> -->
+                <!-- <taskTech>GUI for drag &amp; drop port configuration and management.</taskTech> -->
                 <taskSkills>Skills: C, PL/M, Perl4, Tcl, Expect; SunOS; TCP/IP, RPC, NFS, NIS,
                     Automounter, X11, XView.</taskSkills>
             </tasks>
@@ -800,14 +795,14 @@
                 <taskTerse>Servo Controller for a 12-axis Robotics System.</taskTerse>
                 <taskTech>Project: Servo Controller for a 12-Axis Robotics System; this was a "hard"
                     real-time system.</taskTech>
-                <taskTech>Software architecture for the robotics system, a network of
+                <!-- <taskTech>Software architecture for the robotics system, a network of
                     INMOS Transputers, with parallel processing and coordination for a 12-axis servo
-                    controller.</taskTech>
-                <taskTech>Network layer stack for distributing files and messages
-                    between Transputer nodes.</taskTech>
-                <taskTech>Low level programming, command &amp; data upload/download
+                    controller.</taskTech> -->
+                <!-- <taskTech>Network layer stack for distributing files and messages
+                    between Transputer nodes.</taskTech> -->
+                <!-- <taskTech>Low level programming, command &amp; data upload/download
                     interface between host programming system and real-time robotics system.
-                    GUI to control and monitor robotics system.</taskTech>
+                    GUI to control and monitor robotics system.</taskTech> -->
                 <taskSkills>Skills: C, assembler, INMOS Transputer; AIX RS/6000, DOS, OS/2; TCP/IP,
                     NFS, X11, VM/CMS.</taskSkills>
             </tasks>
@@ -837,8 +832,8 @@
             </assignment>
             <tasks>
                 <taskTerse>Integrated Network Management System.</taskTerse>
-                <taskTech>Integrated Network Management System: AT&amp;T Accumaster Protocol interface for INMS.</taskTech>
-                <taskTech>NetView/PC Alarm Reporting Interface for IBM SNA and multiplexor control system.</taskTech>
+                <taskTech>Project: Integrated Network Management System: AT&amp;T Accumaster Protocol interface for INMS.</taskTech>
+                <taskTech>Project: NetView/PC Alarm Reporting Interface for IBM SNA and multiplexor control system.</taskTech>
                 <taskSkills>Skills: C, assembler; SCO XENIX &amp; device drivers; IBM
                     NetView/PC; IBM SNA protocols; Informix.</taskSkills>
             </tasks>
@@ -857,7 +852,7 @@
                     Robotic Fine Positioning Device.
                     Distributed Robotics Communications.
                     Digital Signal Processor Interface for Robotics.</taskTech>
-                <taskTech>All embedded software for these devices.</taskTech>
+                <!-- <taskTech>All embedded software for these devices.</taskTech> -->
                 <taskSkills>Skills: C, assembler; Masscomp RTU &amp; device drivers; VMEbus,
                     Multibus, PC/AT bus.</taskSkills>
             </tasks>
@@ -874,7 +869,7 @@
             <tasks>
                 <taskTerse>Point-Of-Sale System.</taskTerse>
                 <taskTech>Project: Point-Of-Sale System for Auto Parts Dealers.</taskTech>
-                <taskTech>Migrated from NCR UNIX to SCO XENIX.</taskTech>
+                <!-- <taskTech>Migrated from NCR UNIX to SCO XENIX.</taskTech> -->
                 <taskSkills>Skills: C, assembler; NCR UNIX; SCO XENIX; Motorola 68000; Intel
                 80286.</taskSkills>
             </tasks>
@@ -890,8 +885,8 @@
             <tasks>
                 <taskTerse>Manifest Mailing System.</taskTerse>
                 <taskTech>Project: Manifest Mailing System.</taskTech>
-                <taskTech>Prototype system for recharging postage meters using EFT and
-                    DES hardware.</taskTech>
+                <!-- <taskTech>Prototype system for recharging postage meters using EFT and
+                    DES hardware.</taskTech> -->
                 <taskSkills>Skills: C, assembler, FORTRAN; SCO XENIX; MS-DOS; DES encryption
                     devices.</taskSkills>
             </tasks>
@@ -907,9 +902,9 @@
             <tasks>
                 <taskTerse>General Purpose Automation Controller (robotics).</taskTerse>
                 <taskTech>Project: General Purpose Automation Controller &amp; Programming System.</taskTech>
-                <taskTech>
+                <!-- <taskTech>
                     Download/debug module for embedded system.
-                    Scheduler/dispatcher/messaging for real-time &amp; programming systems.</taskTech>
+                    Scheduler/dispatcher/messaging for real-time &amp; programming systems.</taskTech> -->
                 <taskSkills>Skills: C, assembler; Masscomp RTU &amp; device drivers; Motorola 68020; Multibus, RCS, VM/CMS.</taskSkills>
             </tasks>
         </period>
