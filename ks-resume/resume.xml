@@ -1,121 +1,103 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE xsl:stylesheet  [
-<!ENTITY nbsp   "&#160;">
-<!ENTITY copy   "&#169;">
-<!ENTITY reg    "&#174;">
-<!ENTITY trade  "&#8482;">
-<!ENTITY mdash  "&#8212;">
-<!ENTITY ldquo  "&#8220;">
-<!ENTITY rdquo  "&#8221;">
-<!ENTITY pound  "&#163;">
-<!ENTITY euro   "&#8364;">
+<!DOCTYPE xsl:stylesheet [
+<!ENTITY nbsp "&#160;">
+<!ENTITY copy "&#169;">
+<!ENTITY reg "&#174;">
+<!ENTITY trade "&#8482;">
+<!ENTITY mdash "&#8212;">
+<!ENTITY ldquo "&#8220;">
+<!ENTITY rdquo "&#8221;">
+<!ENTITY pound "&#163;">
+<!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="13 September 2016">
-
-    <contact_info first="Kevin" middle="L" last="Short">
-        <street>18 Sunridge Road</street>
-        <city>Windham</city>
-        <state>NH</state>
-        <zip>03087</zip>
-        <cell>(603) 785-7165</cell>
-        <email>kevinshortnh@gmail.com</email>
-        <website>http://www.oxmicro.com/</website>
-        <image url="http://www.oxmicro.com/ks-resume/images/JavCertDev4c_ks_64x64.jpg"/>
-    </contact_info>
-
-    <objectives>
-        <objectiveTech>Seeking a hands-on DevOps or Software Development position in a senior, principal, leadership, or architecture role.</objectiveTech>
-        <objectiveAll>
+<resume date="28 November 2016">
+  <contact_info first="Kevin" middle="L" last="Short">
+    <street>18 Sunridge Road</street>
+    <city>Windham</city>
+    <state>NH</state>
+    <zip>03087</zip>
+    <cell>(603) 785-7165</cell>
+    <email>kevinshortnh@gmail.com</email>
+    <website>http://www.oxmicro.com/</website>
+    <!-- <image url="http://www.oxmicro.com/ks-resume/images/JavCertDev4c_ks_64x64.jpg"/> -->
+  </contact_info>
+  <objectives>
+    <objectiveTech>Seeking a hands-on DevOps or Software Development position in a senior, principal, leadership, or architecture role.</objectiveTech>
+    <objectiveAll>
             Proven track record of building highly reliable, robust software systems.
             Brought start-up and early stage projects to successful, timely completion.
             Defined software, automation, and operational architectures, software engineering processes, built engineering teams and labs, performed initial hardware/software bring-up.</objectiveAll>
-    </objectives>
-
-    <highlights>
-        <highlight>Cloud Computing</highlight>
-        <highlight>DevOps</highlight>
-        <highlight>Automation</highlight>
-        <highlight>Full Stack</highlight>
-        <highlight>Embedded Systems</highlight>
-        <highlight>Real-Time Systems</highlight>
-        <highlight>SNMP</highlight>
-        <highlight>Network Management Systems</highlight>
-        <highlight>Java Technologies</highlight>
-        <highlight>Object-Oriented Design &amp; Analysis</highlight>
-        <highlight>Voice over IP</highlight>
-        <highlight>Optical Networking</highlight>
-        <highlight>Robotics</highlight>
-        <highlight>XML Technologies</highlight>
-    </highlights>
-
-    <overview>
-        <overview_item>Internet scale deployment, operation, and monitoring, for Cloud and physical servers.</overview_item>
-        <overview_item>DevOps and Automation of software development : Continuous Delivery, Integration, Deployment, and Improvement.</overview_item>
-        <overview_item>Full Stack developer, experienced in Agile, Iterative, and Waterfall software development processes.</overview_item>
-        <overview_item>Expert level: C, C++, Java, Ruby, Python, Perl, Tcl/Tk, Expect, Bash, and AWK.</overview_item>
-        <overview_item>Expert level: Linux (Ubuntu, Debian, CentOS, RedHat), BSD (Mac OS X, FreeBSD, NetBSD, OpenBSD), and System V UNIX (Solaris, AIX, HP-UX).</overview_item>
-        <overview_item>High-performance, concurrent, multi-threaded, "hard" real-time and embedded systems.</overview_item>
-        <overview_item>Network programming and network management systems.</overview_item>
-        <overview_item>Excellent debugging and troubleshooting skills.</overview_item>
-        <overview_item>Excellent communication skills and technical leadership experience.</overview_item>
-        <overview_item>Over 35 year's commercial software development experience. BA in Computer Science.</overview_item>
-    </overview>
-
-    <experience>
-
-        <period start_month="11" start_year="2015">
-            <assignment>
-                <institution>Rackspace USA, Inc.</institution>
-                <url>http://www.rackspace.com/</url>
-                <location>San Antonio, TX</location>
-                <position title="Software Developer in Test (SDT IV)"/>
-            </assignment>
-            <tasks>
-                <taskTerse>taskTerse</taskTerse>
-
-                <taskTech>Embedded with the Cloud Networks Data Plane and
+  </objectives>
+  <highlights>
+    <highlight>Cloud Computing</highlight>
+    <highlight>DevOps</highlight>
+    <highlight>Automation</highlight>
+    <highlight>Full Stack</highlight>
+    <highlight>Embedded Systems</highlight>
+    <highlight>Real-Time Systems</highlight>
+    <highlight>SNMP</highlight>
+    <highlight>Network Management Systems</highlight>
+    <highlight>Java Technologies</highlight>
+    <highlight>Object-Oriented Design &amp; Analysis</highlight>
+    <highlight>Voice over IP</highlight>
+    <highlight>Optical Networking</highlight>
+    <highlight>Robotics</highlight>
+    <highlight>XML Technologies</highlight>
+  </highlights>
+  <overview>
+    <overview_item>Internet scale deployment, operation, and monitoring, for Cloud and physical servers.</overview_item>
+    <overview_item>DevOps and Automation of software development : Continuous Delivery, Integration, Deployment, and Improvement.</overview_item>
+    <overview_item>Full Stack developer, experienced in Agile, Iterative, and Waterfall software development processes.</overview_item>
+    <overview_item>Expert level: C, C++, Java, Ruby, Python, Perl, Tcl/Tk, Expect, Bash, and AWK.</overview_item>
+    <overview_item>Expert level: Linux (Ubuntu, Debian, CentOS, RedHat), BSD (Mac OS X, FreeBSD, NetBSD, OpenBSD), and System V UNIX (Solaris, AIX, HP-UX).</overview_item>
+    <overview_item>High-performance, concurrent, multi-threaded, "hard" real-time and embedded systems.</overview_item>
+    <overview_item>Network programming and network management systems.</overview_item>
+    <overview_item>Excellent debugging and troubleshooting skills.</overview_item>
+    <overview_item>Excellent communication skills and technical leadership experience.</overview_item>
+    <overview_item>Over 35 year's commercial software development experience. BA in Computer Science.</overview_item>
+  </overview>
+  <experience>
+    <period start_month="11" start_year="2015">
+      <assignment>
+        <institution>Rackspace US, Inc.</institution>
+        <url>http://www.rackspace.com/</url>
+        <location>San Antonio, TX</location>
+        <position title="Software Developer in Test (SDT IV)"/>
+      </assignment>
+      <tasks>
+        <taskTerse>taskTerse</taskTerse>
+        <taskTech>Embedded with the Cloud Networks Data Plane and
                 Control Plane teams, to design and implement Quality
                 Engineering subsystems and tests for OpenStack Nova Networks,
                 Neutron, and Quark, and Rackspace SDN, at the data plane
                 through API levels.</taskTech>
-
-                <taskTech>Active Technical Contributor (ATC) for
+        <taskTech>Active Technical Contributor (ATC) for
                 OpenStack.</taskTech>
-
-                <taskTech>Core member of Open Source projects: OpenCAFE,
+        <taskTech>Core member of Open Source projects: OpenCAFE,
                 CloudCAFE, and CloudRoast (Python) test frameworks for testing
                 cloud products, including OpenStack.</taskTech>
-
-                <taskTech>Remote WFH (work from home) Racker.</taskTech>
-
-                <taskTech>Lead SDT for Floating IP and Shared IP subsystems:
+        <taskTech>Remote WFH (work from home) Racker.</taskTech>
+        <taskTech>Lead SDT for Floating IP and Shared IP subsystems:
                 implemented and maintained tests for same, including advanced
                 testing for usage tracking, subsystem functionality, and
                 management API.</taskTech>
-
-                <taskTech>Lead SDT for Ansible automation and Jenkins Job
+        <taskTech>Lead SDT for Ansible automation and Jenkins Job
                 Builder automation, for QE Continuous Integration processes
                 across multiple geographic regions.</taskTech>
-
-                <taskTech> Built High Availability (HA) environments for
+        <taskTech> Built High Availability (HA) environments for
                 testing Shared IP subsystem, using Pacemaker with Corosync, and
                 keepalived with HAProxy; plus Ansible.</taskTech>
-
-                <taskTech>Performed troubleshooting for OpenStack Compute, Xen,
+        <taskTech>Performed troubleshooting for OpenStack Compute, Xen,
                 and tap network interfaces.</taskTech>
-
-                <taskTech>Reviewed Cloud Load Balancer (CLB) performance
+        <taskTech>Reviewed Cloud Load Balancer (CLB) performance
                 testing with team.</taskTech>
-
-                <taskTech>Worked with other senior team members to improve
+        <taskTech>Worked with other senior team members to improve
                 testing methodologies, strategies, methodologies, and
                 tools.</taskTech>
-
-                <taskTech>Mentored other SDT's within my
+        <taskTech>Mentored other SDT's within my
                 organization.</taskTech>
-
-                <taskSkills>Skills: OpenStack and Rackspace API's, OpenCAFE,
+        <taskSkills>Skills: OpenStack and Rackspace API's, OpenCAFE,
                 CloudCAFE, CloudRoast, Amazon Web Services, Microsoft Azure,
                 Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder, Jira,
                 Redmine, GitHub, Gerrit, Slack, IRC/ZNC, Confluence, Vagrant,
@@ -123,212 +105,193 @@
                 YAML, JSON, REST, Pacemaker, Corosync, keepalived, HAProxy,
                 MySQL, RabbitMQ, Mac OS X, Ubuntu Linux, RedHat Enterprise
                 Linux, CentOS Linux, FreeBSD.</taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="8" start_year="2015" end_month="9" end_year="2015">
-            <assignment>
-                <institution>Conjur, Inc.</institution>
-                <url>http://www.conjur.net/</url>
-                <location>Waltham, MA</location>
-                <position title="DevOps Enchanter / Senior Software Engineer"/>
-            </assignment>
-            <tasks>
-                <taskTerse>taskTerse</taskTerse>
-
-		<taskTech>Building security orchestration software to manage,
+      </tasks>
+    </period>
+    <period start_month="8" start_year="2015" end_month="9" end_year="2015">
+      <assignment>
+        <institution>Conjur, Inc.</institution>
+        <url>http://www.conjur.net/</url>
+        <location>Waltham, MA</location>
+        <position title="DevOps Enchanter / Senior Software Engineer"/>
+      </assignment>
+      <tasks>
+        <taskTerse>taskTerse</taskTerse>
+        <taskTech>Building security orchestration software to manage,
 		enforce and audit infrastructure applications with modern IT
 		systems.</taskTech>
-
-		<taskTech>Cloud-Native Directory, Authorization, Audit, and
+        <taskTech>Cloud-Native Directory, Authorization, Audit, and
 		Compliance Software. Built for DevOps teams and their entire
 		infrastructure.</taskTech>
-		
-		<!-- <taskTech>Software-Defined firewall: Conjur's Identity-Defined
+        <!-- <taskTech>Software-Defined firewall: Conjur's Identity-Defined
 		perimeter provides strong identity, authorization, and audit
 		for all hosts, services and micro-services running in your
 		infrastructure environment at the API, virtual machine, and
 		container levels.</taskTech> -->
-
-		<!-- <taskTech>SSH Access Management: Centralized SSH host access
+        <!-- <taskTech>SSH Access Management: Centralized SSH host access
 		control enables authentication to hosts with or without sudo
 		privileges with a full audit log and public/private key pairs
 		without copying keys manually among hosts.</taskTech> -->
-
-		<!-- <taskTech>General Secrets Management: Protect private keys, API
+        <!-- <taskTech>General Secrets Management: Protect private keys, API
 		keys and tokens, and passwords. Stop checking these secrets
 		into source control or relying on point solution vaults, hidden
 		files and other half-baked solutions.</taskTech> -->
-
-		<!-- <taskTech> Enterprise Feature Set: Conjur uses modern
+        <!-- <taskTech> Enterprise Feature Set: Conjur uses modern
 		role-based access control to define policies and privileges for
 		users, groups, hosts, and layers (groups of hosts).</taskTech> -->
-
-		<taskSkills>Skills: Amazon Web Services, Docker, Cloud Foundry,
+        <taskSkills>Skills: Amazon Web Services, Docker, Cloud Foundry,
 		Microsoft Azure, OpenStack, Chef, Ansible, Puppet, SaltStack,
 		Rundeck, Jenkins, GitHub, Vagrant, Terraform, Virtual Box, Ruby,
 		Python, Perl, Bash, AWK, Tcl, Expect, Go, Java, C/C++, OpenSSL,
 		OpenSSH, Mac OS X, Ubuntu Linux, RedHat Enterprise Linux,
 		CentOS Linux.</taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="11" start_year="2014" end_month="7" end_year="2015">
-            <assignment>
-                <institution>Dyn (Dynamic Network Services, Inc.)</institution>
-                <url>http://www.dyn.com/</url>
-                <location>Manchester, NH</location>
-                <position title="Principal Automation Engineer"/>
-            </assignment>
-            <tasks>
-                <taskTerse>taskTerse</taskTerse>
-                <taskTech>Evolving a DevOps culture, breaking down silos between Development, Operations, and separate DevOps teams.</taskTech>
-                <taskTech>Defining the engineering and operations road maps for Automation and related development and infrastructure projects.</taskTech>
-                <taskTech>Instituting processes of Continuous Delivery, Integration, Deployment, and Improvement.</taskTech>
-                <taskTech>Architecture and system design for Automation and infrastructure-as-code for Development, Integration, Staging, and Production.</taskTech>
-                <taskTech>Self-service provisioning for bare metal, virtual machines, and containers, in a hybrid cloud of data centers and AWS EC2.</taskTech>
-                <taskTech>Metal as a Service bare metal automated provisioning solutions, deploying hundreds of servers across multiple sites.</taskTech>
-                <taskSkills>Skills: AWS, EC2, Chef, Ansible, Rundeck, KVM, Docker, Vagrant, Terraform, OpenStack, Ruby, Python, Perl, Bash, AWK, Go, Java, C/C++, Makefiles, Cobbler, Jenkins, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, CentOS, FreeBSD.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="4" start_year="2014" end_month="11" end_year="2014">
-            <assignment>
-                <institution>Dyn</institution>
-                <url>http://www.dyn.com/</url>
-                <location>Manchester, NH</location>
-                <position title="Manager, Automation Engineering"/>
-            </assignment>
-            <tasks>
-                <taskTerse>taskTerse</taskTerse>
-                <taskTech>Managed rapid growth within Engineering, growing from 20 to 100 members over an 18-month period.</taskTech>
-                <taskTech>Hands-on position, working side-by-side with colleagues on implementing automation.</taskTech>
-                <taskTech>Served multiple roles: manager, as scrum master, and technical owner for multiple Agile squads.</taskTech>
-                <taskSkills>Skills: Chef, Docker, Rundeck, Ansible, KVM, Ruby, Python, Perl, Bash, AWK, Go, Java, C/C++, Makefiles, Cobbler, Jenkins, Makefiles, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, FreeBSD.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="10" start_year="2013" end_month="4" end_year="2014">
-            <assignment>
-                <institution>Dyn</institution>
-                <url>http://www.dyn.com/</url>
-                <location>Manchester, NH</location>
-                <position title="Manager, Platform Engineering"/>
-            </assignment>
-            <tasks>
-                <taskTerse>taskTerse</taskTerse>
-                <taskTech>Managed development, testing, fully automated deployment and monitoring of DNS services to new <link url="http://dyn.com/blog/dyn-launches-new-network-in-china/">China Network</link>.</taskTech>
-                <taskTech>Manager in a matrix organization, scrum master, and technical owner for an Agile squad.</taskTech>
-                <taskTech>Lead design of Development, Integration, Staging, and Production environments.</taskTech>
-                <taskTech>Lead design of Continuous Integration pipeline and Automated Testing framework.</taskTech>
-                <taskTech>Built local and mirrored Ubuntu repositories.</taskTech>
-            </tasks>
-        </period>
-
-        <period start_month="2" start_year="2013" end_month="10" end_year="2013">
-            <assignment>
-                <institution>Dyn</institution>
-                <url>http://www.dyn.com/</url>
-                <location>Manchester, NH</location>
-                <position title="DevOps &amp; Tools Engineer"/>
-            </assignment>
-            <tasks>
-                <taskTerse>taskTerse</taskTerse>
-                <taskTech>Built Dyn's first automated application deployment using Chef, and package delivery using Debian (.deb) packaging.</taskTech>
-                <taskTech>Debian packaging for C++, Java, Go, Python, Perl, and Node.js applications.</taskTech>
-                <taskTech>Chef installers for Cassandra and MySQL databases,  and Dyn traffic management (DNS) applications.</taskTech>
-                <taskSkills>Skills: Chef, Berkshelf, Vagrant, Debian pbuilder, Makefiles, VirtualBox, VMware ESXi/vCenter, Cassandra, MySQL, Ubuntu.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="11" start_year="2011" end_month="12" end_year="2012">
-            <assignment>
-                <institution>Coyote Point Systems</institution>
-                <url>http://www.coyotepoint.com/</url>
-                <location>Millerton, NY</location>
-                <position title="Senior Software Engineer"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Application Delivery Controllers.</taskTerse>
-                <taskTech>Application Delivery Controllers: Network load
+      </tasks>
+    </period>
+    <period start_month="11" start_year="2014" end_month="7" end_year="2015">
+      <assignment>
+        <institution>Dyn (Dynamic Network Services, Inc.)</institution>
+        <url>http://www.dyn.com/</url>
+        <location>Manchester, NH</location>
+        <position title="Principal Automation Engineer"/>
+      </assignment>
+      <tasks>
+        <taskTerse>taskTerse</taskTerse>
+        <taskTech>Evolving a DevOps culture, breaking down silos between Development, Operations, and separate DevOps teams.</taskTech>
+        <taskTech>Defining the engineering and operations road maps for Automation and related development and infrastructure projects.</taskTech>
+        <taskTech>Instituting processes of Continuous Delivery, Integration, Deployment, and Improvement.</taskTech>
+        <taskTech>Architecture and system design for Automation and infrastructure-as-code for Development, Integration, Staging, and Production.</taskTech>
+        <taskTech>Self-service provisioning for bare metal, virtual machines, and containers, in a hybrid cloud of data centers and AWS EC2.</taskTech>
+        <taskTech>Metal as a Service bare metal automated provisioning solutions, deploying hundreds of servers across multiple sites.</taskTech>
+        <taskSkills>Skills: AWS, EC2, Chef, Ansible, Rundeck, KVM, Docker, Vagrant, Terraform, OpenStack, Ruby, Python, Perl, Bash, AWK, Go, Java, C/C++, Makefiles, Cobbler, Jenkins, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, CentOS, FreeBSD.</taskSkills>
+      </tasks>
+    </period>
+    <period start_month="4" start_year="2014" end_month="11" end_year="2014">
+      <assignment>
+        <institution>Dyn</institution>
+        <url>http://www.dyn.com/</url>
+        <location>Manchester, NH</location>
+        <position title="Manager, Automation Engineering"/>
+      </assignment>
+      <tasks>
+        <taskTerse>taskTerse</taskTerse>
+        <taskTech>Managed rapid growth within Engineering, growing from 20 to 100 members over an 18-month period.</taskTech>
+        <taskTech>Hands-on position, working side-by-side with colleagues on implementing automation.</taskTech>
+        <taskTech>Served multiple roles: manager, as scrum master, and technical owner for multiple Agile squads.</taskTech>
+        <taskSkills>Skills: Chef, Docker, Rundeck, Ansible, KVM, Ruby, Python, Perl, Bash, AWK, Go, Java, C/C++, Makefiles, Cobbler, Jenkins, Makefiles, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, FreeBSD.</taskSkills>
+      </tasks>
+    </period>
+    <period start_month="10" start_year="2013" end_month="4" end_year="2014">
+      <assignment>
+        <institution>Dyn</institution>
+        <url>http://www.dyn.com/</url>
+        <location>Manchester, NH</location>
+        <position title="Manager, Platform Engineering"/>
+      </assignment>
+      <tasks>
+        <taskTerse>taskTerse</taskTerse>
+        <taskTech>Managed development, testing, fully automated deployment and monitoring of DNS services to new <link url="http://dyn.com/blog/dyn-launches-new-network-in-china/">China Network</link>.</taskTech>
+        <taskTech>Manager in a matrix organization, scrum master, and technical owner for an Agile squad.</taskTech>
+        <taskTech>Lead design of Development, Integration, Staging, and Production environments.</taskTech>
+        <taskTech>Lead design of Continuous Integration pipeline and Automated Testing framework.</taskTech>
+        <taskTech>Built local and mirrored Ubuntu repositories.</taskTech>
+      </tasks>
+    </period>
+    <period start_month="2" start_year="2013" end_month="10" end_year="2013">
+      <assignment>
+        <institution>Dyn</institution>
+        <url>http://www.dyn.com/</url>
+        <location>Manchester, NH</location>
+        <position title="DevOps &amp; Tools Engineer"/>
+      </assignment>
+      <tasks>
+        <taskTerse>taskTerse</taskTerse>
+        <taskTech>Built Dyn's first automated application deployment using Chef, and package delivery using Debian (.deb) packaging.</taskTech>
+        <taskTech>Debian packaging for C++, Java, Go, Python, Perl, and Node.js applications.</taskTech>
+        <taskTech>Chef installers for Cassandra and MySQL databases,  and Dyn traffic management (DNS) applications.</taskTech>
+        <taskSkills>Skills: Chef, Berkshelf, Vagrant, Debian pbuilder, Makefiles, VirtualBox, VMware ESXi/vCenter, Cassandra, MySQL, Ubuntu.</taskSkills>
+      </tasks>
+    </period>
+    <period start_month="11" start_year="2011" end_month="12" end_year="2012">
+      <assignment>
+        <institution>Coyote Point Systems</institution>
+        <url>http://www.coyotepoint.com/</url>
+        <location>Millerton, NY</location>
+        <position title="Senior Software Engineer"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Application Delivery Controllers.</taskTerse>
+        <taskTech>Application Delivery Controllers: Network load
                     balancing and global server load balancing products, on physical and virtual
                     systems.</taskTech>
-                <taskTech>Responsible for: L3 (ICMP), L4 (TCP/UDP), L7 (active content verification)
+        <taskTech>Responsible for: L3 (ICMP), L4 (TCP/UDP), L7 (active content verification)
                     monitoring, and server load balancing subsystems.</taskTech>
-                <taskTech>New feature design and development included: health checking and load
+        <taskTech>New feature design and development included: health checking and load
                     balancing features that interacted with server side agents, VMware ESXi
                     hypervisor, and SNMP agents.</taskTech>
-                <taskTech>Shared responsibility for: disaster recovery and failover: active/passive,
+        <taskTech>Shared responsibility for: disaster recovery and failover: active/passive,
                     active/active, and N+1 configurations; and configuration management.</taskTech>
-                <taskTech>Built the NetBSD-based products using cross-compilation on Mac OS X.</taskTech>
-                <taskSkills>Skills: C, assembler, Tcl, Python, Perl; NetBSD, Mac OS X, FreeBSD,
+        <taskTech>Built the NetBSD-based products using cross-compilation on Mac OS X.</taskTech>
+        <taskSkills>Skills: C, assembler, Tcl, Python, Perl; NetBSD, Mac OS X, FreeBSD,
                     Linux; VMware ESXi, vSphere, and Fusion; Net-SNMP, OpenSSL, pfSense, DNS,
                     Doxygen, Eclipse, Perforce, Bugzilla, Intel x86.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="9" start_year="2011" end_month="11" end_year="2011">
-            <assignment>
-                <institution>Proliphix</institution>
-                <url>http://www.proliphix.com/</url>
-                <location>Westford, MA</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Internet-managed energy control.</taskTerse>
-                <taskTech>Internet-managed energy control system (IP
+      </tasks>
+    </period>
+    <period start_month="9" start_year="2011" end_month="11" end_year="2011">
+      <assignment>
+        <institution>Proliphix</institution>
+        <url>http://www.proliphix.com/</url>
+        <location>Westford, MA</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Internet-managed energy control.</taskTerse>
+        <taskTech>Internet-managed energy control system (IP
                     thermostat, HVAC, and building control), running embedded Linux and embedded
                     Java on ARM processors.</taskTech>
-                <taskTech>Responsible for updating entire platform: energy control application and
+        <taskTech>Responsible for updating entire platform: energy control application and
                     features, Linux kernel, driver development, embedded database, RFS, U-boot, and
                     boot ROM.</taskTech>
-                <taskSkills>Skills: Java, C, assembler, Perl; Timesys Linux; Eclipse, Jira,
+        <taskSkills>Skills: Java, C, assembler, Perl; Timesys Linux; Eclipse, Jira,
                     Mercurial, CruiseControl, Atmel ARM.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="4" start_year="2011" end_month="9" end_year="2011">
-            <assignment>
-                <institution>Lantiq Broadband HoldCo Inc.</institution>
-                <url>http://www.lantiq.com/</url>
-                <location>Bedford, MA</location>
-                <position title="Principal Software Engineer"/>
-            </assignment>
-            <tasks>
-                <taskTerse>System-on-Chip (SoC) for G.HN Home Networking design.</taskTerse>
-                <taskTech>System-on-Chip (SoC) software for a G.HN Home Networking
+      </tasks>
+    </period>
+    <period start_month="4" start_year="2011" end_month="9" end_year="2011">
+      <assignment>
+        <institution>Lantiq Broadband HoldCo Inc.</institution>
+        <url>http://www.lantiq.com/</url>
+        <location>Bedford, MA</location>
+        <position title="Principal Software Engineer"/>
+      </assignment>
+      <tasks>
+        <taskTerse>System-on-Chip (SoC) for G.HN Home Networking design.</taskTerse>
+        <taskTech>System-on-Chip (SoC) software for a G.HN Home Networking
                     protocol engine, running embedded Linux and ThreadX RTOS on MIPS virtual
                     processing engines.</taskTech>
-                <taskTech>Responsible for Linux kernel porting (2.6.32); driver development; U-boot;
+        <taskTech>Responsible for Linux kernel porting (2.6.32); driver development; U-boot;
                     and boot ROM.</taskTech>
-                <taskTech>Stabilized the board support package (BSP) software development team by:
+        <taskTech>Stabilized the board support package (BSP) software development team by:
                     establishing source code management disciplines; standardizing software release
                     procedures; preparing and tracking software schedules; coordinating efforts with
                     multiple sites; implementing defect and project milestone tracking; and
                     implementing a continuous integration environment.</taskTech>
-                <taskSkills>Skills: C, C++, assembler, Tcl/Tk, Expect, ThreadX, Eclipse, Jira,
-                    Mercurial, CruiseControl, MIPS34Kc.<!-- Lauterbach Trace32. --></taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="1" start_year="2011" end_month="4" end_year="2011">
-            <assignment>
-                <institution>Constitution Medical, Inc.</institution>
-                <url>http://www.bloodhoundcbc.com/</url>
-                <location>Boston, MA</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Integrated Hematology Instrument.</taskTerse>
-                <taskTech>User interface components in Java for an integrated hematology
+        <taskSkills>Skills: C, C++, assembler, Tcl/Tk, Expect, ThreadX, Eclipse, Jira,
+                    Mercurial, CruiseControl, MIPS34Kc.</taskSkills>
+      </tasks>
+    </period>
+    <period start_month="1" start_year="2011" end_month="4" end_year="2011">
+      <assignment>
+        <institution>Constitution Medical, Inc.</institution>
+        <url>http://www.bloodhoundcbc.com/</url>
+        <location>Boston, MA</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Integrated Hematology Instrument.</taskTerse>
+        <taskTech>User interface components in Java for an integrated hematology
                     instrument.</taskTech>
-                <taskSkills>Skills: Java, Eclipse, Jira, FogBugz, Mercurial.</taskSkills>
-            </tasks>
-        </period>
-
-        <!--<period start_month="1" start_year="2011">
+        <taskSkills>Skills: Java, Eclipse, Jira, FogBugz, Mercurial.</taskSkills>
+      </tasks>
+    </period>
+    <!-- <period start_month="1" start_year="2011">
             <assignment>
                 <institution>GENBAND</institution>
                 <url>http://www.genband.com/</url>
@@ -341,145 +304,135 @@
                     software development lab, to GENBAND's facilities in Billerica, MA, Ottawa, and
                     Raleigh, NC, following GENBAND's acquisition of Cedar Point.</taskTech>
             </tasks>
-        </period>-->
-
-        <period start_month="4" start_year="2005" end_month="4" end_year="2011">
-            <assignment>
-                <institution>Cedar Point Communications, Inc.</institution>
-                <url>http://www.genband.com/</url>
-                <location>Derry, NH</location>
-                <position title="Technical Director" note="Promotion."/>
-                <position title=", Consulting Software Engineer" note="Promotion."/>
-                <position title=", Principal Software Engineer"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Carrier-class Voice over IP Media Switching System.</taskTerse>
-                <taskSupv>Daily hands-on management of a team performing dialing integration,
+        </period> -->
+    <period start_month="4" start_year="2005" end_month="4" end_year="2011">
+      <assignment>
+        <institution>Cedar Point Communications, Inc.</institution>
+        <url>http://www.genband.com/</url>
+        <location>Derry, NH</location>
+        <position title="Technical Director" note="Promotion."/>
+        <position title=", Consulting Software Engineer" note="Promotion."/>
+        <position title=", Principal Software Engineer"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Carrier-class Voice over IP Media Switching System.</taskTerse>
+        <taskSupv>Daily hands-on management of a team performing dialing integration,
                     regression, load testing, and software development lab support for the Safari C3
                     (Voice over IP Multimedia Switching System), SafariView (Element Management
                     System), and SafariFusion (IMS/PacketCable 2.0) product suites.</taskSupv>
-                <taskSupv>Received several President's Awards by achieving technical goals for
+        <taskSupv>Received several President's Awards by achieving technical goals for
                     international product markets, remote development facilities, and integrating
                     new technologies in record time.</taskSupv>
-                <taskSupv>Responsible for budgeting, planning, and operations of a complex,
+        <taskSupv>Responsible for budgeting, planning, and operations of a complex,
                     dynamically expanding and changing lab facility.</taskSupv>
-                <taskTech>VoIP software subsystems for embedded platforms in C and
+        <taskTech>VoIP software subsystems for embedded platforms in C and
                     assembler.</taskTech>
-                <taskTech>IMS software subsystems for off-the-shelf servers, in Java.</taskTech>
-                <taskTech>Debugging, troubleshooting, and performance analysis for Voice over IP
+        <taskTech>IMS software subsystems for off-the-shelf servers, in Java.</taskTech>
+        <taskTech>Debugging, troubleshooting, and performance analysis for Voice over IP
                     products.</taskTech>
-                <taskTech>IP Multimedia Subsystem (IMS) and PacketCable 2.0 lab and
+        <taskTech>IP Multimedia Subsystem (IMS) and PacketCable 2.0 lab and
                     development environment.</taskTech>
-                <taskTech>Proactively isolated performance issues for our products and our
+        <taskTech>Proactively isolated performance issues for our products and our
                     development environment, and provided timely support of development and test
                     teams, working closely with software and hardware developers, on both embedded
                     systems and EMS.</taskTech>
-
-		<taskSkills>Skills: Java, C, Python, Perl, Tcl/Tk, Expect, Enea
+        <taskSkills>Skills: Java, C, Python, Perl, Tcl/Tk, Expect, Enea
 		OSE, Solaris, CentOS.<!-- XML, XSLT, MySQL, Eclipse, JBoss,
 		JUnit4, Ant, Log4j, Cisco IOS, Juniper JunOS, SonicWall
-		firewall, DNS, LACP, OSPF, DHCP. --></taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="12" start_year="2004" end_month="4" end_year="2005">
-            <assignment>
-                <institution>Quintron Systems, Inc.</institution>
-                <url>http://www.quintron.com/</url>
-                <location>Santa Maria, CA</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Facial Biometric Devices for an Access-Control System.</taskTerse>
-                <taskTech>Java code integrating Facial Biometric Devices for an
+		firewall, DNS, LACP, OSPF, DHCP. --> </taskSkills>
+      </tasks>
+    </period>
+    <period start_month="12" start_year="2004" end_month="4" end_year="2005">
+      <assignment>
+        <institution>Quintron Systems, Inc.</institution>
+        <url>http://www.quintron.com/</url>
+        <location>Santa Maria, CA</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Facial Biometric Devices for an Access-Control System.</taskTerse>
+        <taskTech>Java code integrating Facial Biometric Devices for an
                     Access-Control System. Plug-in modules supporting distributed facial
                     biometric devices. Implemented use cases for subject enrollment, standalone
                     identification, and verification in conjunction with card readers.</taskTech>
-                <taskTech>Multi-threaded application, device drivers, and Java SWT/JFace
+        <taskTech>Multi-threaded application, device drivers, and Java SWT/JFace
                     GUI interfaces, with a persistent store managed with Hibernate.</taskTech>
-                <taskTech>Cross-platform access control system supported Windows and Linux, and was
+        <taskTech>Cross-platform access control system supported Windows and Linux, and was
                     database-independent, supporting SQL Server, Sybase, Oracle, MySQL, embedded
                     databases, and more.</taskTech>
-                <taskTech>This was a telecommute development environment.</taskTech>
-                <taskSkills>Skills: Java, SWT/JFace, Hibernate, HSQLDB, SQLServer, Eclipse, JUnit,
+        <taskTech>This was a telecommute development environment.</taskTech>
+        <taskSkills>Skills: Java, SWT/JFace, Hibernate, HSQLDB, SQLServer, Eclipse, JUnit,
                     Apache Ant, Apache Log4j.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="12" start_year="2004" end_month="4" end_year="2005">
-            <assignment>
-                <institution>Cellular Specialties, Inc.</institution>
-                <url>http://www.cellularspecialties.com/</url>
-                <location>Manchester, NH</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Digital Repeater (Bi-Directional Amplifier) for in-building wireless
+      </tasks>
+    </period>
+    <period start_month="12" start_year="2004" end_month="4" end_year="2005">
+      <assignment>
+        <institution>Cellular Specialties, Inc.</institution>
+        <url>http://www.cellularspecialties.com/</url>
+        <location>Manchester, NH</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Digital Repeater (Bi-Directional Amplifier) for in-building wireless
                     solutions.</taskTerse>
-                <taskTech>Embedded software for a Digital Repeater (Bi-Directional
+        <taskTech>Embedded software for a Digital Repeater (Bi-Directional
                     Amplifier) for in-building wireless solutions. SNMP MIB and agent;
                     event reporting protocol; inter-process communication, command line interpreter;
                     low-level hardware interfaces for SPI, I2C, PCMCIA, USB, A/D, digital I/O.</taskTech>
-                <taskTech>Introduced software engineering practices; source code control; software
+        <taskTech>Introduced software engineering practices; source code control; software
                     defect management; software life cycle management; mentored team members.</taskTech>
-
-		<taskSkills>Skills: C, Perl, SNMP, Tcl, Expect, Embedded Linux.
+        <taskSkills>Skills: C, Perl, SNMP, Tcl, Expect, Embedded Linux.
 		<!-- User-Mode Linux, Linux From Scratch, Red Hat Linux, CVS,
-		Bugzilla, MySQL. --></taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="5" start_year="2004" end_month="9" end_year="2004">
-            <assignment>
-                <institution>Envisn, Incorporated</institution>
-                <url>http://www.envisn.com/</url>
-                <location>Bolton, MA</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>J2EE application framework for Cognos ReportNet.</taskTerse>
-                <taskTech>Framework for integrating new applications with the Cognos
+		Bugzilla, MySQL. --> </taskSkills>
+      </tasks>
+    </period>
+    <period start_month="5" start_year="2004" end_month="9" end_year="2004">
+      <assignment>
+        <institution>Envisn, Incorporated</institution>
+        <url>http://www.envisn.com/</url>
+        <location>Bolton, MA</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>J2EE application framework for Cognos ReportNet.</taskTerse>
+        <taskTech>Framework for integrating new applications with the Cognos
                     ReportNet Enterprise Business Intelligence (BI) product. The solution comprised
                     servlets, XML, XSLT, JavaScript, DHTML and the ReportNet Java SDK, for improved
                     data exploration and integration with Cognos Connection, Report Studio and Query
                     Studio.</taskTech>
-
-		<taskSkills>Skills: Java, J2EE, J2SE, Servlets, JSPs, SOAP,
-		WSDL4j, Cognos ReportNet, XML.<!-- XPath, XSL, XSLT, Eclipse,
-		MyEclipse, JavaScript, DOM4j, DOM, SAX, CSS, DHTML, HTML, HTTP,
-		JAXRPC, JSTL, JUnit, SAAJ, Apache Ant, Apache Axis, Apache
-		Commons Discovery, Apache Commons Logging, Apache Log4j, Apache
-		Tomcat, Apache Xalan, Apache Xerces, Apache XML Commons, Sun
-		iPlanet LDAP Server, Microsoft SQL Server 2000.
-		--></taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="4" start_year="2003" end_month="3" end_year="2004">
-            <assignment>
-                <institution>Brightline Technology, Incorporated</institution>
-                <location>Rye, NH</location>
-                <position title="Principal Software Engineer"/>
-            </assignment>
-            <tasks>
-                <taskTerse>J2EE application server for IBM/Lotus Domino.</taskTerse>
-                <taskTech>Architect for an enterprise-quality Java application server for IBM/Lotus
+        <taskSkills>Skills: Java, J2EE, J2SE, Servlets, JSPs, SOAP,
+                    WSDL4j, Cognos ReportNet, XML.
+                    <!-- XPath, XSL, XSLT, Eclipse, MyEclipse, JavaScript, DOM4j,
+                        DOM, SAX, CSS, DHTML, HTML, HTTP, JAXRPC, JSTL, JUnit,
+                        SAAJ, Apache Ant, Apache Axis, Apache Commons Discovery,
+                        Apache Commons Logging, Apache Log4j, Apache Tomcat,
+                        Apache Xalan, Apache Xerces, Apache XML Commons, Sun
+                        iPlanet LDAP Server, Microsoft SQL Server 2000.
+                    -->
+                </taskSkills>
+      </tasks>
+    </period>
+    <period start_month="4" start_year="2003" end_month="3" end_year="2004">
+      <assignment>
+        <institution>Brightline Technology, Incorporated</institution>
+        <location>Rye, NH</location>
+        <position title="Principal Software Engineer"/>
+      </assignment>
+      <tasks>
+        <taskTerse>J2EE application server for IBM/Lotus Domino.</taskTerse>
+        <taskTech>Architect for an enterprise-quality Java application server for IBM/Lotus
                     Domino customers.</taskTech>
-                <taskTech>The "Brightline Application Server - Enterprise Edition" allows customers
+        <taskTech>The "Brightline Application Server - Enterprise Edition" allows customers
                     to host existing J2EE applications in a Domino environment, scale Domino-based
                     web applications through J2EE technologies, add Notes and Domino functionality
                     to J2EE applications, add J2EE functionality to Notes and Domino applications,
                     and use the Domino security model in J2EE applications.</taskTech>
-                <taskTech>The server technology includes an extensible software backbone that
+        <taskTech>The server technology includes an extensible software backbone that
                     provides all standard J2EE services to Domino, administration and deployment
                     tools for managing J2EE servers and applications from either a Notes Admin
                     client or web browser, and a fully transactional, enterprise-ready data store to
                     complement NSF (Notes Storage Facility).</taskTech>
-
-		<taskSkills>Skills: Java, JavaScript, SSH &amp; OpenSSH,
+        <taskSkills>Skills: Java, JavaScript, SSH &amp; OpenSSH,
 		LDAPv3, XML, Red Hat Linux, SuSE Linux, JBoss, Lotus Domino
 		&amp; Notes.<!-- Expect, XSLT, XSL, XSL-FO, SSL &amp;
 		OpenSSL, SMTP, IMAP, J2SE, J2EE, Eclipse, Apache Tomcat, Apache
@@ -492,23 +445,21 @@
 		WSDL, XHTML, XLink, XML Schema, XPath, XPointer, PostgreSQL,
 		MySQL, Oracle, Microsoft SQL Server, Hypersonic HSQLDB, Adobe
 		FrameMaker, CVS, Jira Issue Management, Jive Forums, ZeroG
-		InstallAnywhere. --></taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="8" start_year="2003" end_month="2" end_year="2004">
-            <assignment>
-                <institution hide_note="Acquired DWDM unit of Lightchip.">Confluent Photonics
+		InstallAnywhere. --> </taskSkills>
+      </tasks>
+    </period>
+    <period start_month="8" start_year="2003" end_month="2" end_year="2004">
+      <assignment>
+        <institution hide_note="Acquired DWDM unit of Lightchip.">Confluent Photonics
                     Corporation </institution>
-                <url>http://www.auxora.com</url>
-                <location>Salem, NH</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Intelligent DWDM Mux/Demux.</taskTerse>
-                <taskTech>Lightchip
-                    <!--<url>http://www.cpclc.com/products/ram-20-200-psm-psd.php</url>-->
+        <url>http://www.auxora.com</url>
+        <location>Salem, NH</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Intelligent DWDM Mux/Demux.</taskTerse>
+        <taskTech>Lightchip
+                    <!-- <url>http://www.cpclc.com/products/ram-20-200-psm-psd.php</url> -->
                     RAM-20-200-PSM/PSD Rack Mountable Intelligent 200 GHz DWDM Mux/Demux. The
                     monitoring and control features include optical power detection,
                     traffic-direction LEDs, visual alarms, and craft interface that provides access
@@ -516,80 +467,74 @@
                     wavelength division multiplexor (DWDM) with power loss detection on the primary
                     fiber that can trigger alarm LEDs and relays. Integrated power taps allow
                     monitoring of incoming and outgoing signals in the primary fiber.</taskTech>
-                <taskSkills>Skills: C</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="10" start_year="1999" end_month="4" end_year="2003">
-            <assignment>
-                <institution hide_note="Acquired OWM unit of Lightchip."> Digital Lightwave,
+        <taskSkills>Skills: C</taskSkills>
+      </tasks>
+    </period>
+    <period start_month="10" start_year="1999" end_month="4" end_year="2003">
+      <assignment>
+        <institution hide_note="Acquired OWM unit of Lightchip."> Digital Lightwave,
                     Incorporated </institution>
-                <url>http://www.lightwave.com/</url>
-                <location>North Chelmsford, MA</location>
-                <position
-                    title="Software Director, Optical Wavelength Management Group, Network Management Systems"
-                />
-            </assignment>
-            <assignment>
-                <institution>Lightchip, Incorporated</institution>
-                <location>Salem, NH</location>
-                <position
-                    title="Manager, Software Quality &amp; Infrastructure, Systems Engineering Group"
-                    note="Promotion."/>
-            </assignment>
-            <tasks>
-                <taskSupv>Management: Hired and managed a team of six Quality Assurance Software
+        <url>http://www.lightwave.com/</url>
+        <location>North Chelmsford, MA</location>
+        <position title="Software Director, Optical Wavelength Management Group, Network Management Systems"/>
+      </assignment>
+      <assignment>
+        <institution>Lightchip, Incorporated</institution>
+        <location>Salem, NH</location>
+        <position title="Manager, Software Quality &amp; Infrastructure, Systems Engineering Group" note="Promotion."/>
+      </assignment>
+      <tasks>
+        <taskSupv>Management: Hired and managed a team of six Quality Assurance Software
                     Engineers, SNMP and TL1 software developers and Technical Writers. Coordinated
                     efforts with Executive, Marketing, Sales, Manufacturing, Operations, Accounting,
                     Human Resources, Optical Engineering and Systems Engineering teams.</taskSupv>
-                <taskSupv>Engineering Infrastructure: Responsible for all software engineering
+        <taskSupv>Engineering Infrastructure: Responsible for all software engineering
                     hardware and software tool selection, purchasing, maintenance and support;
                     development network configuration; obtaining engineering prototype hardware from
                     the Optical, Systems and Manufacturing teams; communicating these needs to the
                     company.</taskSupv>
-                <!-- task>Software Engineering Documentation: Responsible for creation and maintenance
+        <!-- task>Software Engineering Documentation: Responsible for creation and maintenance
                     of all internal software interface and design documentation. Created an internal
                     website with links to software releases, software defect database, End User
-                    documents, Engineering documents and resources.</task -->
-                <taskTech>Software Quality Assurance: Responsible for defining SQA needs,
+                    documents, Engineering documents and resources.</task> -->
+        <taskTech>Software Quality Assurance: Responsible for defining SQA needs,
                     implementing a lab environment for testing multiple products, platforms and
                     releases using a collection of highly configurable optical instruments, GPIB
                     instruments and network interfaces. The SQA Lab was a showcase and was
                     considered an essential stop when showing customers our product and engineering
                     capabilities.</taskTech>
-                <!-- task>End User Manuals: Responsible for creation and maintenance of all end user
-                    User Guides, Quick Start Guides, Release Notes and similar manuals.</task -->
-                <taskTech>Release Engineering: Responsible for all source code control, release
+        <!-- task>End User Manuals: Responsible for creation and maintenance of all end user
+                    User Guides, Quick Start Guides, Release Notes and similar manuals.</task> -->
+        <taskTech>Release Engineering: Responsible for all source code control, release
                     engineering, builds and DCOs.</taskTech>
-            </tasks>
-            <assignment>
-                <institution>Lightchip, Incorporated</institution>
-                <location>Salem, NH</location>
-                <position title="Principal Software Engineer" note="First software hire."/>
-            </assignment>
-            <tasks>
-                <taskTerse>Optical Spectrometer for DWDM.</taskTerse>
-                <taskTech>Software architect for the Optical Wavelength Manager (OWM), utilizing
+      </tasks>
+      <assignment>
+        <institution>Lightchip, Incorporated</institution>
+        <location>Salem, NH</location>
+        <position title="Principal Software Engineer" note="First software hire."/>
+      </assignment>
+      <tasks>
+        <taskTerse>Optical Spectrometer for DWDM.</taskTerse>
+        <taskTech>Software architect for the Optical Wavelength Manager (OWM), utilizing
                     StrongARM processors running VxWorks. The OWM monitors power, wavelength and
                     signal-to-noise ratio for multiple channels on dense wavelength division
                     multiplexed networks with programmable alarm thresholds and data logging.
                     Configuration is done remotely or locally through a command line interface
                     (telnet and RS232), SNMP, TL1 and/or Java based graphical user interface.</taskTech>
-                <taskTech>Board Support Package for two StrongARM processor boards,
+        <taskTech>Board Support Package for two StrongARM processor boards,
                     using logic analyzers to debug assembler and "C" source code. Worked with
                     technologists at Intel and Wind River to resolve problems encountered with early
                     releases of silicon.</taskTech>
-                <taskTech>Comprehensive SNMPv1/v2c MIB for the OWM, including device
+        <taskTech>Comprehensive SNMPv1/v2c MIB for the OWM, including device
                     traps, advanced row creation features, and integration with OEM customers'
                     existing enterprise MIB trees. This MIB was advertised as "the world's first
                     Optical MIB".</taskTech>
-                <taskTech>Java GUI for the OWM; a patent application was filed for the
+        <taskTech>Java GUI for the OWM; a patent application was filed for the
                     GUI.</taskTech>
-                <taskTech>Evaluated and selected real-time operating systems, prototype hardware
+        <taskTech>Evaluated and selected real-time operating systems, prototype hardware
                     systems and software development tools for bleeding-edge target (Intel StrongARM
                     processor) hardware.</taskTech>
-
-		<taskSkills>Skills: Java, C, Perl, SNMPv1/v2c, VxWorks, Linux,
+        <taskSkills>Skills: Java, C, Perl, SNMPv1/v2c, VxWorks, Linux,
 		FreeBSD, Solaris.<!-- Expect, Tcl, bison &amp; flex, Microsoft
 		SQL Server, HP OpenView, SNMPinfo SMICng, InterWorking Labs
 		SilverCreek, SimpleSoft SimpleTester, MG-Soft MIB Browser,
@@ -598,662 +543,907 @@
 		InstallAnywhere, Rational Team Test, National Instruments Lab
 		Windows/CVI, Apache Web Server, Avensoft PerfectTracker, Intel
 		StrongARM, HP Logic Analyzer, TestPoint for GPIB, RS232, RS485,
-		USB 1.1, PCMCIA. --></taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="8" start_year="1998" end_month="9" end_year="1999">
-            <assignment>
-                <institution hide_note="Acquired Xylan Corporation."> Alcatel Internetworking </institution>
-                <url>http://enterprise.alcatel-lucent.com/</url>
-                <location>Salem, NH</location>
-                <position
-                    title="Principal Software Engineer, Alcatel Internetworking, Voice Over IP"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Voice over IP (VoIP) Gateway.</taskTerse>
-                <taskTech>Principal architect for a Voice over IP Gateway for the Enterprise market.
+		USB 1.1, PCMCIA. --> </taskSkills>
+      </tasks>
+    </period>
+    <period start_month="8" start_year="1998" end_month="9" end_year="1999">
+      <assignment>
+        <institution hide_note="Acquired Xylan Corporation."> Alcatel Internetworking </institution>
+        <url>http://enterprise.alcatel-lucent.com/</url>
+        <location>Salem, NH</location>
+        <position title="Principal Software Engineer, Alcatel Internetworking, Voice Over IP"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Voice over IP (VoIP) Gateway.</taskTerse>
+        <taskTech>Principal architect for a Voice over IP Gateway for the Enterprise market.
                     The VoIP Gateway supported digital (T1/E1) and analog interfaces. A typical
                     configuration would connect to one or more PBXs to the PSTN and to an enterprise
                     network. Capabilities included fax relay, modem, voice and data.</taskTech>
-                <taskTech>Integrated software components for the VoIP blade into existing Alcatel
+        <taskTech>Integrated software components for the VoIP blade into existing Alcatel
                     switches.</taskTech>
-                <taskTech>VoIP configuration interfaces for signaling, coding, network,
+        <taskTech>VoIP configuration interfaces for signaling, coding, network,
                     dialing plan and hardware.</taskTech>
-                <taskTech>Selected and purchased software development tools, telephony products and
+        <taskTech>Selected and purchased software development tools, telephony products and
                     test equipment.</taskTech>
-                <taskTech>Performed system and network administration for a Sun 450 Enterprise
+        <taskTech>Performed system and network administration for a Sun 450 Enterprise
                     Server in the Salem, NH office. Installed and configured development tools and
                     coordinated the build process with teams in Calabasas, CA.</taskTech>
-                <taskTech>Coordinated development between teams in the U.S. and Alcatel headquarters
+        <taskTech>Coordinated development between teams in the U.S. and Alcatel headquarters
                     in Colombes, France, building an IP-based PBX and other packetized voice
                     products.</taskTech>
-                <taskTech>Advised Network Management development team on Java design topics.</taskTech>
-
-		<taskSkills>Skills: Java, C, H.323, Q.921/LAPD, Q.931/Call
+        <taskTech>Advised Network Management development team on Java design topics.</taskTech>
+        <taskSkills>Skills: Java, C, H.323, Q.921/LAPD, Q.931/Call
 		Control, RTP, RTCP, VxWorks.<!-- bison, flex; PowerPC 860,
 		TMS320C5xx, SPARC; ISDN, HDLC, UDP, TCP; EST
 		visionICE/visionCLICK, Solaris, Windows/NT; Alcatel IP PCX
-		4400. --></taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="5" start_year="1997" end_month="7" end_year="1998">
-            <assignment>
-                <institution
-                    hide_note="Acquired by &lt;link url=&quot;http://www.3com.com/&quot;&gt;3COM&lt;/link&gt;."
-                    > NBX Corporation </institution>
-                <url>http://www.nbxstore.com/3com_nbx100.htm</url>
-                <location>Andover, MA</location>
-                <position title="Principal Software Engineer / Software Systems Architect"
-                    note="First software hire."/>
-            </assignment>
-            <tasks>
-                <taskTerse>Ethernet based Telephone System.</taskTerse>
-                <taskTech>System software architecture for an Ethernet based telephone
+		4400. --> </taskSkills>
+      </tasks>
+    </period>
+    <period start_month="5" start_year="1997" end_month="7" end_year="1998">
+      <assignment>
+        <institution hide_note="Acquired by &lt;link url=&quot;http://www.3com.com/&quot;&gt;3COM&lt;/link&gt;."> NBX Corporation </institution>
+        <url>http://www.nbxstore.com/3com_nbx100.htm</url>
+        <location>Andover, MA</location>
+        <position title="Principal Software Engineer / Software Systems Architect" note="First software hire."/>
+      </assignment>
+      <tasks>
+        <taskTerse>Ethernet based Telephone System.</taskTerse>
+        <taskTech>System software architecture for an Ethernet based telephone
                     system (NBX 100) with high performance telephony, messaging, and computer
                     integration via a single infrastructure. The NBX system provided a voice and
                     data management platform merging packetized audio with an Ethernet LAN.</taskTech>
-                <taskTech>Object-oriented architectures for Call Processing, Voice Mail,
+        <taskTech>Object-oriented architectures for Call Processing, Voice Mail,
                     Automated Attendant, TAPI Service Provider, Web-based System Administration, and
                     system services layers.</taskTech>
-                <taskTech>Selected software tools and components for product development and
+        <taskTech>Selected software tools and components for product development and
                     deployment, including embedded real-time operating systems and object-oriented
                     software development tools.</taskTech>
-                <taskTech>Reliable messaging protocols for system controller and DSP-based
+        <taskTech>Reliable messaging protocols for system controller and DSP-based
                     telephony devices.</taskTech>
-                <taskTech>Pioneered development from ObjecTime models to Windows NT (Microsoft
+        <taskTech>Pioneered development from ObjecTime models to Windows NT (Microsoft
                     Visual C++) simulation environment and Tornado/VxWorks (Cygnus GNU C++) target
                     environment.</taskTech>
-
-                <!--<taskTech>Java-based telephone simulator that interfaced with the NBX100, to support development prior to availability of telephone set hardware.</taskTech>-->
-
-		<taskSkills>Skills: Java, C/C++, ObjecTime, ROOM (Real-Time
+        <!-- <taskTech>Java-based telephone simulator that interfaced with the NBX100, to support development prior to availability of telephone set hardware.</taskTech> -->
+        <taskSkills>Skills: Java, C/C++, ObjecTime, ROOM (Real-Time
 		Object-Oriented Modeling), Tornado/VxWorks.<!-- IEEE 802.2
 		Logical Link Control (LLC), IEEE 802.3 CSMA/CD (Ethernet),
-		TCP/IP, H.323, GNU C++, Microsoft Visual C++. --></taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="6" start_year="1995" end_month="4" end_year="1997">
-            <assignment>
-                <institution>Oxford Health Plans, Incorporated</institution>
-                <url>http://www.oxhp.com/</url>
-                <location>Trumbull, CT</location>
-                <position
-                    title="Technical Lead, Advanced Systems, New Technologies &amp; Software Engineering Teams"
-                />
-            </assignment>
-            <tasks>
-                <taskTerse>Enterprise Web Services and Intranet.</taskTerse>
-                <taskTech>Intranet and Internet applications and infrastructure including
+		TCP/IP, H.323, GNU C++, Microsoft Visual C++. --> </taskSkills>
+      </tasks>
+    </period>
+    <period start_month="6" start_year="1995" end_month="4" end_year="1997">
+      <assignment>
+        <institution>Oxford Health Plans, Incorporated</institution>
+        <url>http://www.oxhp.com/</url>
+        <location>Trumbull, CT</location>
+        <position title="Technical Lead, Advanced Systems, New Technologies &amp; Software Engineering Teams"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Enterprise Web Services and Intranet.</taskTerse>
+        <taskTech>Intranet and Internet applications and infrastructure including
                     a "Back-End Server for Intranet Applications" that enabled access to Oracle
                     enterprise databases from web-oriented technologies. Server written
                     in object-oriented Tcl ([incr Tcl]) with Oracle SQL*Net client libraries and
                     handled high-volume database transactions through pooled TCP/IP socket-based
                     connections. The CGI client interfaces used Java, JavaScript,
                     Perl5, Tcl, C, C++ and Korn Shell.</taskTech>
-                <taskTech>Secure Internet infrastructure for Electronic Commerce and
+        <taskTech>Secure Internet infrastructure for Electronic Commerce and
                     Electronic Data Interchange systems utilizing technologies including routers,
                     firewalls, demilitarized zones, Secure Socket Layer (SSL),
                     authentication/certificates, Netscape Enterprise Server, VeriSign certificates,
                     Checkpoint/Firewall-1 and Sun Netra Internet Servers. Built a message routing
                     system based on asynchronous Remote Procedure Calls (RPC). Built CGI
                     applications in Java, Perl5, Tcl, C, and C++.</taskTech>
-                <taskTech>Optical Character Recognition, Imaging Systems and
+        <taskTech>Optical Character Recognition, Imaging Systems and
                     Handwriting Recognition Systems.</taskTech>
-                <taskTech>Provided trouble-shooting for system and network security, configuration
+        <taskTech>Provided trouble-shooting for system and network security, configuration
                     and administration groups.</taskTech>
-
-		<taskSkills>Skills: Java, JavaScript, Perl5, Tcl, Expect,
+        <taskSkills>Skills: Java, JavaScript, Perl5, Tcl, Expect,
 		C/C++, Solaris, AIX, HP-UX, Oracle.<!-- [incr Tcl], SunOS,
 		Pyramid, Microsoft Windows 95/NT, IBM OS/2, Apple Mac OS 7;
 		Oracle SQL*Net, TCP/IP, RPC, PPP, CVS; HTTP, HTML, CGI; Apache
 		Web Server, Java Applets, Netscape Servers. --> </taskSkills>
-
-            </tasks>
-        </period>
-
-        <period start_month="6" start_year="1995" end_month="12" end_year="1995">
-            <assignment>
-                <institution>Quaker Farms Research</institution>
-                <location>Southbury, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Telephone Key System.</taskTerse>
-                <taskTech>Projects:
+      </tasks>
+    </period>
+    <period start_month="6" start_year="1995" end_month="12" end_year="1995">
+      <assignment>
+        <institution>Quaker Farms Research</institution>
+        <location>Southbury, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Telephone Key System.</taskTerse>
+        <taskTech>Projects:
                   Telephone Key System.
                   Embedded system software.</taskTech>
-                <taskTech>System and network security, configuration and administration; Internet,
+        <taskTech>System and network security, configuration and administration; Internet,
                     DNS &amp; PPP configuration.</taskTech>
-                <taskSkills>Skills: C, Perl5, assembler &amp; M68K; SunOS, WinNT; DNS, PPP, NFS,
+        <taskSkills>Skills: C, Perl5, assembler &amp; M68K; SunOS, WinNT; DNS, PPP, NFS,
                     NIS, automounter.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="10" start_year="1992" end_month="6" end_year="1995">
-            <assignment>
-                <institution>General DataComm Incorporated</institution>
-                <url>http://www.gdc.com/</url>
-                <location>Middlebury, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>HP OpenView for SunOS &amp; HP-UX, IBM NetView for AIX.</taskTerse>
-                <taskTech>Project: HP OpenView for SunOS &amp; HP-UX, IBM NetView for AIX.</taskTech>
-                <!-- <taskTech>Ported GDC network management applications from HP OpenView/SunOS to HP
+      </tasks>
+    </period>
+    <period start_month="10" start_year="1992" end_month="6" end_year="1995">
+      <assignment>
+        <institution>General DataComm Incorporated</institution>
+        <url>http://www.gdc.com/</url>
+        <location>Middlebury, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>HP OpenView for SunOS &amp; HP-UX, IBM NetView for AIX.</taskTerse>
+        <taskTech>Project: HP OpenView for SunOS &amp; HP-UX, IBM NetView for AIX.</taskTech>
+        <!-- <taskTech>Ported GDC network management applications from HP OpenView/SunOS to HP
                     OpenView/HP-UX and IBM NetView for AIX. This required knowledge of BSD &amp;
                     SVR4 UNIX variants, multi-platform software development environments, SNMP, C++,
                     X11 window managers, and system &amp; network administration.</taskTech> -->
-                <!-- <taskTech>Tool for importing cross-product databases that enabled legacy
+        <!-- <taskTech>Tool for importing cross-product databases that enabled legacy
                     systems to be managed by GDC's Megaview Network Management System.</taskTech> -->
-                <!-- <taskTech>Created an extensible scripting language interface that enabled
+        <!-- <taskTech>Created an extensible scripting language interface that enabled
                     integration of third party network management protocols into GDC's Integrated
                     Network Management Systems. This interface eliminated the need for Engineering
                     to rebuild and redistribute system binaries to accommodate new protocols and
                     reduced the frequency of software update releases.</taskTech> -->
-                <!-- <taskTech>Peer-to-peer network alarm-reporting interface for INMS.</taskTech> -->
-                <taskSkills>Skills: C, C++, Perl5, Tcl, Expect; SunOS, AIX, HP-UX, Solaris; SNMP,
+        <!-- <taskTech>Peer-to-peer network alarm-reporting interface for INMS.</taskTech> -->
+        <taskSkills>Skills: C, C++, Perl5, Tcl, Expect; SunOS, AIX, HP-UX, Solaris; SNMP,
                     TCP/IP, RPC, XView, CVS, Informix.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="4" start_year="1990" end_month="5" end_year="1994">
-            <assignment>
-                <institution
-                    hide_note="Acquired by &lt;link url=&quot;http://www.cnt.com/&quot;&gt;CNT&lt;/link&gt;."
-                    > Data Switch Corporation </institution>
-                <location>Shelton, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Network Element Management System (EMS).</taskTerse>
-                <taskTech>Project: Network Element Management &amp; Control Systems.</taskTech>
-                <!-- <taskTech>Ported a real-time control system from PL/M to C for the SunOS Sun386I and
+      </tasks>
+    </period>
+    <period start_month="4" start_year="1990" end_month="5" end_year="1994">
+      <assignment>
+        <institution hide_note="Acquired by &lt;link url=&quot;http://www.cnt.com/&quot;&gt;CNT&lt;/link&gt;."> Data Switch Corporation </institution>
+        <location>Shelton, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Network Element Management System (EMS).</taskTerse>
+        <taskTech>Project: Network Element Management &amp; Control Systems.</taskTech>
+        <!-- <taskTech>Ported a real-time control system from PL/M to C for the SunOS Sun386I and
                     SPARC platforms.</taskTech> -->
-                <!-- <taskTech>VT100 and IBM 3164 terminal emulators for SunView and X11.</taskTech> -->
-                <!-- <taskTech>Network Terminal Server interface over BSD sockets.</taskTech> -->
-                <!-- <taskTech>Redundancy and fail-over systems for complex wide area networks.</taskTech> -->
-                <!-- <taskTech>GUI for drag &amp; drop port configuration and management.</taskTech> -->
-                <taskSkills>Skills: C, PL/M, Perl4, Tcl, Expect; SunOS; TCP/IP, RPC, NFS, NIS,
+        <!-- <taskTech>VT100 and IBM 3164 terminal emulators for SunView and X11.</taskTech> -->
+        <!-- <taskTech>Network Terminal Server interface over BSD sockets.</taskTech> -->
+        <!-- <taskTech>Redundancy and fail-over systems for complex wide area networks.</taskTech> -->
+        <!-- <taskTech>GUI for drag &amp; drop port configuration and management.</taskTech> -->
+        <taskSkills>Skills: C, PL/M, Perl4, Tcl, Expect; SunOS; TCP/IP, RPC, NFS, NIS,
                     Automounter, X11, XView.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="7" start_year="1990" end_month="8" end_year="1991">
-            <assignment>
-                <institution>IBM T.J. Watson Research Center</institution>
-                <url>http://www.watson.ibm.com/</url>
-                <location>Eastview, NY</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Servo Controller for a 12-axis Robotics System.</taskTerse>
-                <taskTech>Project: Servo Controller for a 12-Axis Robotics System; this was a "hard"
+      </tasks>
+    </period>
+    <period start_month="7" start_year="1990" end_month="8" end_year="1991">
+      <assignment>
+        <institution>IBM T.J. Watson Research Center</institution>
+        <url>http://www.watson.ibm.com/</url>
+        <location>Eastview, NY</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Servo Controller for a 12-axis Robotics System.</taskTerse>
+        <taskTech>Project: Servo Controller for a 12-Axis Robotics System; this was a "hard"
                     real-time system.</taskTech>
-                <!-- <taskTech>Software architecture for the robotics system, a network of
+        <!-- <taskTech>Software architecture for the robotics system, a network of
                     INMOS Transputers, with parallel processing and coordination for a 12-axis servo
                     controller.</taskTech> -->
-                <!-- <taskTech>Network layer stack for distributing files and messages
+        <!-- <taskTech>Network layer stack for distributing files and messages
                     between Transputer nodes.</taskTech> -->
-                <!-- <taskTech>Low level programming, command &amp; data upload/download
+        <!-- <taskTech>Low level programming, command &amp; data upload/download
                     interface between host programming system and real-time robotics system.
                     GUI to control and monitor robotics system.</taskTech> -->
-                <taskSkills>Skills: C, assembler, INMOS Transputer; AIX RS/6000, DOS, OS/2; TCP/IP,
+        <taskSkills>Skills: C, assembler, INMOS Transputer; AIX RS/6000, DOS, OS/2; TCP/IP,
                     NFS, X11, VM/CMS.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="2" start_year="1990" end_month="4" end_year="1990">
-            <assignment>
-                <institution>JANUS Systems, Incorporated</institution>
-                <location>New York, NY</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Graphics Retrieval System.</taskTerse>
-                <taskTech>Project: Total Integrated Graphics and Retrieval (TIGER) system for
+      </tasks>
+    </period>
+    <period start_month="2" start_year="1990" end_month="4" end_year="1990">
+      <assignment>
+        <institution>JANUS Systems, Incorporated</institution>
+        <location>New York, NY</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Graphics Retrieval System.</taskTerse>
+        <taskTech>Project: Total Integrated Graphics and Retrieval (TIGER) system for
                     Ameritech Publishing, Inc.</taskTech>
-                <taskSkills>Skills: C; SunOS 3.5; Sun Tools; SunView; DEC VAX/VMS; RPC, NFS,
+        <taskSkills>Skills: C; SunOS 3.5; Sun Tools; SunView; DEC VAX/VMS; RPC, NFS,
                     Automounter.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="7" start_year="1988" end_month="12" end_year="1998">
-            <assignment>
-                <institution>General DataComm Incorporated</institution>
-                <url>http://www.gdc.com/</url>
-                <location>Middlebury, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Integrated Network Management System.</taskTerse>
-                <taskTech>Project: Integrated Network Management System: AT&amp;T Accumaster Protocol interface for INMS.</taskTech>
-                <taskTech>Project: NetView/PC Alarm Reporting Interface for IBM SNA and multiplexor control system.</taskTech>
-                <taskSkills>Skills: C, assembler; SCO XENIX &amp; device drivers; IBM
+      </tasks>
+    </period>
+    <period start_month="7" start_year="1988" end_month="12" end_year="1998">
+      <assignment>
+        <institution>General DataComm Incorporated</institution>
+        <url>http://www.gdc.com/</url>
+        <location>Middlebury, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Integrated Network Management System.</taskTerse>
+        <taskTech>Project: Integrated Network Management System: AT&amp;T Accumaster Protocol interface for INMS.</taskTech>
+        <taskTech>Project: NetView/PC Alarm Reporting Interface for IBM SNA and multiplexor control system.</taskTech>
+        <taskSkills>Skills: C, assembler; SCO XENIX &amp; device drivers; IBM
                     NetView/PC; IBM SNA protocols; Informix.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="8" start_year="1987" end_month="6" end_year="1988">
-            <assignment>
-                <institution>IBM T.J. Watson Research Center</institution>
-                <url>http://www.watson.ibm.com/</url>
-                <location>Yorktown Heights, NY</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Robotic Fine Positioning Device.</taskTerse>
-                <taskTech>Projects:
+      </tasks>
+    </period>
+    <period start_month="8" start_year="1987" end_month="6" end_year="1988">
+      <assignment>
+        <institution>IBM T.J. Watson Research Center</institution>
+        <url>http://www.watson.ibm.com/</url>
+        <location>Yorktown Heights, NY</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Robotic Fine Positioning Device.</taskTerse>
+        <taskTech>Projects:
                     Robotic Fine Positioning Device.
                     Distributed Robotics Communications.
                     Digital Signal Processor Interface for Robotics.</taskTech>
-                <!-- <taskTech>All embedded software for these devices.</taskTech> -->
-                <taskSkills>Skills: C, assembler; Masscomp RTU &amp; device drivers; VMEbus,
+        <!-- <taskTech>All embedded software for these devices.</taskTech> -->
+        <taskSkills>Skills: C, assembler; Masscomp RTU &amp; device drivers; VMEbus,
                     Multibus, PC/AT bus.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="10" start_year="1986" end_month="8" end_year="1987">
-            <assignment>
-                <institution
-                    hide_note="Acquired by &lt;link url=&quot;http://www.icarz.com/&quot;&gt;icarz, Inc.&lt;/link&gt;"
-                    > Telecomp, Incorporated </institution>
-                <location>Milford, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Point-Of-Sale System.</taskTerse>
-                <taskTech>Project: Point-Of-Sale System for Auto Parts Dealers.</taskTech>
-                <!-- <taskTech>Migrated from NCR UNIX to SCO XENIX.</taskTech> -->
-                <taskSkills>Skills: C, assembler; NCR UNIX; SCO XENIX; Motorola 68000; Intel
+      </tasks>
+    </period>
+    <period start_month="10" start_year="1986" end_month="8" end_year="1987">
+      <assignment>
+        <institution hide_note="Acquired by &lt;link url=&quot;http://www.icarz.com/&quot;&gt;icarz, Inc.&lt;/link&gt;"> Telecomp, Incorporated </institution>
+        <location>Milford, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Point-Of-Sale System.</taskTerse>
+        <taskTech>Project: Point-Of-Sale System for Auto Parts Dealers.</taskTech>
+        <!-- <taskTech>Migrated from NCR UNIX to SCO XENIX.</taskTech> -->
+        <taskSkills>Skills: C, assembler; NCR UNIX; SCO XENIX; Motorola 68000; Intel
                 80286.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="10" start_year="1986" end_month="1" end_year="1987">
-            <assignment>
-                <institution>Pitney Bowes</institution>
-                <url>http://www.pb.com/</url>
-                <location>Norwalk, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Manifest Mailing System.</taskTerse>
-                <taskTech>Project: Manifest Mailing System.</taskTech>
-                <!-- <taskTech>Prototype system for recharging postage meters using EFT and
+      </tasks>
+    </period>
+    <period start_month="10" start_year="1986" end_month="1" end_year="1987">
+      <assignment>
+        <institution>Pitney Bowes</institution>
+        <url>http://www.pb.com/</url>
+        <location>Norwalk, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Manifest Mailing System.</taskTerse>
+        <taskTech>Project: Manifest Mailing System.</taskTech>
+        <!-- <taskTech>Prototype system for recharging postage meters using EFT and
                     DES hardware.</taskTech> -->
-                <taskSkills>Skills: C, assembler, FORTRAN; SCO XENIX; MS-DOS; DES encryption
+        <taskSkills>Skills: C, assembler, FORTRAN; SCO XENIX; MS-DOS; DES encryption
                     devices.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="6" start_year="1985" end_month="9" end_year="1986">
-            <assignment>
-                <institution>IBM T.J. Watson Research Center</institution>
-                <url>http://www.watson.ibm.com/</url>
-                <location>Yorktown Heights, NY</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>General Purpose Automation Controller (robotics).</taskTerse>
-                <taskTech>Project: General Purpose Automation Controller &amp; Programming System.</taskTech>
-                <!-- <taskTech>
+      </tasks>
+    </period>
+    <period start_month="6" start_year="1985" end_month="9" end_year="1986">
+      <assignment>
+        <institution>IBM T.J. Watson Research Center</institution>
+        <url>http://www.watson.ibm.com/</url>
+        <location>Yorktown Heights, NY</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>General Purpose Automation Controller (robotics).</taskTerse>
+        <taskTech>Project: General Purpose Automation Controller &amp; Programming System.</taskTech>
+        <!-- <taskTech>
                     Download/debug module for embedded system.
                     Scheduler/dispatcher/messaging for real-time &amp; programming systems.</taskTech> -->
-                <taskSkills>Skills: C, assembler; Masscomp RTU &amp; device drivers; Motorola 68020; Multibus, RCS, VM/CMS.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="8" start_year="1984" end_month="7" end_year="1985">
-            <assignment>
-                <institution>Digitech Industries, Incorporated</institution>
-                <location>Ridgefield, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Network Protocol Analyzer.</taskTerse>
-                <taskTech>Project:
+        <taskSkills>Skills: C, assembler; Masscomp RTU &amp; device drivers; Motorola 68020; Multibus, RCS, VM/CMS.</taskSkills>
+      </tasks>
+    </period>
+    <period start_month="8" start_year="1984" end_month="7" end_year="1985">
+      <assignment>
+        <institution>Digitech Industries, Incorporated</institution>
+        <location>Ridgefield, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Network Protocol Analyzer.</taskTerse>
+        <taskTech>Project:
                     Network Protocol Analyzer.
                     Event programming language for embedded real-time system.</taskTech>
-                <taskSkills>Skills: C, assembler; MS-DOS, CP/M-68K; Motorola 68000; VMEbus, protocol
+        <taskSkills>Skills: C, assembler; MS-DOS, CP/M-68K; Motorola 68000; VMEbus, protocol
                     analyzers.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="5" start_year="1984" end_month="11" end_year="1984">
-            <assignment>
-                <institution
-                    hide_note="Acquired by &lt;link url=&quot;http://www.icarz.com/&quot;&gt;icarz, Inc.&lt;/link&gt;"
-                    > Telecomp, Incorporated </institution>
-                <location>Milford, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Point-Of-Sale System.</taskTerse>
-                <taskTech>Project: Point-Of-Sale System for Auto Parts Dealers.</taskTech>
-                <taskSkills>Skills: C, assembler, NCR UNIX.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="3" start_year="1982" end_month="4" end_year="1984">
-            <assignment>
-                <institution>Dictaphone Corporation</institution>
-                <url>http://www.dictaphone.com/</url>
-                <location>Norwalk, CT</location>
-                <position title="Senior Software Engineer" />
-            </assignment>
-            <tasks>
-                <taskTerse>Digital Voice Operating System.</taskTerse>
-                <taskTech>Projects: Digital Voice Operating System. Dictation Control and Management
+      </tasks>
+    </period>
+    <period start_month="5" start_year="1984" end_month="11" end_year="1984">
+      <assignment>
+        <institution hide_note="Acquired by &lt;link url=&quot;http://www.icarz.com/&quot;&gt;icarz, Inc.&lt;/link&gt;"> Telecomp, Incorporated </institution>
+        <location>Milford, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Point-Of-Sale System.</taskTerse>
+        <taskTech>Project: Point-Of-Sale System for Auto Parts Dealers.</taskTech>
+        <taskSkills>Skills: C, assembler, NCR UNIX.</taskSkills>
+      </tasks>
+    </period>
+    <period start_month="3" start_year="1982" end_month="4" end_year="1984">
+      <assignment>
+        <institution>Dictaphone Corporation</institution>
+        <url>http://www.dictaphone.com/</url>
+        <location>Norwalk, CT</location>
+        <position title="Senior Software Engineer"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Digital Voice Operating System.</taskTerse>
+        <taskTech>Projects: Digital Voice Operating System. Dictation Control and Management
                     System.</taskTech>
-                <taskSkills>Skills: C, PL/M &amp; assembler; UNIX V6, V7, System III on DEC
+        <taskSkills>Skills: C, PL/M &amp; assembler; UNIX V6, V7, System III on DEC
                     PDP-11 and VAX; Intel 8085, SCCS.</taskSkills>
-            </tasks>
-        </period>
-
-        <period start_month="7" start_year="1978" end_month="3" end_year="1982">
-            <assignment>
-                <institution>InfoSoft Systems, Incorporated</institution>
-                <location>Westport, CT</location>
-                <position title="Vice President, Consulting Services"/>
-            </assignment>
-            <assignment>
-                <institution>Control Process, Incorporated</institution>
-                <location>Plantsville, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Embedded Process Control System.</taskTerse>
-                <taskTech>Projects: Embedded process control systems.</taskTech>
-                <taskSkills>Skills: C, assembler, Zilog Z80, CP/M; DEC RSX-11S/M; Data General
+      </tasks>
+    </period>
+    <period start_month="7" start_year="1978" end_month="3" end_year="1982">
+      <assignment>
+        <institution>InfoSoft Systems, Incorporated</institution>
+        <location>Westport, CT</location>
+        <position title="Vice President, Consulting Services"/>
+      </assignment>
+      <assignment>
+        <institution>Control Process, Incorporated</institution>
+        <location>Plantsville, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Embedded Process Control System.</taskTerse>
+        <taskTech>Projects: Embedded process control systems.</taskTech>
+        <taskSkills>Skills: C, assembler, Zilog Z80, CP/M; DEC RSX-11S/M; Data General
                     Nova/Eclipse RDOS.</taskSkills>
-            </tasks>
-            <assignment>
-                <institution>Learning Unlimited</institution>
-                <location>New Canaan, CT &amp; Research Triangle Park, NC</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Prescription-based Learning System.</taskTerse>
-                <taskTech>Project: Prescription-based Learning System.</taskTech>
-                <taskSkills>Skills: FORTRAN, PL/1, assembler; Data General Nova/Eclipse RDOS; IBM
+      </tasks>
+      <assignment>
+        <institution>Learning Unlimited</institution>
+        <location>New Canaan, CT &amp; Research Triangle Park, NC</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Prescription-based Learning System.</taskTerse>
+        <taskTech>Project: Prescription-based Learning System.</taskTech>
+        <taskSkills>Skills: FORTRAN, PL/1, assembler; Data General Nova/Eclipse RDOS; IBM
                     TSO, OS &amp; DOS.</taskSkills>
-            </tasks>
-            <assignment>
-                <institution>Sales Maids of America division of GELCO</institution>
-                <location>Southport, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Payroll System.</taskTerse>
-                <taskTech>Projects: Payroll System. Point-Of-Sale Data Collection System.</taskTech>
-                <taskSkills>Skills: COBOL; Data General Nova/Eclipse RDOS &amp;
+      </tasks>
+      <assignment>
+        <institution>Sales Maids of America division of GELCO</institution>
+        <location>Southport, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Payroll System.</taskTerse>
+        <taskTech>Projects: Payroll System. Point-Of-Sale Data Collection System.</taskTech>
+        <taskSkills>Skills: COBOL; Data General Nova/Eclipse RDOS &amp;
                 ICOS.</taskSkills>
-            </tasks>
-            <assignment>
-                <institution>PR Data Systems</institution>
-                <location>Wilton, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Press Release Distribution System.</taskTerse>
-                <taskTech>Projects: Press Release Distribution System. Mailing List Maintenance
+      </tasks>
+      <assignment>
+        <institution>PR Data Systems</institution>
+        <location>Wilton, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Press Release Distribution System.</taskTerse>
+        <taskTech>Projects: Press Release Distribution System. Mailing List Maintenance
                     System.</taskTech>
-                <taskSkills>Skills: COBOL; Data General Nova/Eclipse RDOS &amp;
+        <taskSkills>Skills: COBOL; Data General Nova/Eclipse RDOS &amp;
                 ICOS.</taskSkills>
-            </tasks>
-            <assignment>
-                <institution>Mnemonics Incorporated</institution>
-                <location>Norwalk, CT</location>
-                <position title="Consultant"/>
-            </assignment>
-            <tasks>
-                <taskTerse>Market Tabulation System.</taskTerse>
-                <taskTech>Project: Market Tabulation System.</taskTech>
-                <taskSkills>Skills: FORTRAN, PL/1; Data General Nova/Eclipse RDOS.</taskSkills>
-            </tasks>
-        </period>
-
-    </experience>
-
-    <education>
-        <period start_month="9" start_year="1975" end_month="5" end_year="1978">
-            <assignment>
-                <institution>Indiana University</institution>
-                <url>http://www.soic.indiana.edu/computer-science/</url>
-                <location>Bloomington, IN</location>
-                <position title="Bachelor of Arts in Computer Science"
-                    note="Completed 4-year degree program in 3 years."/>
-            </assignment>
-        </period>
-    </education>
-
-    <certifications>
-        <certification>
-            <link url="http://education.oracle.com/">Sun Certified Java Developer (SCJD)</link>
-        </certification>
-        <certification>
-            <link url="http://education.oracle.com/">Sun Certified Java Programmer (SCJP)</link>
-        </certification>
-    </certifications>
-
-    <associations>
-        <association> <link url="http://www.usenix.org">USENIX Association</link> </association>
-        <association> <link url="https://lopsa.org/">League of Professional System Administrators</link> (formerly SAGE)</association>
-        <!-- association><link url="http://www.sage.org">SAGE</link> (System Administrators Guild) </association -->
-    </associations>
-
-    <patents>
-        <patent>
-            <link url="https://patentimages.storage.googleapis.com/pdfs/US4621350.pdf">Recording and Dictation System</link>,
+      </tasks>
+      <assignment>
+        <institution>Mnemonics Incorporated</institution>
+        <location>Norwalk, CT</location>
+        <position title="Consultant"/>
+      </assignment>
+      <tasks>
+        <taskTerse>Market Tabulation System.</taskTerse>
+        <taskTech>Project: Market Tabulation System.</taskTech>
+        <taskSkills>Skills: FORTRAN, PL/1; Data General Nova/Eclipse RDOS.</taskSkills>
+      </tasks>
+    </period>
+  </experience>
+  <education>
+    <period start_month="9" start_year="1975" end_month="5" end_year="1978">
+      <assignment>
+        <institution>Indiana University</institution>
+        <url>http://www.soic.indiana.edu/computer-science/</url>
+        <location>Bloomington, IN</location>
+        <position title="Bachelor of Arts in Computer Science" note="Completed 4-year degree program in 3 years."/>
+      </assignment>
+    </period>
+  </education>
+  <certifications>
+    <certification>
+      <link url="http://www.openstack.org/coa/">Certified OpenStack Administrator / OpenStack, Certificate Number: COA-1600-0240-0100</link>
+    </certification>
+    <certification>
+      <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate / Amazon Web Services, Certificate Number: AWS-ADEV-5875</link>
+    </certification>
+    <certification>
+      <link url="http://education.oracle.com/">Sun Certified Java Developer (SCJD)</link>
+    </certification>
+    <certification>
+      <link url="http://education.oracle.com/">Sun Certified Java Programmer (SCJP)</link>
+    </certification>
+  </certifications>
+  <associations>
+    <association>
+      <link url="http://www.usenix.org">USENIX Association</link>
+    </association>
+    <association><link url="https://lopsa.org/">League of Professional System Administrators</link> (formerly SAGE)</association>
+    <!-- association><link url="http://www.sage.org">SAGE</link> (System Administrators Guild) </association> -->
+  </associations>
+  <patents>
+    <patent><link url="https://patentimages.storage.googleapis.com/pdfs/US4621350.pdf">Recording and Dictation System</link>,
             United States 4621350,
             Issued November 4, 1986
         </patent>
-    </patents>
-
-    <seminars>
-        <seminar> <link url="https://www.mirantis.com/">Mirantis</link>: OpenStack Bootcamp</seminar>
-        <seminar> <link url="http://www.usenix.org">USENIX</link>: System &amp; Network Security </seminar>
-        <!--<seminar> <link url="http://www.javaworld.com/javaworld/jw-06-1996/jw-06-objectworld.html"> ObjectWorld</link>: Managing Object-Oriented Development Projects </seminar>-->
-        <seminar> <link url="http://www.windriver.com/">Wind River Systems</link>: VxWorks &amp; Tornado </seminar>
-        <!--<seminar> <link url="http://www.alcatel.com/enterprise/en/">Alcatel</link>: SwitchExpert </seminar>-->
-        <!--<seminar> <link url="http://www.motorola.com">Motorola</link>: PowerPC 860 </seminar>-->
-        <!--<seminar> <link url="http://www.telogy.com/">Telogy Networks</link>: Golden Gateway Software </seminar>-->
-        <!--<seminar> <link url="http://www.telenetworks.com">Telenetworks</link>: ISDN </seminar>-->
-        <!--<seminar> <link url="http://www-306.ibm.com/software/awdtools/developer/technical/"> ObjecTime</link>: Integration &amp; Performance Tuning </seminar>-->
-    </seminars>
-
-    <awards>
-        <award>
-            <link url="http://www.engineering.cornell.edu/alumni/association/about/index.cfm/"
-                >Cornell Society of Engineers</link> "Ingenuity in Science and Mathematics Award,"
+  </patents>
+  <seminars>
+    <seminar><link url="http://LinuxAcademy.com">Linux Academy</link>: AWS Certified DevOps Engineer - Professional Level; AWS Certified Developer - Associate Level; Docker And Elastic Beanstalk; DevOps Essentials; AWS Concepts; Linux Essentials Certification</seminar>
+    <!-- <seminar> <link url="https://www.mirantis.com/">Mirantis</link>: OpenStack Bootcamp</seminar> -->
+    <!-- <seminar> <link url="http://www.usenix.org">USENIX</link>: System &amp; Network Security </seminar> -->
+    <!-- <seminar> <link url="http://www.javaworld.com/javaworld/jw-06-1996/jw-06-objectworld.html"> ObjectWorld</link>: Managing Object-Oriented Development Projects </seminar> -->
+    <!-- <seminar> <link url="http://www.windriver.com/">Wind River Systems</link>: VxWorks &amp; Tornado </seminar> -->
+    <!-- <seminar> <link url="http://www.alcatel.com/enterprise/en/">Alcatel</link>: SwitchExpert </seminar> -->
+    <!-- <seminar> <link url="http://www.motorola.com">Motorola</link>: PowerPC 860 </seminar> -->
+    <!-- <seminar> <link url="http://www.telogy.com/">Telogy Networks</link>: Golden Gateway Software </seminar> -->
+    <!-- <seminar> <link url="http://www.telenetworks.com">Telenetworks</link>: ISDN </seminar> -->
+    <!-- <seminar> <link url="http://www-306.ibm.com/software/awdtools/developer/technical/"> ObjecTime</link>: Integration &amp; Performance Tuning </seminar> -->
+  </seminars>
+  <awards>
+    <award><link url="http://www.engineering.cornell.edu/alumni/association/about/index.cfm/">Cornell Society of Engineers</link> "Ingenuity in Science and Mathematics Award,"
             1976</award>
-    </awards>
-
-    <skills>
-        <skill_category name="Programming Languages">
-            <skill force="current" last_used="2014"> <link url="http://cm.bell-labs.com/cm/cs/cbook/">C</link> </skill>
-            <skill last_used="2013"> <link url="http://www.research.att.com/~bs/C++.html">C++</link> </skill>
-            <skill force="current" last_used="2013"> <link url="http://java.sun.com/">Java</link> </skill>
-            <skill force="current" last_used="2014"> <link url="http://golang.org/">Go</link> </skill>
-            <skill last_used="2014"> <link url="https://www.ruby-lang.org/">Ruby</link> </skill>
-            <skill last_used="2014"> <link url="http://www.python.org/">Python</link> </skill>
-            <skill last_used="2014"> <link url="http://www.perl.org/">Perl</link> </skill>
-            <skill last_used="2014"> <link url="http://nodejs.org/">Node.js</link> </skill>
-            <skill last_used="2014"> <link url="http://www.scriptics.com/">Tcl/Tk</link> </skill>
-            <skill last_used="2014"> <link url="http://expect.nist.gov/">Expect</link> </skill>
-            <skill last_used="2014"> <link url="http://awk.info/">AWK</link> </skill>
-            <skill last_used="2013"> <link url="http://www.ecma-international.org/publications/files/ecma-st/ECMA-262.pdf"> JavaScript</link> </skill>
-            <skill force="old" last_used="2003"> <link url="http://dinosaur.compilertools.net/">yacc &amp; lex</link> </skill>
-            <skill last_used="2012">assembly languages</skill>
-        </skill_category>
-        <skill_category name="Professional Certification">
-            <skill force="current"> <link url="http://suned.sun.com/US/certification/java/java_devj2se.html">Sun Certified Java Developer (SCJD)</link> </skill>
-            <skill force="current"> <link url="http://suned.sun.com/US/certification/java/java_progj2se.html">Sun Certified Java Programmer (SCJP)</link> </skill>
-        </skill_category>
-        <skill_category name="Config Management">
-            <skill force="current"> <link url="http://www.getchef.com/">Chef</link> </skill>
-            <skill force="current"> <link url="https://dyn.slack.com/messages/noc/">Vagrant</link> </skill>
-            <skill force="current"> <link url="http://berkshelf.com/">Berkshelf</link> </skill>
-            <skill force="current"> <link url="http://www.ansible.com/home">Ansible</link> </skill>
-            <skill force="current"> <link url="http://rundeck.org/">Rundeck</link> </skill>
-            <skill force="current"> <link url="http://cfengine.com/">CFEngine</link> </skill>
-        </skill_category>
-        <skill_category name="Virtualization">
-            <skill force="current"> <link url="https://www.docker.com/">Docker (containers)</link> </skill>
-            <skill force="current"> <link url="http://www.linux-kvm.org/">KVM (kernel-based virtual machines)</link> </skill>
-            <skill force="current"> <link url="https://www.virtualbox.org/">VirtualBox</link> </skill>
-            <skill force="current"> <link url="http://www.vmware.com/">VMware ESXi</link> </skill>
-        </skill_category>
-        <skill_category name="Hybrid Cloud &amp; MaaS">
-            <skill force="current"> <link url="http://aws.amazon.com/ec2/">Amazon Web Services - Elastic Compute Cloud (EC2)</link> </skill>
-            <skill force="current"> <link url="http://www.cobblerd.org/">Cobbler</link> </skill>
-            <skill force="current"> <link url="http://fog.io/">Fog</link> </skill>
-        </skill_category>
-        <skill_category name="Release Engineering">
-            <skill last_used="2014"> <link url="https://enterprise.github.com/">GitHub Enterprise</link> </skill>
-            <skill last_used="2014"> <link url="https://github.com/">GitHub</link> </skill>
-            <skill last_used="2014"> <link url="http://subversion.apache.org//">Apache Subversion</link> </skill>
-            <skill last_used="2011"> <link url="http://www.perforce.com/">Perforce</link> </skill>
-            <skill last_used="2011"> <link url="http://mercurial.selenic.com/">Mercurial</link> </skill>
-            <skill last_used="2011"> <link url="http://www-306.ibm.com/software/awdtools/clearcase/">IBM Rational ClearCase</link> </skill>
-            <skill last_used="2011"> <link url="http://www.cvshome.org/">Concurrent Versions System (CVS)</link> </skill>
-            <!-- skill last_used="2003"> <link url="http://msdn.microsoft.com/vstudio/previous/ssafe/">Microsoft Visual SourceSafe</link> </skill -->
-        </skill_category>
-        <skill_category name="Operating Systems">
-            <skill last_used="2014"> <link url="http://www.ubuntu.com/">Ubuntu Linux</link> </skill>
-            <skill last_used="2014"> <link url="https://www.debian.org/">Debian Linux</link> </skill>
-            <skill last_used="2012"> <link url="http://centos.org/">CentOS Linux</link> </skill>
-            <skill last_used="2012"> <link url="https://www.scientificlinux.org/">Scientific Linux</link> </skill>
-            <skill last_used="2014"> <link url="http://www.freebsd.org/">FreeBSD</link> </skill>
-            <skill last_used="2012"> <link url="http://www.netbsd.org/">NetBSD</link> </skill>
-            <skill last_used="2012"> <link url="http://www.redhat.com/">Red Hat Enterprise Linux</link> </skill>
-            <skill last_used="2012"> <link url="http://fedoraproject.org/">Fedora Linux</link> </skill>
-            <skill last_used="2011"> <link url="http://en.wikipedia.org/wiki/Embedded_Linux">Embedded Linux</link> </skill>
-            <skill last_used="2011"> <link url="http://www.suse.com/">SuSE Linux</link> </skill>
-            <skill last_used="2012"> <link url="http://wwws.sun.com/software/solaris/">Sun Solaris</link> </skill>
-            <skill last_used="2011"> <link url="http://www.rtos.com/">ExpressLogic ThreadX</link> </skill>
-            <skill last_used="2011"> <link url="http://www.enea.com/">Enea OSE</link> </skill>
-            <skill last_used="2003"> <link url="http://www.windriver.com/products/vxworks5/">Wind River VxWorks</link> </skill>
-            <skill last_used="1997"> <link url="http://www-1.ibm.com/servers/aix/">IBM AIX</link> </skill>
-            <skill last_used="1997"> <link url="http://www.hp.com/products1/unix/operating/">HP HP-UX</link> </skill>
-            <skill force="current" last_used="2012"> <link url="http://www.microsoft.com/windows/">Microsoft Windows</link> </skill>
-        </skill_category>
-        <skill_category name="Database Engines">
-            <skill last_used="2014"> <link url="http://cassandra.apache.org/">Apache Cassandra</link> </skill>
-            <skill last_used="2014"> <link url="http://www.postgresql.org/">PostgreSQL</link> </skill>
-            <skill last_used="2014"> <link url="http://www.mysql.com/">MySQL</link> </skill>
-            <skill last_used="2011"> <link url="http://www.microsoft.com/sql/">Microsoft SQL Server</link> </skill>
-            <skill last_used="2011"> <link url="http://hsqldb.sourceforge.net/">Hypersonic SQL</link> </skill>
-            <skill last_used="2004"> <link url="http://www.postgres.org/">PostgreSQL</link> </skill>
-            <skill last_used="2010"> <link url="http://www.oracle.com/database/">Oracle</link> </skill>
-            <skill last_used="1995"> <link url="http://www-306.ibm.com/software/data/informix/">IBM Informix</link> </skill>
-            <skill last_used="never"> <link url="http://www-306.ibm.com/software/data/db2/">IBM DB2</link> </skill>
-        </skill_category>
-        <skill_category name="Network Management">
-            <skill last_used="2011"> <link url="http://www.simple-times.org/">SNMP MIB design &amp; agent development</link> </skill>
-            <skill last_used="2011"> <link url="http://www.smplsft.com/">SNMP verification</link> </skill>
-            <skill last_used="2003"> <link url="http://www.openview.hp.com/">HP OpenView</link> </skill>
-            <skill last_used="1995"> <link url="http://www-306.ibm.com/software/tivoli/products/netview/">IBM Tivoli NetView</link> </skill>
-        </skill_category>
-        <skill_category name="Network Routing">
-            <skill last_used="2011"> <link url="http://www.juniper.com/">Juniper JunOS</link> </skill>
-            <skill last_used="2011"> <link url="http://www.pfsense.org/">pfSense</link> </skill>
-            <skill last_used="2012"> <link url="http://www.cisco.com/">Cisco IOS</link> </skill>
-            <skill last_used="2011"> <link url="http://www.sonicwall.com/us/index.html">SonicWall Firewalls</link> </skill>
-            <skill last_used="2011"> <link url="http://www.cisco.com/en/US/docs/ios/12_2sb/feature/guide/gigeth.html" >LACP</link> </skill>
-            <skill last_used="2011"> <link url="http://www.ripe.net/ripe/meetings/ripe-48/presentations/ripe48-eof-bfd.pdf" >BFD</link> </skill>
-            <skill last_used="2011"> <link url="http://www.lincoln.edu/math/rmyrick/ComputerNetworks/InetReference/89.htm" >OSPF</link> </skill>
-        </skill_category>
-        <skill_category name="Network Protocols">
-            <skill force="current"> <link url="http://www.ietf.org/rfc/rfc0793.txt?number=793">TCP/IP</link> </skill>
-            <skill force="current"> <link url="http://www.ietf.org/rfc/rfc0768.txt?number=768">UDP/IP</link> </skill>
-            <skill force="current"> <link url="http://www.scit.wlv.ac.uk/~jphb/comms/sockets.html">Socket Programming</link> </skill>
-            <skill last_used="2014"> <link url="http://tools.ietf.org/html/rfc1035">Domain Name System (DNS)</link> </skill>
-            <skill last_used="2014"> <link url="http://tools.ietf.org/html/rfc2131">Dynamic Host Configuration Protocol (DHCP)</link> </skill>
-            <skill last_used="2014"> <link url="http://www.ietf.org/rfc/rfc1157.txt?number=1157">Simple Network Management Protocol (SNMP)</link> </skill>
-            <skill last_used="2014"> <link url="http://www.openssh.org/">Secure Shell (SSH) &amp; OpenSSH</link> </skill>
-            <skill last_used="2014"> <link url="http://www.openssl.org/">Secure Sockets Layer (SSL) &amp; OpenSSL</link> </skill>
-            <skill last_used="2014"> <link url="http://www.ietf.org/rfc/rfc2251.txt?number=2251">Lightweight Directory Access Protocol (LDAPv3)</link> </skill>
-            <skill force="old" last_used="2014"> <link url="http://www.ietf.org/rfc/rfc0821.txt?number=821">Simple Mail Transfer Protocol (SMTP)</link> </skill>
-            <skill force="old" last_used="2014"> <link url="http://www.ietf.org/rfc/rfc3501.txt?number=3501">Internet Message Access Protocol (IMAP)</link> </skill>
-            <skill force="old" last_used="2014"> <link url="http://www.ietf.org/rfc/rfc2030.txt?number=2030">Simple Network Time Protocol (SNTP)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.voiptimes.com/research/protocols/">Voice over IP (VoIP)</link> </skill>
-            <skill last_used="2011"> <link url="http://en.wikipedia.org/wiki/IP_Multimedia_Subsystem">IP Multimedia Subsystem (IMS)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.packetcable.com/specifications/specifications20.html" >PacketCable 2.0</link> </skill>
-            <skill last_used="2011"> <link url="http://tools.ietf.org/html/rfc3435">Media Gateway Control Protocol (MGCP)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.packetcable.com/downloads/specs/PKT-SP-NCS1.5-I03-070412.pdf" >Network-Based Call Signaling (NCS)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.ietf.org/rfc/rfc3261.txt">Session Initiation Protocol (SIP)</link> </skill>
-            <skill last_used="2010"> <link url="http://www.itu.int/rec/dologin_pub.asp?lang=e&amp;id=T-REC-Q.700-199303-I!!PDF-E&amp;type=items" >Signaling System #7 (SS7)</link> </skill>
-            <skill force="old" last_used="2010"> <link url="http://www.ietf.org/rfc/rfc1661.txt?number=1661">Point-to-Point Protocol (PPP)</link> </skill>
-            <skill last_used="1999"> <link url="http://www.itu.int/rec/recommendation.asp?type=products&amp;parent=T-REC-q" >ISDN Q.921/LAPD</link> </skill>
-            <skill last_used="1999"> <link url="http://www.itu.int/rec/recommendation.asp?type=products&amp;parent=T-REC-q" >ISDN Q.931/Call Control</link> </skill>
-            <skill last_used="1999"> <link url="http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=37010&amp;ICS1=35" >High-level Data Link Control (HDLC)</link> </skill>
-            <skill last_used="2011"> <link url="http://standards.ieee.org/getieee802/download/802.2-1998.pdf">IEEE 802.2 Logical Link Control (LLC)</link> </skill>
-            <skill last_used="2011"> <link url="http://standards.ieee.org/getieee802/download/802.3-2002.pdf">IEEE 802.3 CSMA/CD (Ethernet)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.x.org/">X11 Window System</link> </skill>
-            <skill last_used="2011"> <link url="http://tools.ietf.org/html/rfc1035">Network Information Service (NIS)</link> </skill>
-        </skill_category>
-        <skill_category name="Web Services &amp; Content">
-            <skill last_used="2014"> <link url="http://nginx.org/en/">nginx</link> </skill>
-            <skill force="old" last_used="2014"> <link url="http://httpd.apache.org/">Apache HTTP Server</link> </skill>
-            <skill force="old" last_used="2014"> <link url="http://www.w3.org/Protocols/">HyperText Transfer Protocol (HTTP)</link> </skill>
-            <skill force="old" last_used="2014"> <link url="http://xmlrpc.scripting.com/default.html">XML-RPC</link> </skill>
-            <!--<skill force="old" last_used="2014"> <link url="http://www.w3.org/2000/xp/Group/">Simple Object Access Protocol (SOAP)</link> </skill>-->
-            <skill force="old" last_used="2014"> <link url="http://www.w3.org/MarkUp/">HyperText Markup Language (HTML)</link> </skill>
-            <skill force="old" last_used="2014"> <link url="http://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS)</link> </skill>
-            <!--<skill force="old" last_used="2010"> <link url="http://www.w3.org/TR/wsdl">Web Services Description Language (WSDL)</link> </skill>-->
-            <!--<skill last_used="1997"> <link url="http://java.sun.com/applets/">Java Applets</link> </skill>-->
-            <!-- skill force="old" last_used="2010"> <link url="http://ws.apache.org/axis/">Apache Axis</link> </skill -->
-            <!-- skill force="old" last_used="independent_study"> <link url="http://jakarta.apache.org/struts/">Apache Struts</link> </skill -->
-            <!-- skill last_used="independent_study"> <link url="http://java.sun.com/j2ee/javaserverfaces/">JavaServer Faces (JSF)</link> </skill -->
-        </skill_category>
-        <skill_category name="Web Performance &amp; QA">
-            <skill last_used="2011"> <link url="http://www.junit.org/">JUnit4</link> </skill>
-            <skill last_used="2011"> <link url="http://www.httpunit.org">HttpUnit</link> </skill>
-            <skill last_used="2011"> <link url="http://jakarta.apache.org/jmeter/">Apache JMeter</link> </skill>
-            <skill last_used="2010"> <link url="http://jakarta.apache.org/cactus/">Apache Cactus</link> </skill>
-            <skill last_used="2010"> <link url="http://java.sun.com/j2ee/ecperf/">ECPerf</link> </skill>
-            <skill last_used="2010"> <link url="http://www.junitee.org/">JUnitEE</link> </skill>
-            <skill last_used="2010"> <link url="http://www.tagunit.org/">TagUnit</link> </skill>
-            <skill last_used="2010"> <link url="http://jakarta.apache.org/watchdog/">Apache Watchdog</link> </skill>
-        </skill_category>
-        <skill_category name="Java Technologies">
-            <skill last_used="2011"> <link url="http://ant.apache.org/">Apache Ant</link> </skill>
-            <skill last_used="2011"> <link url="http://www.eclipse.org/">Eclipse</link> </skill>
-            <!-- skill last_used="2011"> <link url="http://www.eclipse.org/">Standard Widget Toolkit (SWT/JFace)</link> </skill -->
-            <skill last_used="2011"> <link url="http://www.hibernate.org/">Hibernate</link> </skill>
-            <skill last_used="2005"> <link url="http://xdoclet.sourceforge.net/">XDoclet</link> </skill>
-            <skill last_used="2011"> <link url="http://logging.apache.org/log4j/">Apache Log4j</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/JavaManagement/">Java Management Extensions (JMX)</link> </skill>
-            <skill force="old" last_used="2004"> <link url="http://wrapper.tanukisoftware.org/doc/english/">Java Service Wrapper (JSW)</link> </skill>
-        </skill_category>
-        <skill_category name="Java Web Services">
-            <skill force="old" last_used="2011"> <link url="http://www.jboss.org">JBoss</link> </skill>
-            <skill last_used="2011"> <link url="http://jakarta.apache.org/tomcat/">Apache Tomcat</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/servlet/">Java Servlets</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/jsp/">Java Server Pages (JSP)</link> </skill>
-            <skill force="old" last_used="2010"> <link url="http://java.sun.com/products/jsp/jstl/">Java Server Pages Standard Tag Library (JSTL)</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/xml/jaxp/">Java API for XML Processing (JAXP)</link> </skill>
-        </skill_category>
-        <skill_category name="Java 2 Standard Edition">
-            <skill last_used="2011"> <link url="http://java.sun.com/products/jndi/">Java Naming and Directory Interface (JNDI)</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/jdbc/">Java Database Connectivity (JDBC)</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/jaas/">Java Authentication &amp; Authorization Service (JAAS)</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/jce/">Java Cryptography Extension (JCE)</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/jfc/">Java Foundation Classes (JFC/Swing)</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/jdk/idl/">Java IDL</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/jdk/rmi/">Java Remote Method Invocation (RMI)</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/javabeans/glasgow/jaf.html">JavaBeans Activation Framework (JAF)</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/products/javabeans/">JavaBeans Component API</link> </skill>
-            <skill last_used="2011"> <link url="http://java.sun.com/j2se/1.4.2/docs/guide/awt/">Abstract Window Toolkit (AWT)</link> </skill>
-        </skill_category>
-        <skill_category name="Java 2 Enterprise Edition">
+  </awards>
+  <skills>
+    <skill_category name="Programming Languages">
+      <skill force="current" last_used="2014">
+        <link url="http://cm.bell-labs.com/cm/cs/cbook/">C</link>
+      </skill>
+      <skill last_used="2013">
+        <link url="http://www.research.att.com/~bs/C++.html">C++</link>
+      </skill>
+      <skill force="current" last_used="2013">
+        <link url="http://java.sun.com/">Java</link>
+      </skill>
+      <skill force="current" last_used="2014">
+        <link url="http://golang.org/">Go</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="https://www.ruby-lang.org/">Ruby</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.python.org/">Python</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.perl.org/">Perl</link>
+      </skill>
+      <!-- <skill last_used="2014"> <link url="http://nodejs.org/">Node.js</link> </skill> -->
+      <skill last_used="2014">
+        <link url="http://www.scriptics.com/">Tcl/Tk</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://expect.nist.gov/">Expect</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://awk.info/">AWK</link>
+      </skill>
+      <!-- <skill last_used="2013"> <link url="http://www.ecma-international.org/publications/files/ecma-st/ECMA-262.pdf"> JavaScript</link> </skill> -->
+      <skill force="old" last_used="2003">
+        <link url="http://dinosaur.compilertools.net/">yacc &amp; lex</link>
+      </skill>
+      <skill last_used="2012">assembly languages</skill>
+    </skill_category>
+    <skill_category name="Professional Certification">
+      <skill>
+        <link url="http://www.openstack.org/coa/">Certified OpenStack Administrator / OpenStack, Certificate Number: COA-1600-0240-0100</link>
+      </skill>
+      <skill>
+        <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate / Amazon Web Services, Certificate Number: AWS-ADEV-5875</link>
+      </skill>
+      <skill force="current">
+        <link url="http://suned.sun.com/US/certification/java/java_devj2se.html">Sun Certified Java Developer (SCJD)</link>
+      </skill>
+      <skill force="current">
+        <link url="http://suned.sun.com/US/certification/java/java_progj2se.html">Sun Certified Java Programmer (SCJP)</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Config Management">
+      <skill force="current">
+        <link url="http://www.getchef.com/">Chef</link>
+      </skill>
+      <skill force="current">
+        <link url="https://dyn.slack.com/messages/noc/">Vagrant</link>
+      </skill>
+      <skill force="current">
+        <link url="http://berkshelf.com/">Berkshelf</link>
+      </skill>
+      <skill force="current">
+        <link url="http://www.ansible.com/home">Ansible</link>
+      </skill>
+      <skill force="current">
+        <link url="http://rundeck.org/">Rundeck</link>
+      </skill>
+      <skill force="current">
+        <link url="http://cfengine.com/">CFEngine</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Virtualization">
+      <skill force="current">
+        <link url="https://www.docker.com/">Docker (containers)</link>
+      </skill>
+      <skill force="current">
+        <link url="https://www.xenproject.org/">Xen</link>
+      </skill>
+      <skill force="current">
+        <link url="http://www.linux-kvm.org/">KVM (kernel-based virtual machines)</link>
+      </skill>
+      <skill force="current">
+        <link url="https://www.virtualbox.org/">VirtualBox</link>
+      </skill>
+      <skill force="current">
+        <link url="http://www.vmware.com/">VMware ESXi</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Cloud Computing">
+      <skill force="current">
+        <link url="http://rackspace.com">Rackspace</link>
+      </skill>
+      <skill force="current">
+        <link url="http://openstack.org">OpenStack</link>
+      </skill>
+      <skill force="current"><link url="http://aws.amazon.com">Amazon Web Services</link> --
+                Compute: EC2, EC2 Container Service, Elastic Beanstalk, Lambda;
+                Storage &amp; Content Delivery: S3, CloudFront, Elastic File System, Glacier;
+                Database: RDS, DynamoDB, ElastiCache, Redshift;
+                Networking: VPC, Route 53;
+                Management Tools: CloudWatch, CloudFormation, CloudTrail, Config, OpsWorks, Service Catalog;
+                Security &amp; Identity: IAM, Certificate Manager;
+                Analytics: EMR, Data Pipeline, Elasticsearch Service, Kinesis;
+                Mobile Services: SNS;
+                Application Services: SES, SQS, SWF
+            </skill>
+    </skill_category>
+    <skill_category name="Release Engineering">
+      <skill last_used="2014">
+        <link url="https://enterprise.github.com/">GitHub Enterprise</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="https://github.com/">GitHub</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://subversion.apache.org//">Apache Subversion</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.perforce.com/">Perforce</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://mercurial.selenic.com/">Mercurial</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www-306.ibm.com/software/awdtools/clearcase/">IBM Rational ClearCase</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.cvshome.org/">Concurrent Versions System (CVS)</link>
+      </skill>
+      <!-- skill last_used="2003"> <link url="http://msdn.microsoft.com/vstudio/previous/ssafe/">Microsoft Visual SourceSafe</link> </skill> -->
+    </skill_category>
+    <skill_category name="Operating Systems">
+      <skill last_used="2014">
+        <link url="http://www.ubuntu.com/">Ubuntu Linux</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="https://www.debian.org/">Debian Linux</link>
+      </skill>
+      <skill last_used="2012">
+        <link url="http://centos.org/">CentOS Linux</link>
+      </skill>
+      <skill last_used="2012">
+        <link url="https://www.scientificlinux.org/">Scientific Linux</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.freebsd.org/">FreeBSD</link>
+      </skill>
+      <skill last_used="2012">
+        <link url="http://www.netbsd.org/">NetBSD</link>
+      </skill>
+      <skill last_used="2012">
+        <link url="http://www.redhat.com/">Red Hat Enterprise Linux</link>
+      </skill>
+      <skill last_used="2012">
+        <link url="http://fedoraproject.org/">Fedora Linux</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://en.wikipedia.org/wiki/Embedded_Linux">Embedded Linux</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.suse.com/">SuSE Linux</link>
+      </skill>
+      <skill last_used="2012">
+        <link url="http://wwws.sun.com/software/solaris/">Sun Solaris</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.rtos.com/">ExpressLogic ThreadX</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.enea.com/">Enea OSE</link>
+      </skill>
+      <skill last_used="2003">
+        <link url="http://www.windriver.com/products/vxworks5/">Wind River VxWorks</link>
+      </skill>
+      <skill last_used="1997">
+        <link url="http://www-1.ibm.com/servers/aix/">IBM AIX</link>
+      </skill>
+      <skill last_used="1997">
+        <link url="http://www.hp.com/products1/unix/operating/">HP HP-UX</link>
+      </skill>
+      <skill force="current" last_used="2012">
+        <link url="http://www.microsoft.com/windows/">Microsoft Windows</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Database Engines">
+      <skill last_used="2014">
+        <link url="http://cassandra.apache.org/">Apache Cassandra</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.postgresql.org/">PostgreSQL</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.mysql.com/">MySQL</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.microsoft.com/sql/">Microsoft SQL Server</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://hsqldb.sourceforge.net/">Hypersonic SQL</link>
+      </skill>
+      <skill last_used="2004">
+        <link url="http://www.postgres.org/">PostgreSQL</link>
+      </skill>
+      <skill last_used="2010">
+        <link url="http://www.oracle.com/database/">Oracle</link>
+      </skill>
+      <skill last_used="1995">
+        <link url="http://www-306.ibm.com/software/data/informix/">IBM Informix</link>
+      </skill>
+      <skill last_used="never">
+        <link url="http://www-306.ibm.com/software/data/db2/">IBM DB2</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Network Management">
+      <skill last_used="2011">
+        <link url="http://www.simple-times.org/">SNMP MIB design &amp; agent development</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.smplsft.com/">SNMP verification</link>
+      </skill>
+      <skill last_used="2003">
+        <link url="http://www.openview.hp.com/">HP OpenView</link>
+      </skill>
+      <skill last_used="1995">
+        <link url="http://www-306.ibm.com/software/tivoli/products/netview/">IBM Tivoli NetView</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Network Routing">
+      <skill last_used="2011">
+        <link url="http://www.juniper.com/">Juniper JunOS</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.pfsense.org/">pfSense</link>
+      </skill>
+      <skill last_used="2012">
+        <link url="http://www.cisco.com/">Cisco IOS</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.sonicwall.com/us/index.html">SonicWall Firewalls</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.cisco.com/en/US/docs/ios/12_2sb/feature/guide/gigeth.html">LACP</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.ripe.net/ripe/meetings/ripe-48/presentations/ripe48-eof-bfd.pdf">BFD</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.lincoln.edu/math/rmyrick/ComputerNetworks/InetReference/89.htm">OSPF</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Network Protocols">
+      <skill force="current">
+        <link url="http://www.ietf.org/rfc/rfc0793.txt?number=793">TCP/IP</link>
+      </skill>
+      <skill force="current">
+        <link url="http://www.ietf.org/rfc/rfc0768.txt?number=768">UDP/IP</link>
+      </skill>
+      <skill force="current">
+        <link url="http://www.scit.wlv.ac.uk/~jphb/comms/sockets.html">Socket Programming</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://tools.ietf.org/html/rfc1035">Domain Name System (DNS)</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://tools.ietf.org/html/rfc2131">Dynamic Host Configuration Protocol (DHCP)</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.ietf.org/rfc/rfc1157.txt?number=1157">Simple Network Management Protocol (SNMP)</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.openssh.org/">Secure Shell (SSH) &amp; OpenSSH</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.openssl.org/">Secure Sockets Layer (SSL) &amp; OpenSSL</link>
+      </skill>
+      <skill last_used="2014">
+        <link url="http://www.ietf.org/rfc/rfc2251.txt?number=2251">Lightweight Directory Access Protocol (LDAPv3)</link>
+      </skill>
+      <skill force="old" last_used="2014">
+        <link url="http://www.ietf.org/rfc/rfc0821.txt?number=821">Simple Mail Transfer Protocol (SMTP)</link>
+      </skill>
+      <skill force="old" last_used="2014">
+        <link url="http://www.ietf.org/rfc/rfc3501.txt?number=3501">Internet Message Access Protocol (IMAP)</link>
+      </skill>
+      <skill force="old" last_used="2014">
+        <link url="http://www.ietf.org/rfc/rfc2030.txt?number=2030">Simple Network Time Protocol (SNTP)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.voiptimes.com/research/protocols/">Voice over IP (VoIP)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://en.wikipedia.org/wiki/IP_Multimedia_Subsystem">IP Multimedia Subsystem (IMS)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.packetcable.com/specifications/specifications20.html">PacketCable 2.0</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://tools.ietf.org/html/rfc3435">Media Gateway Control Protocol (MGCP)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.packetcable.com/downloads/specs/PKT-SP-NCS1.5-I03-070412.pdf">Network-Based Call Signaling (NCS)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.ietf.org/rfc/rfc3261.txt">Session Initiation Protocol (SIP)</link>
+      </skill>
+      <skill last_used="2010">
+        <link url="http://www.itu.int/rec/dologin_pub.asp?lang=e&amp;id=T-REC-Q.700-199303-I!!PDF-E&amp;type=items">Signaling System #7 (SS7)</link>
+      </skill>
+      <skill force="old" last_used="2010">
+        <link url="http://www.ietf.org/rfc/rfc1661.txt?number=1661">Point-to-Point Protocol (PPP)</link>
+      </skill>
+      <skill last_used="1999">
+        <link url="http://www.itu.int/rec/recommendation.asp?type=products&amp;parent=T-REC-q">ISDN Q.921/LAPD</link>
+      </skill>
+      <skill last_used="1999">
+        <link url="http://www.itu.int/rec/recommendation.asp?type=products&amp;parent=T-REC-q">ISDN Q.931/Call Control</link>
+      </skill>
+      <skill last_used="1999">
+        <link url="http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=37010&amp;ICS1=35">High-level Data Link Control (HDLC)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://standards.ieee.org/getieee802/download/802.2-1998.pdf">IEEE 802.2 Logical Link Control (LLC)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://standards.ieee.org/getieee802/download/802.3-2002.pdf">IEEE 802.3 CSMA/CD (Ethernet)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.x.org/">X11 Window System</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://tools.ietf.org/html/rfc1035">Network Information Service (NIS)</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Web Services &amp; Content">
+      <skill last_used="2014">
+        <link url="http://nginx.org/en/">nginx</link>
+      </skill>
+      <skill force="old" last_used="2014">
+        <link url="http://httpd.apache.org/">Apache HTTP Server</link>
+      </skill>
+      <skill force="old" last_used="2014">
+        <link url="http://www.w3.org/Protocols/">HyperText Transfer Protocol (HTTP)</link>
+      </skill>
+      <skill force="old" last_used="2014">
+        <link url="http://xmlrpc.scripting.com/default.html">XML-RPC</link>
+      </skill>
+      <!-- <skill force="old" last_used="2014"> <link url="http://www.w3.org/2000/xp/Group/">Simple Object Access Protocol (SOAP)</link> </skill> -->
+      <skill force="old" last_used="2014">
+        <link url="http://www.w3.org/MarkUp/">HyperText Markup Language (HTML)</link>
+      </skill>
+      <skill force="old" last_used="2014">
+        <link url="http://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS)</link>
+      </skill>
+      <!-- <skill force="old" last_used="2010"> <link url="http://www.w3.org/TR/wsdl">Web Services Description Language (WSDL)</link> </skill> -->
+      <!-- <skill last_used="1997"> <link url="http://java.sun.com/applets/">Java Applets</link> </skill> -->
+      <!-- skill force="old" last_used="2010"> <link url="http://ws.apache.org/axis/">Apache Axis</link> </skill> -->
+      <!-- skill force="old" last_used="independent_study"> <link url="http://jakarta.apache.org/struts/">Apache Struts</link> </skill> -->
+      <!-- skill last_used="independent_study"> <link url="http://java.sun.com/j2ee/javaserverfaces/">JavaServer Faces (JSF)</link> </skill> -->
+    </skill_category>
+    <skill_category name="Web Performance &amp; QA">
+      <skill last_used="2011">
+        <link url="http://www.junit.org/">JUnit4</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.httpunit.org">HttpUnit</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://jakarta.apache.org/jmeter/">Apache JMeter</link>
+      </skill>
+      <skill last_used="2010">
+        <link url="http://jakarta.apache.org/cactus/">Apache Cactus</link>
+      </skill>
+      <skill last_used="2010">
+        <link url="http://java.sun.com/j2ee/ecperf/">ECPerf</link>
+      </skill>
+      <skill last_used="2010">
+        <link url="http://www.junitee.org/">JUnitEE</link>
+      </skill>
+      <skill last_used="2010">
+        <link url="http://www.tagunit.org/">TagUnit</link>
+      </skill>
+      <skill last_used="2010">
+        <link url="http://jakarta.apache.org/watchdog/">Apache Watchdog</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Java Technologies">
+      <skill last_used="2011">
+        <link url="http://ant.apache.org/">Apache Ant</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.eclipse.org/">Eclipse</link>
+      </skill>
+      <!-- skill last_used="2011"> <link url="http://www.eclipse.org/">Standard Widget Toolkit (SWT/JFace)</link> </skill> -->
+      <skill last_used="2011">
+        <link url="http://www.hibernate.org/">Hibernate</link>
+      </skill>
+      <skill last_used="2005">
+        <link url="http://xdoclet.sourceforge.net/">XDoclet</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://logging.apache.org/log4j/">Apache Log4j</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/JavaManagement/">Java Management Extensions (JMX)</link>
+      </skill>
+      <skill force="old" last_used="2004">
+        <link url="http://wrapper.tanukisoftware.org/doc/english/">Java Service Wrapper (JSW)</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Java Web Services">
+      <skill force="old" last_used="2011">
+        <link url="http://www.jboss.org">JBoss</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://jakarta.apache.org/tomcat/">Apache Tomcat</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/servlet/">Java Servlets</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/jsp/">Java Server Pages (JSP)</link>
+      </skill>
+      <skill force="old" last_used="2010">
+        <link url="http://java.sun.com/products/jsp/jstl/">Java Server Pages Standard Tag Library (JSTL)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/xml/jaxp/">Java API for XML Processing (JAXP)</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Java 2 Standard Edition">
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/jndi/">Java Naming and Directory Interface (JNDI)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/jdbc/">Java Database Connectivity (JDBC)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/jaas/">Java Authentication &amp; Authorization Service (JAAS)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/jce/">Java Cryptography Extension (JCE)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/jfc/">Java Foundation Classes (JFC/Swing)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/jdk/idl/">Java IDL</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/jdk/rmi/">Java Remote Method Invocation (RMI)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/javabeans/glasgow/jaf.html">JavaBeans Activation Framework (JAF)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/products/javabeans/">JavaBeans Component API</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://java.sun.com/j2se/1.4.2/docs/guide/awt/">Abstract Window Toolkit (AWT)</link>
+      </skill>
+    </skill_category>
+    <!-- <skill_category name="Java 2 Enterprise Edition">
             <skill last_used="2010"> <link url="http://java.sun.com/products/ejb/">Enterprise JavaBeans (EJB)</link> </skill>
             <skill last_used="2010"> <link url="http://java.sun.com/j2ee/connector/">J2EE Connector Architecture (JCA)</link> </skill>
             <skill last_used="2011"> <link url="http://java.sun.com/products/jms/">Java Message Service (JMS)</link> </skill>
@@ -1262,65 +1452,148 @@
             <skill last_used="2011"> <link url="http://java.sun.com/products/jts/">Java Transaction Service (JTS)</link> </skill>
             <skill force="old" last_used="2011"> <link url="http://java.sun.com/products/javamail/">JavaMail</link> </skill>
             <skill force="old" last_used="2010"> <link url="http://www.omg.org/technology/documents/formal/transaction_service.htm" >OMG Object Transaction Service (OTS)</link> </skill>
-        </skill_category>
-        <skill_category name="XML Technologies">
-            <skill last_used="2011"> <link url="http://www.w3.org/DOM/">Document Object Model (DOM)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.saxproject.org/">Simple API for XML (SAX)</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://www.w3.org/XML/">Extensible Markup Language (XML)</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://www.w3.org/TR/2002/REC-xhtml1-20020801/">Extensible HyperText Markup Language (XHTML)</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://www.w3.org/XML/Schema">XML Schema</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://www.w3.org/TR/xpath">XML Path Language (XPath)</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://www.w3.org/TR/xptr/">XML Pointer language (XPointer)</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://www.w3.org/TR/xlink/">XML Linking Language (XLink)</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://www.w3.org/TR/xsl/">Extensible Stylesheet Language (XSL)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.w3.org/TR/xslt">XSL Transformations (XSLT)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.w3.org/TR/xsl/">XSL Formatting Objects (XSL-FO)</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://xml.apache.org/xalan-j/">Apache Xalan XSLT processor</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://xml.apache.org/xerces2-j/">Apache Xerces parser</link> </skill>
-            <skill force="old" last_used="2011"> <link url="http://saxon.sourceforge.net/">Saxon XSLT processor</link> </skill>
-        </skill_category>
-        <skill_category name="Object-Oriented Tools">
-            <skill last_used="never"> <link url="http://www-136.ibm.com/developerworks/rational/products/roserealtime/" >IBM Rational Rose RealTime</link> </skill>
-            <skill last_used="1998"> <link url="http://www.smartdraw.com/resources/centers/software/room.htm">Real-time Object-Oriented Modeling (ROOM)</link> </skill>
-        </skill_category>
-        <skill_category name="Defect Tracking">
-            <skill last_used="2014"> <link url="http://www.atlassian.com/software/jira/">Jira Issue Management</link> </skill>
-            <skill last_used="2011"> <link url="http://www-306.ibm.com/software/awdtools/clearquest/">IBM Rational ClearQuest</link> </skill>
-            <skill last_used="2011"> <link url="http://www.bugzilla.org/">Bugzilla</link> </skill>
-            <skill force="old" last_used="2010"> <link url="http://www.jivesoftware.com/products/forums/">Jive Forums</link> </skill>
-        </skill_category>
-        <skill_category name="Other Tools">
-            <skill force="old" last_used="2011"> <link url="http://www.adobe.com/products/framemaker/main.html">Adobe FrameMaker</link> </skill>
-            <skill force="old" last_used="2005"> <link url="http://www.gnu.org/software/dejagnu/">DejaGnu</link> </skill>
-            <skill last_used="2004"> <link url="http://www.zerog.com/products_ia.html">ZeroG InstallAnywhere</link> </skill>
-            <!--<skill last_used="2004"> <link url="http://www.lotus.com/">IBM Lotus Domino &amp; Notes</link> </skill>-->
-            <!--<skill last_used="2004"> <link url="http://www.cognos.com/">Cognos ReportNet</link> </skill>-->
-        </skill_category>
-        <skill_category name="Other Languages">
-            <skill last_used="never"> <link url="http://www.adobe.com/products/postscript/">PostScript</link> </skill>
-            <skill last_used="1994"> <link url="http://computing-dictionary.thefreedictionary.com/PL/M">PL/M</link> </skill>
-            <skill last_used="1987"> <link url="http://www.faqs.org/faqs/fortran-faq/">FORTRAN</link> </skill>
-            <skill last_used="1982"> <link url="http://www.faqs.org/faqs/computer-lang/cobol-faq/">COBOL</link> </skill>
-            <skill last_used="1982"> <link url="http://www.faqs.org/faqs/computer-lang/pli-faq/">PL/1</link> </skill>
-            <skill last_used="1978"> <link url="http://www.pascal-central.com/">Pascal</link> </skill>
-            <skill last_used="1978"> <link url="http://www.faqs.org/faqs/lisp-faq/">LISP</link> </skill>
-            <!--<skill last_used="1978"> <link url="http://www.campusprogram.com/reference/en/wikipedia/a/al/algol_programming_language.html">ALGOL</link> </skill>-->
-            <!--<skill last_used="1978"> <link url="http://www.snobol4.org/">SNOBOL</link> </skill>-->
-            <skill last_used="1975"> <link url="http://www.dartmouth.edu/~vox/0304/0503/basic.html">BASIC</link> </skill>
-        </skill_category>
-        <skill_category name="Microprocessors">
-            <skill last_used="2012"> <link url="http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html" >Intel x86</link> </skill>
-            <skill last_used="2011"> <link url="http://www.atmel.com/products/microcontrollers/arm/sam9g.aspx">Atmel SAM9G (ARM)</link> </skill>
-            <skill last_used="2011"> <link url="http://www.mips.com/products/architectures/mips32/">MIPS32</link> </skill>
-            <skill last_used="2011"> <link url="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPC8548E&amp;nodeId=0162468rH3bTdGJk196465" >Freescale MPC8548</link> </skill>
-            <skill last_used="2011"> <link url="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPC7410&amp;nodeId=0162468rH3bTdG8653" >Freescale MPC7410</link> </skill>
-            <skill last_used="2003"> <link url="http://www.intel.com/design/strong/datashts/278241.htm">Intel StrongARM</link> </skill>
-            <skill last_used="1999"> <link url="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPC860&amp;nodeId=0162468rH3bTdGJk194204" >Freescale MPC860</link> </skill>
-            <skill last_used="1995"> <link url="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MC68000" >Freescale MC680X0</link> </skill>
-            <skill last_used="2011"> <link url="http://www.sun.com/processors/">Sun SPARC</link> </skill>
-            <skill last_used="2004"> <link url="http://www.zilog.com/products/partdetails.asp?id=Z80180">Zilog 80180</link> </skill>
-            <skill last_used="2004"> <link url="http://www.faqs.org/faqs/microcontroller-faq/8051/">Intel 8051 Microcontroller</link> </skill>
-        </skill_category>
-    </skills>
-
+        </skill_category> -->
+    <skill_category name="XML Technologies">
+      <skill last_used="2011">
+        <link url="http://www.w3.org/DOM/">Document Object Model (DOM)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.saxproject.org/">Simple API for XML (SAX)</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://www.w3.org/XML/">Extensible Markup Language (XML)</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://www.w3.org/TR/2002/REC-xhtml1-20020801/">Extensible HyperText Markup Language (XHTML)</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://www.w3.org/XML/Schema">XML Schema</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://www.w3.org/TR/xpath">XML Path Language (XPath)</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://www.w3.org/TR/xptr/">XML Pointer language (XPointer)</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://www.w3.org/TR/xlink/">XML Linking Language (XLink)</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://www.w3.org/TR/xsl/">Extensible Stylesheet Language (XSL)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.w3.org/TR/xslt">XSL Transformations (XSLT)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.w3.org/TR/xsl/">XSL Formatting Objects (XSL-FO)</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://xml.apache.org/xalan-j/">Apache Xalan XSLT processor</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://xml.apache.org/xerces2-j/">Apache Xerces parser</link>
+      </skill>
+      <skill force="old" last_used="2011">
+        <link url="http://saxon.sourceforge.net/">Saxon XSLT processor</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Object-Oriented Tools">
+      <skill last_used="never">
+        <link url="http://www-136.ibm.com/developerworks/rational/products/roserealtime/">IBM Rational Rose RealTime</link>
+      </skill>
+      <skill last_used="1998">
+        <link url="http://www.smartdraw.com/resources/centers/software/room.htm">Real-time Object-Oriented Modeling (ROOM)</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Defect Tracking">
+      <skill last_used="2014">
+        <link url="http://www.atlassian.com/software/jira/">Jira Issue Management</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www-306.ibm.com/software/awdtools/clearquest/">IBM Rational ClearQuest</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.bugzilla.org/">Bugzilla</link>
+      </skill>
+      <skill force="old" last_used="2010">
+        <link url="http://www.jivesoftware.com/products/forums/">Jive Forums</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Other Tools">
+      <skill force="old" last_used="2011">
+        <link url="http://www.adobe.com/products/framemaker/main.html">Adobe FrameMaker</link>
+      </skill>
+      <skill force="old" last_used="2005">
+        <link url="http://www.gnu.org/software/dejagnu/">DejaGnu</link>
+      </skill>
+      <skill last_used="2004">
+        <link url="http://www.zerog.com/products_ia.html">ZeroG InstallAnywhere</link>
+      </skill>
+      <!-- <skill last_used="2004"> <link url="http://www.lotus.com/">IBM Lotus Domino &amp; Notes</link> </skill> -->
+      <!-- <skill last_used="2004"> <link url="http://www.cognos.com/">Cognos ReportNet</link> </skill> -->
+    </skill_category>
+    <skill_category name="Other Languages">
+      <skill last_used="never">
+        <link url="http://www.adobe.com/products/postscript/">PostScript</link>
+      </skill>
+      <skill last_used="1994">
+        <link url="http://computing-dictionary.thefreedictionary.com/PL/M">PL/M</link>
+      </skill>
+      <skill last_used="1987">
+        <link url="http://www.faqs.org/faqs/fortran-faq/">FORTRAN</link>
+      </skill>
+      <skill last_used="1982">
+        <link url="http://www.faqs.org/faqs/computer-lang/cobol-faq/">COBOL</link>
+      </skill>
+      <skill last_used="1982">
+        <link url="http://www.faqs.org/faqs/computer-lang/pli-faq/">PL/1</link>
+      </skill>
+      <skill last_used="1978">
+        <link url="http://www.pascal-central.com/">Pascal</link>
+      </skill>
+      <skill last_used="1978">
+        <link url="http://www.faqs.org/faqs/lisp-faq/">LISP</link>
+      </skill>
+      <!-- <skill last_used="1978"> <link url="http://www.campusprogram.com/reference/en/wikipedia/a/al/algol_programming_language.html">ALGOL</link> </skill> -->
+      <!-- <skill last_used="1978"> <link url="http://www.snobol4.org/">SNOBOL</link> </skill> -->
+      <skill last_used="1975">
+        <link url="http://www.dartmouth.edu/~vox/0304/0503/basic.html">BASIC</link>
+      </skill>
+    </skill_category>
+    <skill_category name="Microprocessors">
+      <skill last_used="2012">
+        <link url="http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html">Intel x86</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.atmel.com/products/microcontrollers/arm/sam9g.aspx">Atmel SAM9G (ARM)</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.mips.com/products/architectures/mips32/">MIPS32</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPC8548E&amp;nodeId=0162468rH3bTdGJk196465">Freescale MPC8548</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPC7410&amp;nodeId=0162468rH3bTdG8653">Freescale MPC7410</link>
+      </skill>
+      <skill last_used="2003">
+        <link url="http://www.intel.com/design/strong/datashts/278241.htm">Intel StrongARM</link>
+      </skill>
+      <skill last_used="1999">
+        <link url="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPC860&amp;nodeId=0162468rH3bTdGJk194204">Freescale MPC860</link>
+      </skill>
+      <skill last_used="1995">
+        <link url="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MC68000">Freescale MC680X0</link>
+      </skill>
+      <skill last_used="2011">
+        <link url="http://www.sun.com/processors/">Sun SPARC</link>
+      </skill>
+      <skill last_used="2004">
+        <link url="http://www.zilog.com/products/partdetails.asp?id=Z80180">Zilog 80180</link>
+      </skill>
+      <skill last_used="2004">
+        <link url="http://www.faqs.org/faqs/microcontroller-faq/8051/">Intel 8051</link>
+      </skill>
+    </skill_category>
+  </skills>
 </resume>
