@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="28 November 2016">
+<resume date="05 December 2016">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>18 Sunridge Road</street>
     <city>Windham</city>
@@ -97,6 +97,9 @@
                 tools.</taskTech>
         <taskTech>Mentored other SDT's within my
                 organization.</taskTech>
+        <taskTech>Certified OpenStack Administrator</taskTech>
+        <taskTech>AWS Certified Developer - Associate Level</taskTech>
+        <taskTech>AWS Certified SysOps Administrator - Associate Level</taskTech>
         <taskSkills>Skills: OpenStack and Rackspace API's, OpenCAFE,
                 CloudCAFE, CloudRoast, Amazon Web Services, Microsoft Azure,
                 Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder, Jira,
@@ -942,7 +945,10 @@
       <link url="http://www.openstack.org/coa/">Certified OpenStack Administrator / OpenStack, Certificate Number: COA-1600-0240-0100</link>
     </certification>
     <certification>
-      <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate / Amazon Web Services, Certificate Number: AWS-ADEV-5875</link>
+      <link url="http://aws.amazon.com/certification/">AWS Certified SysOps Administrator - Associate Level / AWS, Certificate Number: AWS-ASOA-5593</link>
+    </certification>
+    <certification>
+      <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate Level / AWS, Certificate Number: AWS-ADEV-5875</link>
     </certification>
     <certification>
       <link url="http://education.oracle.com/">Sun Certified Java Developer (SCJD)</link>
@@ -965,7 +971,7 @@
         </patent>
   </patents>
   <seminars>
-    <seminar><link url="http://LinuxAcademy.com">Linux Academy</link>: AWS Certified DevOps Engineer - Professional Level; AWS Certified Developer - Associate Level; Docker And Elastic Beanstalk; DevOps Essentials; AWS Concepts; Linux Essentials Certification</seminar>
+    <seminar><link url="http://LinuxAcademy.com">Linux Academy</link>: AWS Certified DevOps Engineer - Professional Level; AWS Certified SysOps Administrator - Associate Level; AWS Certified Developer - Associate Level; Docker And Elastic Beanstalk; DevOps Essentials; AWS Concepts; Linux Essentials Certification</seminar>
     <!-- <seminar> <link url="https://www.mirantis.com/">Mirantis</link>: OpenStack Bootcamp</seminar> -->
     <!-- <seminar> <link url="http://www.usenix.org">USENIX</link>: System &amp; Network Security </seminar> -->
     <!-- <seminar> <link url="http://www.javaworld.com/javaworld/jw-06-1996/jw-06-objectworld.html"> ObjectWorld</link>: Managing Object-Oriented Development Projects </seminar> -->
@@ -1024,7 +1030,10 @@
         <link url="http://www.openstack.org/coa/">Certified OpenStack Administrator / OpenStack, Certificate Number: COA-1600-0240-0100</link>
       </skill>
       <skill>
-        <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate / Amazon Web Services, Certificate Number: AWS-ADEV-5875</link>
+        <link url="http://aws.amazon.com/certification/">AWS Certified SysOps Administrator - Associate Level / AWS, Certificate Number: AWS-ASOA-5593</link>
+      </skill>
+      <skill>
+        <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate / AWS, Certificate Number: AWS-ADEV-5875</link>
       </skill>
       <skill force="current">
         <link url="http://suned.sun.com/US/certification/java/java_devj2se.html">Sun Certified Java Developer (SCJD)</link>
