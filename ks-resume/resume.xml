@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="14 December 2016">
+<resume date="22 December 2016">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>18 Sunridge Road</street>
     <city>Windham</city>
@@ -97,6 +97,7 @@
                 tools.</taskTech>
         <taskTech>Mentored other SDT's within my
                 organization.</taskTech>
+        <taskTech>AWS Certified DevOps Engineer - Professional Level</taskTech>
         <taskTech>AWS Certified Solutions Architect - Associate Level</taskTech>
         <taskTech>AWS Certified SysOps Administrator - Associate Level</taskTech>
         <taskTech>AWS Certified Developer - Associate Level</taskTech>
@@ -943,6 +944,9 @@
   </education>
   <certifications>
     <certification>
+      <link url="http://aws.amazon.com/certification/">AWS Certified DevOps Engineer - Professional Level / AWS, Certificate Number: AWS-PDOE-1447</link>
+    </certification>
+    <certification>
       <link url="http://aws.amazon.com/certification/">AWS Certified Solutions Architect - Associate Level / AWS, Certificate Number: AWS-ASA-26486</link>
     </certification>
     <certification>
@@ -1030,6 +1034,9 @@
       <skill last_used="2012">assembly languages</skill>
     </skill_category>
     <skill_category name="Professional Certification">
+      <skill>
+        <link url="http://aws.amazon.com/certification/">AWS Certified DevOps Engineer - Professional Level / AWS, Certificate Number: AWS-PDOE-1447</link>
+      </skill>
       <skill>
         <link url="http://aws.amazon.com/certification/">AWS Certified Solutions Architect - Associate Level / AWS, Certificate Number: AWS-ASA-26486</link>
       </skill>
