@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="22 December 2016">
+<resume date="02 January 2017">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>18 Sunridge Road</street>
     <city>Windham</city>
@@ -78,34 +78,33 @@
                 CloudCAFE, and CloudRoast (Python) test frameworks for testing
                 cloud products, including OpenStack.</taskTech>
         <taskTech>Remote WFH (work from home) Racker.</taskTech>
-        <taskTech>Lead SDT for Floating IP and Shared IP subsystems:
-                implemented and maintained tests for same, including advanced
-                testing for usage tracking, subsystem functionality, and
+        <taskTech>Lead SDT for Floating IP and Shared IP subsystems,
+                implementing and maintaining tests, including
+                usage tracking, subsystem functionality, and
                 management API.</taskTech>
         <taskTech>Lead SDT for Ansible automation and Jenkins Job
                 Builder automation, for QE Continuous Integration processes
                 across multiple geographic regions.</taskTech>
         <taskTech> Built High Availability (HA) environments for
-                testing Shared IP subsystem, using Pacemaker with Corosync, and
+                testing Shared IP subsystem, with Pacemaker with Corosync, and
                 keepalived with HAProxy; plus Ansible.</taskTech>
         <taskTech>Performed troubleshooting for OpenStack Compute, Xen,
                 and tap network interfaces.</taskTech>
         <taskTech>Reviewed Cloud Load Balancer (CLB) performance
                 testing with team.</taskTech>
         <taskTech>Worked with other senior team members to improve
-                testing methodologies, strategies, methodologies, and
+                testing methodologies, strategies, and
                 tools.</taskTech>
-        <taskTech>Mentored other SDT's within my
-                organization.</taskTech>
+        <taskTech>Mentored other SDT's.</taskTech>
         <taskTech>AWS Certified DevOps Engineer - Professional Level</taskTech>
         <taskTech>AWS Certified Solutions Architect - Associate Level</taskTech>
         <taskTech>AWS Certified SysOps Administrator - Associate Level</taskTech>
         <taskTech>AWS Certified Developer - Associate Level</taskTech>
         <taskTech>Certified OpenStack Administrator</taskTech>
-        <taskSkills>Skills: OpenStack and Rackspace API's, OpenCAFE,
-                CloudCAFE, CloudRoast, Amazon Web Services, Microsoft Azure,
+        <taskSkills>Skills: OpenStack and Rackspace API's,
+                Amazon Web Services, Microsoft Azure,
                 Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder, Jira,
-                Redmine, GitHub, Gerrit, Slack, IRC/ZNC, Confluence, Vagrant,
+                Redmine, GitHub, Gerrit, Slack, Confluence, Vagrant,
                 Virtual Box, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
                 YAML, JSON, REST, Pacemaker, Corosync, keepalived, HAProxy,
                 MySQL, RabbitMQ, Mac OS X, Ubuntu Linux, RedHat Enterprise
@@ -360,12 +359,12 @@
                     Access-Control System. Plug-in modules supporting distributed facial
                     biometric devices. Implemented use cases for subject enrollment, standalone
                     identification, and verification in conjunction with card readers.</taskTech>
-        <taskTech>Multi-threaded application, device drivers, and Java SWT/JFace
-                    GUI interfaces, with a persistent store managed with Hibernate.</taskTech>
-        <taskTech>Cross-platform access control system supported Windows and Linux, and was
+        <!-- <taskTech>Multi-threaded application, device drivers, and Java SWT/JFace
+                    GUI interfaces, with a persistent store managed with Hibernate.</taskTech> -->
+        <!-- <taskTech>Cross-platform access control system supported Windows and Linux, and was
                     database-independent, supporting SQL Server, Sybase, Oracle, MySQL, embedded
-                    databases, and more.</taskTech>
-        <taskTech>This was a telecommute development environment.</taskTech>
+                    databases, and more.</taskTech> -->
+        <!-- <taskTech>This was a telecommute development environment.</taskTech> -->
         <taskSkills>Skills: Java, SWT/JFace, Hibernate, HSQLDB, SQLServer, Eclipse, JUnit,
                     Apache Ant, Apache Log4j.</taskSkills>
       </tasks>
@@ -624,24 +623,25 @@
       </assignment>
       <tasks>
         <taskTerse>Enterprise Web Services and Intranet.</taskTerse>
-        <taskTech>Intranet and Internet applications and infrastructure including
+        <taskTech>Intranet and Internet applications and infrastructure.</taskTech>
+        <!-- <taskTech>Intranet and Internet applications and infrastructure including
                     a "Back-End Server for Intranet Applications" that enabled access to Oracle
                     enterprise databases from web-oriented technologies. Server written
                     in object-oriented Tcl ([incr Tcl]) with Oracle SQL*Net client libraries and
                     handled high-volume database transactions through pooled TCP/IP socket-based
                     connections. The CGI client interfaces used Java, JavaScript,
-                    Perl5, Tcl, C, C++ and Korn Shell.</taskTech>
-        <taskTech>Secure Internet infrastructure for Electronic Commerce and
+                    Perl5, Tcl, C, C++ and Korn Shell.</taskTech> -->
+        <!-- <taskTech>Secure Internet infrastructure for Electronic Commerce and
                     Electronic Data Interchange systems utilizing technologies including routers,
                     firewalls, demilitarized zones, Secure Socket Layer (SSL),
                     authentication/certificates, Netscape Enterprise Server, VeriSign certificates,
                     Checkpoint/Firewall-1 and Sun Netra Internet Servers. Built a message routing
                     system based on asynchronous Remote Procedure Calls (RPC). Built CGI
-                    applications in Java, Perl5, Tcl, C, and C++.</taskTech>
-        <taskTech>Optical Character Recognition, Imaging Systems and
-                    Handwriting Recognition Systems.</taskTech>
-        <taskTech>Provided trouble-shooting for system and network security, configuration
-                    and administration groups.</taskTech>
+                    applications in Java, Perl5, Tcl, C, and C++.</taskTech> -->
+        <!-- <taskTech>Optical Character Recognition, Imaging Systems and
+                    Handwriting Recognition Systems.</taskTech> -->
+        <!-- <taskTech>Provided trouble-shooting for system and network security, configuration
+                    and administration groups.</taskTech> -->
         <taskSkills>Skills: Java, JavaScript, Perl5, Tcl, Expect,
 		C/C++, Solaris, AIX, HP-UX, Oracle.<!-- [incr Tcl], SunOS,
 		Pyramid, Microsoft Windows 95/NT, IBM OS/2, Apple Mac OS 7;
@@ -944,19 +944,19 @@
   </education>
   <certifications>
     <certification>
-      <link url="http://aws.amazon.com/certification/">AWS Certified DevOps Engineer - Professional Level / AWS, Certificate Number: AWS-PDOE-1447</link>
+      <link url="http://aws.amazon.com/certification/">AWS Certified DevOps Engineer - Professional Level / AWS: AWS-PDOE-1447</link>
     </certification>
     <certification>
-      <link url="http://aws.amazon.com/certification/">AWS Certified Solutions Architect - Associate Level / AWS, Certificate Number: AWS-ASA-26486</link>
+      <link url="http://aws.amazon.com/certification/">AWS Certified Solutions Architect - Associate Level / AWS: AWS-ASA-26486</link>
     </certification>
     <certification>
-      <link url="http://aws.amazon.com/certification/">AWS Certified SysOps Administrator - Associate Level / AWS, Certificate Number: AWS-ASOA-5593</link>
+      <link url="http://aws.amazon.com/certification/">AWS Certified SysOps Administrator - Associate Level / AWS: AWS-ASOA-5593</link>
     </certification>
     <certification>
-      <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate Level / AWS, Certificate Number: AWS-ADEV-5875</link>
+      <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate Level / AWS: AWS-ADEV-5875</link>
     </certification>
     <certification>
-      <link url="http://www.openstack.org/coa/">Certified OpenStack Administrator / OpenStack, Certificate Number: COA-1600-0240-0100</link>
+      <link url="http://www.openstack.org/coa/">Certified OpenStack Administrator / OpenStack: COA-1600-0240-0100</link>
     </certification>
     <certification>
       <link url="http://education.oracle.com/">Sun Certified Java Developer (SCJD)</link>
@@ -1035,19 +1035,19 @@
     </skill_category>
     <skill_category name="Professional Certification">
       <skill>
-        <link url="http://aws.amazon.com/certification/">AWS Certified DevOps Engineer - Professional Level / AWS, Certificate Number: AWS-PDOE-1447</link>
+        <link url="http://aws.amazon.com/certification/">AWS Certified DevOps Engineer - Professional Level / AWS: AWS-PDOE-1447</link>
       </skill>
       <skill>
-        <link url="http://aws.amazon.com/certification/">AWS Certified Solutions Architect - Associate Level / AWS, Certificate Number: AWS-ASA-26486</link>
+        <link url="http://aws.amazon.com/certification/">AWS Certified Solutions Architect - Associate Level / AWS: AWS-ASA-26486</link>
       </skill>
       <skill>
-        <link url="http://aws.amazon.com/certification/">AWS Certified SysOps Administrator - Associate Level / AWS, Certificate Number: AWS-ASOA-5593</link>
+        <link url="http://aws.amazon.com/certification/">AWS Certified SysOps Administrator - Associate Level / AWS: AWS-ASOA-5593</link>
       </skill>
       <skill>
-        <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate / AWS, Certificate Number: AWS-ADEV-5875</link>
+        <link url="http://aws.amazon.com/certification/">AWS Certified Developer - Associate / AWS: AWS-ADEV-5875</link>
       </skill>
       <skill>
-        <link url="http://www.openstack.org/coa/">Certified OpenStack Administrator / OpenStack, Certificate Number: COA-1600-0240-0100</link>
+        <link url="http://www.openstack.org/coa/">Certified OpenStack Administrator / OpenStack: COA-1600-0240-0100</link>
       </skill>
       <skill force="current">
         <link url="http://suned.sun.com/US/certification/java/java_devj2se.html">Sun Certified Java Developer (SCJD)</link>
@@ -1476,7 +1476,7 @@
             <skill force="old" last_used="2011"> <link url="http://java.sun.com/products/javamail/">JavaMail</link> </skill>
             <skill force="old" last_used="2010"> <link url="http://www.omg.org/technology/documents/formal/transaction_service.htm" >OMG Object Transaction Service (OTS)</link> </skill>
         </skill_category> -->
-    <skill_category name="XML Technologies">
+    <!-- <skill_category name="XML Technologies">
       <skill last_used="2011">
         <link url="http://www.w3.org/DOM/">Document Object Model (DOM)</link>
       </skill>
@@ -1519,7 +1519,7 @@
       <skill force="old" last_used="2011">
         <link url="http://saxon.sourceforge.net/">Saxon XSLT processor</link>
       </skill>
-    </skill_category>
+    </skill_category> -->
     <skill_category name="Object-Oriented Tools">
       <skill last_used="never">
         <link url="http://www-136.ibm.com/developerworks/rational/products/roserealtime/">IBM Rational Rose RealTime</link>
