@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="02 January 2017">
+<resume date="29 June 2017">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>18 Sunridge Road</street>
     <city>Windham</city>
@@ -23,9 +23,9 @@
     <!-- <image url="http://www.oxmicro.com/ks-resume/images/JavCertDev4c_ks_64x64.jpg"/> -->
   </contact_info>
   <objectives>
-    <objectiveTech>Seeking a hands-on DevOps or Software Development position in a senior, principal, leadership, or architecture role.</objectiveTech>
+    <objectiveTech>Seeking a Site Reliability Engineer, DevOps, Automation, or Software Development position in a senior or architectural role.</objectiveTech>
     <objectiveAll>
-            Proven track record of building highly reliable, robust software systems.
+            Proven track record of building scalable, highly available and reliable, robust software systems.
             Brought start-up and early stage projects to successful, timely completion.
             Defined software, automation, and operational architectures, software engineering processes, built engineering teams and labs, performed initial hardware/software bring-up.</objectiveAll>
   </objectives>
@@ -33,6 +33,7 @@
     <highlight>Cloud Computing</highlight>
     <highlight>DevOps</highlight>
     <highlight>Automation</highlight>
+    <highlight>Site Reliability</highlight>
     <highlight>Full Stack</highlight>
     <highlight>Embedded Systems</highlight>
     <highlight>Real-Time Systems</highlight>
@@ -47,7 +48,7 @@
   </highlights>
   <overview>
     <overview_item>Internet scale deployment, operation, and monitoring, for Cloud and physical servers.</overview_item>
-    <overview_item>DevOps and Automation of software development : Continuous Delivery, Integration, Deployment, and Improvement.</overview_item>
+    <overview_item>DevOps and Automation of software development: Continuous Delivery, Integration, Deployment, and Improvement.</overview_item>
     <overview_item>Full Stack developer, experienced in Agile, Iterative, and Waterfall software development processes.</overview_item>
     <overview_item>Expert level: C, C++, Java, Ruby, Python, Perl, Tcl/Tk, Expect, Bash, and AWK.</overview_item>
     <overview_item>Expert level: Linux (Ubuntu, Debian, CentOS, RedHat), BSD (Mac OS X, FreeBSD, NetBSD, OpenBSD), and System V UNIX (Solaris, AIX, HP-UX).</overview_item>
@@ -60,42 +61,24 @@
   <experience>
     <period start_month="11" start_year="2015">
       <assignment>
-        <institution>Rackspace US, Inc.</institution>
+        <institution>Quality, Security, and Performance Engineering, Rackspace US, Inc.</institution>
         <url>http://www.rackspace.com/</url>
         <location>San Antonio, TX</location>
         <position title="Software Developer in Test (SDT IV)"/>
       </assignment>
       <tasks>
         <taskTerse>taskTerse</taskTerse>
-        <taskTech>Embedded with the Cloud Networks Data Plane and
-                Control Plane teams, to design and implement Quality
-                Engineering subsystems and tests for OpenStack Nova Networks,
-                Neutron, and Quark, and Rackspace SDN, at the data plane
-                through API levels.</taskTech>
-        <taskTech>Active Technical Contributor (ATC) for
-                OpenStack.</taskTech>
-        <taskTech>Core member of Open Source projects: OpenCAFE,
-                CloudCAFE, and CloudRoast (Python) test frameworks for testing
-                cloud products, including OpenStack.</taskTech>
+        <taskTech>Embedded with Cloud Networks Data and Control Plane Plane teams, building Quality Engineering architectures for OpenStack Nova Networks, Neutron, Quark, and Rackspace SDN, at data plane through API levels.</taskTech>
+        <taskTech>Active Technical Contributor (ATC) for OpenStack Foundation.</taskTech>
+        <taskTech>Core member of Open Source projects: OpenCAFE, CloudCAFE, and CloudRoast (Python) test frameworks for testing cloud products, including OpenStack.</taskTech>
         <taskTech>Remote WFH (work from home) Racker.</taskTech>
-        <taskTech>Lead SDT for Floating IP and Shared IP subsystems,
-                implementing and maintaining tests, including
-                usage tracking, subsystem functionality, and
-                management API.</taskTech>
-        <taskTech>Lead SDT for Ansible automation and Jenkins Job
-                Builder automation, for QE Continuous Integration processes
-                across multiple geographic regions.</taskTech>
-        <taskTech> Built High Availability (HA) environments for
-                testing Shared IP subsystem, with Pacemaker with Corosync, and
-                keepalived with HAProxy; plus Ansible.</taskTech>
-        <taskTech>Performed troubleshooting for OpenStack Compute, Xen,
-                and tap network interfaces.</taskTech>
-        <taskTech>Reviewed Cloud Load Balancer (CLB) performance
-                testing with team.</taskTech>
-        <taskTech>Worked with other senior team members to improve
-                testing methodologies, strategies, and
-                tools.</taskTech>
-        <taskTech>Mentored other SDT's.</taskTech>
+        <taskTech>Lead SDT for Floating IP and Shared IP subsystems, implementing and maintaining tests, including usage tracking, subsystem functionality, and management API.</taskTech>
+        <taskTech>Lead SDT for Networking and Cloud Migration: Ansible automation, CI/CD, and Jenkins Job Builder, for QE and Development teams across geographic regions.</taskTech>
+        <taskTech>Built High Availability (HA) environments for testing Shared IP subsystem, with Pacemaker with Corosync, and keepalived with HAProxy; plus Ansible.</taskTech>
+        <taskTech>Performed troubleshooting for OpenStack Compute, Xen, and tap network interfaces.</taskTech>
+        <!-- <taskTech>Reviewed Cloud Load Balancer (CLB) performance testing with team.</taskTech> -->
+        <!-- <taskTech>Worked with other senior team members to improve testing methodologies, strategies, and tools.</taskTech> -->
+        <!-- <taskTech>Mentored other SDT's.</taskTech> -->
         <taskTech>AWS Certified DevOps Engineer - Professional Level</taskTech>
         <taskTech>AWS Certified Solutions Architect - Associate Level</taskTech>
         <taskTech>AWS Certified SysOps Administrator - Associate Level</taskTech>
@@ -103,7 +86,7 @@
         <taskTech>Certified OpenStack Administrator</taskTech>
         <taskSkills>Skills: OpenStack and Rackspace API's,
                 Amazon Web Services, Microsoft Azure,
-                Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder, Jira,
+                Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder, Groovy, Jira,
                 Redmine, GitHub, Gerrit, Slack, Confluence, Vagrant,
                 Virtual Box, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
                 YAML, JSON, REST, Pacemaker, Corosync, keepalived, HAProxy,
@@ -164,7 +147,7 @@
         <taskTech>Instituting processes of Continuous Delivery, Integration, Deployment, and Improvement.</taskTech>
         <taskTech>Architecture and system design for Automation and infrastructure-as-code for Development, Integration, Staging, and Production.</taskTech>
         <taskTech>Self-service provisioning for bare metal, virtual machines, and containers, in a hybrid cloud of data centers and AWS EC2.</taskTech>
-        <taskTech>Metal as a Service bare metal automated provisioning solutions, deploying hundreds of servers across multiple sites.</taskTech>
+        <taskTech>Metal as a Service bare metal automated provisioning solutions, deploying hundreds of servers across sites.</taskTech>
         <taskSkills>Skills: AWS, EC2, Chef, Ansible, Rundeck, KVM, Docker, Vagrant, Terraform, OpenStack, Ruby, Python, Perl, Bash, AWK, Go, Java, C/C++, Makefiles, Cobbler, Jenkins, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, CentOS, FreeBSD.</taskSkills>
       </tasks>
     </period>
@@ -179,7 +162,7 @@
         <taskTerse>taskTerse</taskTerse>
         <taskTech>Managed rapid growth within Engineering, growing from 20 to 100 members over an 18-month period.</taskTech>
         <taskTech>Hands-on position, working side-by-side with colleagues on implementing automation.</taskTech>
-        <taskTech>Served multiple roles: manager, as scrum master, and technical owner for multiple Agile squads.</taskTech>
+        <taskTech>Served multiple roles: manager, as scrum master, and technical owner for Agile squads.</taskTech>
         <taskSkills>Skills: Chef, Docker, Rundeck, Ansible, KVM, Ruby, Python, Perl, Bash, AWK, Go, Java, C/C++, Makefiles, Cobbler, Jenkins, Makefiles, GitHub Enterprise, Chef Enterprise, Ubuntu, Debian, FreeBSD.</taskSkills>
       </tasks>
     </period>

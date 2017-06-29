@@ -18,6 +18,8 @@ default: $(TARGETS)
 
 clean:
 	$(RM) $(TARGETS)
+	$(RM) *.bak
+	$(RM) xmllint.out
 
 kevinshort.html: resume.xml resume2xhtml.xsl
 	java -classpath $(XALAN_HOME)/xalan.jar org.apache.xalan.xslt.Process -IN resume.xml -XSL resume2xhtml.xsl -OUT kevinshort.html
@@ -35,6 +37,11 @@ spell: FORCE
 	for i in $(INPUTS); do aspell --lang=en --mode=html check $$i;done
 
 passive: FORCE
-	-for i in is are was were be been; do fgrep -w $$i $(ALL_TEX);done
+	-for i in is are was were be been; do fgrep -w $$i $(INPUTS);done
 
+lint xmllint:
+	xmllint --format - < $(INPUTS) > xmllint.out
+
+open: $(TARGETS)
+	open kevinshort.pdf
 FORCE:
