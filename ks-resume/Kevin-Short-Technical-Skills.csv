@@ -1,0 +1,184 @@
+CATEGORY,SKILL,LEVEL(0=none..10=expert)
+
+Programming Languages,AWK,10
+Programming Languages,C,10
+Programming Languages,C++,10
+Programming Languages,Expect,10
+Programming Languages,Go,8
+Programming Languages,Java,10
+Programming Languages,Perl,10
+Programming Languages,Python,8
+Programming Languages,Ruby,8
+Programming Languages,Tcl/Tk,10
+Programming Languages,assembly languages,10
+Programming Languages,yacc & lex,9
+
+Professional Certification,AWS Certified DevOps Engineer - Professional Level / AWS: AWS-PDOE-1447,8
+Professional Certification,AWS Certified Developer - Associate / AWS: AWS-ADEV-5875,8
+Professional Certification,AWS Certified Solutions Architect - Associate Level / AWS: AWS-ASA-26486,8
+Professional Certification,AWS Certified SysOps Administrator - Associate Level / AWS: AWS-ASOA-5593,8
+Professional Certification,Certified OpenStack Administrator / OpenStack: COA-1600-0240-0100,8
+Professional Certification,Sun Certified Java Developer (SCJD),10
+Professional Certification,Sun Certified Java Programmer (SCJP),10
+
+Configuration Management,Ansible,10
+Configuration Management,Berkshelf,8
+Configuration Management,CFEngine,7
+Configuration Management,Chef,8
+Configuration Management,Rundeck,7
+Configuration Management,Vagrant,10
+
+Virtualization,Docker (containers),8
+Virtualization,KVM (kernel-based virtual machines),7
+Virtualization,VMware ESXi,7
+Virtualization,VirtualBox,9
+Virtualization,Xen,7
+
+Cloud Computing,Amazon Web Services,8
+Cloud Computing,OpenStack,8
+Cloud Computing,Rackspace,8
+
+Release Engineering,Apache Subversion,9
+Release Engineering,Concurrent Versions System (CVS),9
+Release Engineering,GitHub,9
+Release Engineering,GitHub Enterprise,9
+Release Engineering,IBM Rational ClearCase,9
+Release Engineering,Mercurial,8
+Release Engineering,Perforce,9
+
+Operating Systems,CentOS Linux,9
+Operating Systems,Debian Linux,9
+Operating Systems,Embedded Linux,10
+Operating Systems,Enea OSE,9
+Operating Systems,ExpressLogic ThreadX,7
+Operating Systems,Fedora Linux,9
+Operating Systems,FreeBSD,10
+Operating Systems,HP HP-UX,8
+Operating Systems,IBM AIX,9
+Operating Systems,Microsoft Windows,5
+Operating Systems,NetBSD,10
+Operating Systems,Red Hat Enterprise Linux,9
+Operating Systems,Scientific Linux,8
+Operating Systems,SuSE Linux,8
+Operating Systems,Sun Solaris,9
+Operating Systems,Ubuntu Linux,10
+Operating Systems,Wind River VxWorks,10
+
+Database Engines,Apache Cassandra,7
+Database Engines,Hypersonic SQL,7
+Database Engines,IBM DB2,6
+Database Engines,IBM Informix,8
+Database Engines,Microsoft SQL Server,6
+Database Engines,MySQL,9
+Database Engines,Oracle,8
+Database Engines,PostgreSQL,8
+
+Network Management,HP OpenView,8
+Network Management,IBM Tivoli NetView,8
+Network Management,SNMP MIB design & agent development,10
+Network Management,SNMP verification,10
+
+Network Routing,BFD,8
+Network Routing,Cisco IOS,8
+Network Routing,Juniper JunOS,8
+Network Routing,LACP,8
+Network Routing,OSPF,8
+Network Routing,SonicWall Firewalls,7
+Network Routing,pfSense,7
+
+Network Protocols,Domain Name System (DNS),9
+Network Protocols,Dynamic Host Configuration Protocol (DHCP),9
+Network Protocols,High-level Data Link Control (HDLC),9
+Network Protocols,IEEE 802.2 Logical Link Control (LLC),9
+Network Protocols,IEEE 802.3 CSMA/CD (Ethernet),9
+Network Protocols,IP Multimedia Subsystem (IMS),8
+Network Protocols,ISDN Q.921/LAPD,9
+Network Protocols,ISDN Q.931/Call Control,9
+Network Protocols,Internet Message Access Protocol (IMAP),8
+Network Protocols,Lightweight Directory Access Protocol (LDAPv3),8
+Network Protocols,Media Gateway Control Protocol (MGCP),9
+Network Protocols,Network Information Service (NIS),9
+Network Protocols,Network-Based Call Signaling (NCS),9
+Network Protocols,PacketCable 2.0,9
+Network Protocols,Point-to-Point Protocol (PPP),8
+Network Protocols,Secure Shell (SSH) & OpenSSH,9
+Network Protocols,Secure Sockets Layer (SSL) & OpenSSL,9
+Network Protocols,Session Initiation Protocol (SIP),8
+Network Protocols,Signaling System #7 (SS7),7
+Network Protocols,Simple Mail Transfer Protocol (SMTP),8
+Network Protocols,Simple Network Management Protocol (SNMP),10
+Network Protocols,Simple Network Time Protocol (SNTP),8
+Network Protocols,Socket Programming,10
+Network Protocols,TCP/IP,10
+Network Protocols,UDP/IP,10
+Network Protocols,Voice over IP (VoIP),9
+Network Protocols,X11 Window System,9
+
+Web Services & Content,Apache HTTP Server,7
+Web Services & Content,Cascading Style Sheets (CSS),7
+Web Services & Content,HyperText Markup Language (HTML),9
+Web Services & Content,HyperText Transfer Protocol (HTTP),9
+Web Services & Content,XML-RPC,10
+Web Services & Content,nginx,8
+
+Web Performance & QA,Apache JMeter,6
+Web Performance & QA,HttpUnit,7
+Web Performance & QA,JUnit4,8
+
+Java Technologies,Apache Ant,8
+Java Technologies,Apache Log4j,8
+Java Technologies,Eclipse,8
+Java Technologies,Hibernate,7
+Java Technologies,Java Management Extensions (JMX),7
+Java Technologies,Java Service Wrapper (JSW),7
+
+Java Web Services,Apache Tomcat,7
+Java Web Services,JBoss,7
+Java Web Services,Java API for XML Processing (JAXP),6
+Java Web Services,Java Server Pages (JSP),7
+Java Web Services,Java Server Pages Standard Tag Library (JSTL),7
+Java Web Services,Java Servlets,7
+
+Java 2 Standard Edition,Abstract Window Toolkit (AWT),8
+Java 2 Standard Edition,Java Authentication & Authorization Service (JAAS),7
+Java 2 Standard Edition,Java Cryptography Extension (JCE),7
+Java 2 Standard Edition,Java Database Connectivity (JDBC),8
+Java 2 Standard Edition,Java Foundation Classes (JFC/Swing),8
+Java 2 Standard Edition,Java IDL,7
+Java 2 Standard Edition,Java Naming and Directory Interface (JNDI),8
+Java 2 Standard Edition,Java Remote Method Invocation (RMI),8
+Java 2 Standard Edition,JavaBeans Activation Framework (JAF),8
+Java 2 Standard Edition,JavaBeans Component API,8
+
+Object-Oriented Tools,IBM Rational Rose RealTime,9
+Object-Oriented Tools,Real-time Object-Oriented Modeling (ROOM),9
+
+Defect Tracking,Bugzilla,7
+Defect Tracking,IBM Rational ClearQuest,7
+Defect Tracking,Jira Issue Management,8
+Defect Tracking,Jive Forums,7
+
+Other Tools,ZeroG InstallAnywhere,9
+
+Other Languages,ALGOL,7
+Other Languages,BASIC,9
+Other Languages,COBOL,9
+Other Languages,FORTRAN,9
+Other Languages,LISP,7
+Other Languages,PL/1,7
+Other Languages,PL/M,10
+Other Languages,Pascal,9
+Other Languages,PostScript,8
+Other Languages,SNOBOL,7
+
+Microprocessors,Atmel SAM9G (ARM),8
+Microprocessors,Freescale MC680X0,10
+Microprocessors,Freescale MPC7410,7
+Microprocessors,Freescale MPC8548,7
+Microprocessors,Freescale MPC860,7
+Microprocessors,Intel 8051,9
+Microprocessors,Intel StrongARM,9
+Microprocessors,Intel x86,8
+Microprocessors,MIPS32,7
+Microprocessors,Sun SPARC,7
+Microprocessors,Zilog 80180,9
