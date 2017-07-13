@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="29 June 2017">
+<resume date="13 July 2017">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>18 Sunridge Road</street>
     <city>Windham</city>
@@ -25,7 +25,7 @@
   <objectives>
     <objectiveTech>Seeking a Site Reliability Engineer, DevOps, Automation, or Software Development position in a senior or architectural role.</objectiveTech>
     <objectiveAll>
-            Proven track record of building scalable, highly available and reliable, robust software systems.
+            Proven track record of building highly available, scalable, and robust software systems.
             Brought start-up and early stage projects to successful, timely completion.
             Defined software, automation, and operational architectures, software engineering processes, built engineering teams and labs, performed initial hardware/software bring-up.</objectiveAll>
   </objectives>
@@ -47,6 +47,12 @@
     <highlight>XML Technologies</highlight>
   </highlights>
   <overview>
+    <overview_item>AWS Certified DevOps Engineer - Professional Level</overview_item>
+    <overview_item>AWS Certified Solutions Architect - Associate Level</overview_item>
+    <overview_item>AWS Certified SysOps Administrator - Associate Level</overview_item>
+    <overview_item>AWS Certified Developer - Associate Level</overview_item>
+    <overview_item>Certified OpenStack Administrator</overview_item>
+    <br/>
     <overview_item>Internet scale deployment, operation, and monitoring, for Cloud and physical servers.</overview_item>
     <overview_item>DevOps and Automation of software development: Continuous Delivery, Integration, Deployment, and Improvement.</overview_item>
     <overview_item>Full Stack developer, experienced in Agile, Iterative, and Waterfall software development processes.</overview_item>
@@ -64,26 +70,21 @@
         <institution>Quality, Security, and Performance Engineering, Rackspace US, Inc.</institution>
         <url>http://www.rackspace.com/</url>
         <location>San Antonio, TX</location>
-        <position title="Software Developer in Test (SDT IV)"/>
+        <position title="Software Developer in Test (SDET IV)"/>
       </assignment>
       <tasks>
         <taskTerse>taskTerse</taskTerse>
-        <taskTech>Embedded with Cloud Networks Data and Control Plane Plane teams, building Quality Engineering architectures for OpenStack Nova Networks, Neutron, Quark, and Rackspace SDN, at data plane through API levels.</taskTech>
+        <taskTech>Embedded with the Cloud Networks Data Plane and Control Plane teams, building Quality Engineering subsystems and tests for OpenStack Nova Networks, Neutron, and Quark, and Rackspace SDN, at the data plane through API levels.</taskTech>
         <taskTech>Active Technical Contributor (ATC) for OpenStack Foundation.</taskTech>
         <taskTech>Core member of Open Source projects: OpenCAFE, CloudCAFE, and CloudRoast (Python) test frameworks for testing cloud products, including OpenStack.</taskTech>
-        <taskTech>Remote WFH (work from home) Racker.</taskTech>
-        <taskTech>Lead SDT for Floating IP and Shared IP subsystems, implementing and maintaining tests, including usage tracking, subsystem functionality, and management API.</taskTech>
-        <taskTech>Lead SDT for Networking and Cloud Migration: Ansible automation, CI/CD, and Jenkins Job Builder, for QE and Development teams across geographic regions.</taskTech>
-        <taskTech>Built High Availability (HA) environments for testing Shared IP subsystem, with Pacemaker with Corosync, and keepalived with HAProxy; plus Ansible.</taskTech>
+        <taskTech>Lead SDET for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD processes related to multi-cloud operations and migrations.</taskTech>
+        <taskTech>Lead SDET for Floating IP and Shared IP subsystems: built tests for same, including advanced testing for usage tracking, subsystem functionality, and management API.</taskTech>
+        <taskTech>Built High Availability (HA) environments for testing Shared IP subsystem, using Pacemaker with Corosync, and keepalived with HAProxy; plus Ansible.</taskTech>
         <taskTech>Performed troubleshooting for OpenStack Compute, Xen, and tap network interfaces.</taskTech>
+        <taskTech>Remote WFH (work from home) Racker.</taskTech>
         <!-- <taskTech>Reviewed Cloud Load Balancer (CLB) performance testing with team.</taskTech> -->
         <!-- <taskTech>Worked with other senior team members to improve testing methodologies, strategies, and tools.</taskTech> -->
-        <!-- <taskTech>Mentored other SDT's.</taskTech> -->
-        <taskTech>AWS Certified DevOps Engineer - Professional Level</taskTech>
-        <taskTech>AWS Certified Solutions Architect - Associate Level</taskTech>
-        <taskTech>AWS Certified SysOps Administrator - Associate Level</taskTech>
-        <taskTech>AWS Certified Developer - Associate Level</taskTech>
-        <taskTech>Certified OpenStack Administrator</taskTech>
+        <!-- <taskTech>Mentored other SDET's.</taskTech> -->
         <taskSkills>Skills: OpenStack and Rackspace API's,
                 Amazon Web Services, Microsoft Azure,
                 Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder, Groovy, Jira,
