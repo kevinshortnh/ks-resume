@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="13 July 2017">
+<resume date="30 Aug 2017">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>18 Sunridge Road</street>
     <city>Windham</city>
@@ -23,7 +23,7 @@
     <!-- <image url="http://www.oxmicro.com/ks-resume/images/JavCertDev4c_ks_64x64.jpg"/> -->
   </contact_info>
   <objectives>
-    <objectiveTech>Seeking a Site Reliability Engineer, DevOps, Automation, or Software Development position in a senior or architectural role.</objectiveTech>
+    <objectiveTech>Seeking a DevOps, Site Reliability Engineer, Automation, or Software Development position in a senior or architectural role.</objectiveTech>
     <objectiveAll>
             Proven track record of building highly available, scalable, and robust software systems.
             Brought start-up and early stage projects to successful, timely completion.
@@ -70,14 +70,14 @@
         <institution>Quality, Security, and Performance Engineering, Rackspace US, Inc.</institution>
         <url>http://www.rackspace.com/</url>
         <location>San Antonio, TX</location>
-        <position title="Software Developer in Test (SDET IV)"/>
+        <position title="Software Development Engineer in Test (SDET IV)"/>
       </assignment>
       <tasks>
         <taskTerse>taskTerse</taskTerse>
         <taskTech>Embedded with the Cloud Networks Data Plane and Control Plane teams, building Quality Engineering subsystems and tests for OpenStack Nova Networks, Neutron, and Quark, and Rackspace SDN, at the data plane through API levels.</taskTech>
         <taskTech>Active Technical Contributor (ATC) for OpenStack Foundation.</taskTech>
         <taskTech>Core member of Open Source projects: OpenCAFE, CloudCAFE, and CloudRoast (Python) test frameworks for testing cloud products, including OpenStack.</taskTech>
-        <taskTech>Lead SDET for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD processes related to multi-cloud operations and migrations.</taskTech>
+        <taskTech>Lead SDET for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD processes related to multi-cloud operations and migration tooling.</taskTech>
         <taskTech>Lead SDET for Floating IP and Shared IP subsystems: built tests for same, including advanced testing for usage tracking, subsystem functionality, and management API.</taskTech>
         <taskTech>Built High Availability (HA) environments for testing Shared IP subsystem, using Pacemaker with Corosync, and keepalived with HAProxy; plus Ansible.</taskTech>
         <taskTech>Performed troubleshooting for OpenStack Compute, Xen, and tap network interfaces.</taskTech>
@@ -732,7 +732,7 @@
                     Automounter.</taskSkills>
       </tasks>
     </period>
-    <period start_month="7" start_year="1988" end_month="12" end_year="1998">
+    <period start_month="7" start_year="1988" end_month="12" end_year="1988">
       <assignment>
         <institution>General DataComm Incorporated</institution>
         <url>http://www.gdc.com/</url>
