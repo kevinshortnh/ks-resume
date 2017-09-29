@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="30 Aug 2017">
+<resume date="29 Sep 2017">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>18 Sunridge Road</street>
     <city>Windham</city>
@@ -74,10 +74,11 @@
       </assignment>
       <tasks>
         <taskTerse>taskTerse</taskTerse>
+        <taskTech>Lead SDET for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD processes related to multi-cloud operations and migration tooling.</taskTech>
         <taskTech>Embedded with the Cloud Networks Data Plane and Control Plane teams, building Quality Engineering subsystems and tests for OpenStack Nova Networks, Neutron, and Quark, and Rackspace SDN, at the data plane through API levels.</taskTech>
         <taskTech>Active Technical Contributor (ATC) for OpenStack Foundation.</taskTech>
+        <taskTech>Keynote Speaker at RAX.IO 2017</taskTech>
         <taskTech>Core member of Open Source projects: OpenCAFE, CloudCAFE, and CloudRoast (Python) test frameworks for testing cloud products, including OpenStack.</taskTech>
-        <taskTech>Lead SDET for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD processes related to multi-cloud operations and migration tooling.</taskTech>
         <taskTech>Lead SDET for Floating IP and Shared IP subsystems: built tests for same, including advanced testing for usage tracking, subsystem functionality, and management API.</taskTech>
         <taskTech>Built High Availability (HA) environments for testing Shared IP subsystem, using Pacemaker with Corosync, and keepalived with HAProxy; plus Ansible.</taskTech>
         <taskTech>Performed troubleshooting for OpenStack Compute, Xen, and tap network interfaces.</taskTech>
@@ -87,7 +88,7 @@
         <!-- <taskTech>Mentored other SDET's.</taskTech> -->
         <taskSkills>Skills: OpenStack and Rackspace API's,
                 Amazon Web Services, Microsoft Azure,
-                Docker, Ansible, Chef, Jenkins CI, Jenkins Job Builder, Groovy, Jira,
+                Docker, Ansible, Terraform, Chef, Jenkins CI, Jenkins Job Builder, Groovy, Jira,
                 Redmine, GitHub, Gerrit, Slack, Confluence, Vagrant,
                 Virtual Box, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
                 YAML, JSON, REST, Pacemaker, Corosync, keepalived, HAProxy,
