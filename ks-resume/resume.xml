@@ -11,16 +11,15 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="29 Sep 2017">
+<resume date="01 Mar 2019">
   <contact_info first="Kevin" middle="L" last="Short">
-    <street>18 Sunridge Road</street>
-    <city>Windham</city>
-    <state>NH</state>
-    <zip>03087</zip>
+    <street>219 Destiny Drive</street>
+    <city>Gray Court</city>
+    <state>SC</state>
+    <zip>29645</zip>
     <cell>(603) 785-7165</cell>
     <email>kevinshortnh@gmail.com</email>
-    <website>http://www.oxmicro.com/</website>
-    <!-- <image url="http://www.oxmicro.com/ks-resume/images/JavCertDev4c_ks_64x64.jpg"/> -->
+    <website>http://www.kevinshortnh.com/</website>
   </contact_info>
   <objectives>
     <objectiveTech>Seeking a DevOps, Site Reliability Engineer, Automation, or Software Development position in a senior or architectural role.</objectiveTech>
@@ -62,10 +61,33 @@
     <overview_item>Network programming and network management systems.</overview_item>
     <overview_item>Excellent debugging and troubleshooting skills.</overview_item>
     <overview_item>Excellent communication skills and technical leadership experience.</overview_item>
-    <overview_item>Over 35 year's commercial software development experience. BA in Computer Science.</overview_item>
+    <overview_item>Over 35 years' commercial software development experience. BA in Computer Science.</overview_item>
   </overview>
   <experience>
-    <period start_month="11" start_year="2015">
+    <period start_month="6" start_year="2018">
+      <assignment>
+        <institution>Quality, Security, and Performance Engineering, Rackspace US, Inc.</institution>
+        <url>http://www.rackspace.com/</url>
+        <location>San Antonio, TX</location>
+        <position title="Software Development Engineer in Test (SDET V)"/>
+      </assignment>
+      <tasks>
+        <taskTerse>taskTerse</taskTerse>
+        <taskTech>Lead SDET for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD pipeline related to multi-cloud operations and migration tooling.</taskTech>
+        <taskTech>Lead SDET for Rackspace Private Cloud on OpenStack and RedHat OpenStack Platform products; for Multi-Cloud products; and for Bare-metal products.</taskTech>
+        <taskTech>Remote WFH (work from home) Racker.</taskTech>
+        <taskSkills>Skills: Kubernetes, OpenShift,
+                OpenStack and Rackspace APIs,
+                Amazon Web Services, Serverless,
+                Docker, Ansible, Terraform, Jenkins CI, Jenkins Job Builder, Groovy, Jira,
+                GitHub, Slack, Confluence, Vagrant,
+                Virtual Box, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
+                YAML, JSON, REST,
+                MySQL, Mac OS X, Ubuntu Linux, RedHat Enterprise
+                Linux, CentOS Linux, FreeBSD.</taskSkills>
+      </tasks>
+    </period>
+    <period start_month="11" start_year="2015" end_month="6" end_year="2018">
       <assignment>
         <institution>Quality, Security, and Performance Engineering, Rackspace US, Inc.</institution>
         <url>http://www.rackspace.com/</url>
@@ -74,7 +96,6 @@
       </assignment>
       <tasks>
         <taskTerse>taskTerse</taskTerse>
-        <taskTech>Lead SDET for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD processes related to multi-cloud operations and migration tooling.</taskTech>
         <taskTech>Embedded with the Cloud Networks Data Plane and Control Plane teams, building Quality Engineering subsystems and tests for OpenStack Nova Networks, Neutron, and Quark, and Rackspace SDN, at the data plane through API levels.</taskTech>
         <taskTech>Active Technical Contributor (ATC) for OpenStack Foundation.</taskTech>
         <taskTech>Keynote Speaker at RAX.IO 2017</taskTech>
@@ -85,8 +106,9 @@
         <taskTech>Remote WFH (work from home) Racker.</taskTech>
         <!-- <taskTech>Reviewed Cloud Load Balancer (CLB) performance testing with team.</taskTech> -->
         <!-- <taskTech>Worked with other senior team members to improve testing methodologies, strategies, and tools.</taskTech> -->
-        <!-- <taskTech>Mentored other SDET's.</taskTech> -->
-        <taskSkills>Skills: OpenStack and Rackspace API's,
+        <!-- <taskTech>Mentored other SDETs.</taskTech> -->
+        <taskSkills>Skills: Kubernetes, OpenShift, S2I (Source-to-Image), Helm,
+                OpenStack and Rackspace APIs,
                 Amazon Web Services, Microsoft Azure,
                 Docker, Ansible, Terraform, Chef, Jenkins CI, Jenkins Job Builder, Groovy, Jira,
                 Redmine, GitHub, Gerrit, Slack, Confluence, Vagrant,
