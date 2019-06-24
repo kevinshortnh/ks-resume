@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="01 Mar 2019">
+<resume date="24 Jun 2019">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>219 Destiny Drive</street>
     <city>Gray Court</city>
@@ -22,7 +22,7 @@
     <website>http://www.kevinshortnh.com/</website>
   </contact_info>
   <objectives>
-    <objectiveTech>Seeking a DevOps, Site Reliability Engineer, Automation, or Software Development position in a senior or architectural role.</objectiveTech>
+    <objectiveTech>Seeking a DevOps, Automation, or Software Development position in a senior or architectural role.</objectiveTech>
     <objectiveAll>
             Proven track record of building highly available, scalable, and robust software systems.
             Brought start-up and early stage projects to successful, timely completion.
@@ -66,22 +66,22 @@
   <experience>
     <period start_month="6" start_year="2018">
       <assignment>
-        <institution>Quality, Security, and Performance Engineering, Rackspace US, Inc.</institution>
+        <institution>Quality Engineering, Rackspace US, Inc.</institution>
         <url>http://www.rackspace.com/</url>
         <location>San Antonio, TX</location>
-        <position title="Software Development Engineer in Test (SDET V)"/>
+        <position title="Principal DevOps Engineer (SDET-V)"/>
       </assignment>
       <tasks>
         <taskTerse>taskTerse</taskTerse>
-        <taskTech>Lead SDET for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD pipeline related to multi-cloud operations and migration tooling.</taskTech>
-        <taskTech>Lead SDET for Rackspace Private Cloud on OpenStack and RedHat OpenStack Platform products; for Multi-Cloud products; and for Bare-metal products.</taskTech>
+        <taskTech>Lead for DevOps, Ansible, Terraform, Docker, and Jenkins automation, for CI/CD pipeline related to multi-cloud operations and migration tooling.</taskTech>
+        <taskTech>Lead for Rackspace Private Cloud on OpenStack and RedHat OpenStack Platform products; for Multi-Cloud products; and for Bare-metal products.</taskTech>
         <taskTech>Remote WFH (work from home) Racker.</taskTech>
         <taskSkills>Skills: Kubernetes, OpenShift,
                 OpenStack and Rackspace APIs,
                 Amazon Web Services, Serverless,
                 Docker, Ansible, Terraform, Jenkins CI, Jenkins Job Builder, Groovy, Jira,
                 GitHub, Slack, Confluence, Vagrant,
-                Virtual Box, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
+                VirtualBox, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
                 YAML, JSON, REST,
                 MySQL, Mac OS X, Ubuntu Linux, RedHat Enterprise
                 Linux, CentOS Linux, FreeBSD.</taskSkills>
@@ -89,10 +89,10 @@
     </period>
     <period start_month="11" start_year="2015" end_month="6" end_year="2018">
       <assignment>
-        <institution>Quality, Security, and Performance Engineering, Rackspace US, Inc.</institution>
+        <institution>Quality Engineering, Rackspace US, Inc.</institution>
         <url>http://www.rackspace.com/</url>
         <location>San Antonio, TX</location>
-        <position title="Software Development Engineer in Test (SDET IV)"/>
+        <position title="Senior Lead DevOps Engineer (SDET-IV)"/>
       </assignment>
       <tasks>
         <taskTerse>taskTerse</taskTerse>
@@ -112,7 +112,7 @@
                 Amazon Web Services, Microsoft Azure,
                 Docker, Ansible, Terraform, Chef, Jenkins CI, Jenkins Job Builder, Groovy, Jira,
                 Redmine, GitHub, Gerrit, Slack, Confluence, Vagrant,
-                Virtual Box, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
+                VirtualBox, Xen, Docker, Python, Ruby, Bash, AWK, Tcl, Expect,
                 YAML, JSON, REST, Pacemaker, Corosync, keepalived, HAProxy,
                 MySQL, RabbitMQ, Mac OS X, Ubuntu Linux, RedHat Enterprise
                 Linux, CentOS Linux, FreeBSD.</taskSkills>
@@ -151,7 +151,7 @@
 		users, groups, hosts, and layers (groups of hosts).</taskTech> -->
         <taskSkills>Skills: Amazon Web Services, Docker, Cloud Foundry,
 		Microsoft Azure, OpenStack, Chef, Ansible, Puppet, SaltStack,
-		Rundeck, Jenkins, GitHub, Vagrant, Terraform, Virtual Box, Ruby,
+		Rundeck, Jenkins, GitHub, Vagrant, Terraform, VirtualBox, Ruby,
 		Python, Perl, Bash, AWK, Tcl, Expect, Go, Java, C/C++, OpenSSL,
 		OpenSSH, Mac OS X, Ubuntu Linux, RedHat Enterprise Linux,
 		CentOS Linux.</taskSkills>
