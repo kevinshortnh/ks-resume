@@ -4,8 +4,11 @@
 #
 
 # Mac OS X paths
-# XALAN_HOME      = /Users/kevinshort/xalan-j_2_7_2
-# FOP_HOME        = /Users/kevinshort/fop-1.1
+BASE_DIR        = /Users/kevinsho
+XALAN_HOME      = $(BASE_DIR)/xalan-j_2_7_2
+FOP_HOME        = $(BASE_DIR)/fop-2.5/fop
+FOP_HOME        = $(BASE_DIR)/fop-2.1
+XERCES_HOME     = $(BASE_DIR)/xerces-2_12_1
 
 INPUTS		+= resume.xml
 
