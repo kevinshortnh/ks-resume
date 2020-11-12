@@ -11,7 +11,7 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="08 Nov 2020">
+<resume date="12 Nov 2020">
   <contact_info first="Kevin" middle="L" last="Short">
     <street>219 Destiny Drive</street>
     <city>Gray Court</city>
@@ -22,6 +22,9 @@
     <website>http://www.kevinshortnh.com/</website>
   </contact_info>
   <objectives>
+    <!--
+    <objectiveTech>Seeking a Software Development, DevOps, Site Reliability Engineering, or Automation position in a senior role.</objectiveTech>
+    -->
     <objectiveTech>Seeking a DevOps, Site Reliability Engineering, Automation, or Software Development position in a senior role.</objectiveTech>
     <objectiveAll>
             Proven track record of building highly available, scalable, and robust software systems.
@@ -73,7 +76,7 @@
       </assignment>
       <tasks>
         <taskTerse>taskTerse</taskTerse>
-        <taskTech>Ultimate Software and Kronos Inc merged, forming Ultimate Kronos Group (UKG).</taskTech>
+        <taskTech>Ultimate Software and Kronos merged, forming Ultimate Kronos Group (UKG).</taskTech>
       </tasks>
     </period>
     <period start_month="8" start_year="2019" end_month="10" end_year="2020">
@@ -86,14 +89,16 @@
       <tasks>
         <taskTerse>taskTerse</taskTerse>
         <taskTech>
-            Developed Infrastructure-as-Code (IaC) with Ansible, Terraform, Expect/Tcl, and Python for multiple data centers and fabrics running self-hosted OpenStack on Red Hat OpenStack Platform (OSP13) and Rackspace Private Cloud (RPC) distributions.
+            Developed Infrastructure-as-Code (IaC) for multiple data centers and fabrics running self-hosted OpenStack on Red Hat OpenStack Platform (OSP13) and Rackspace Private Cloud (RPC) distributions.
+            Almost daily experience writing and troubleshooting Ansible, Terraform, Python, Go, Ruby, Expect/Tcl, Awk, and Bash.
             As a member of the Ultimate Cloud Infrastructure-as-a-Service team: performed daily operational tasks for site and hardware expansions and moves, troubleshooting and remediation.
             Built automation for deployment of Red Hat OSP13 fabrics in production, development, and lab environments.
-            Automated live migration of (Cinder) storage volume types across availability zones.
+            This resulted in improved repeatability, cycle times, and reliability of our fabrics.
+            Automated the live migration of (Cinder) storage volume types across availability zones.
             Fixed bugs in vendor-supplied and Open Source drivers (Python) and Docker containers; contributed back to Open Source Software (OSS) projects; and patched our local fabrics.
             Participated in On-Call Rotation, frequent Off-Hours Issue Resolution, and War Rooms.
             </taskTech>
-        <taskSkills>Skills: Ansible, Terraform, Python, Expect/Tcl, Bash, Awk;
+        <taskSkills>Skills: Ansible, Terraform, Python, Go, Ruby, Expect/Tcl, Awk, Bash;
                 OpenStack: Red Hat OSP (OpenStack Platform), Rackspace Private Cloud;
                 Linux: RHEL, Ubuntu;
                 Docker, KVM, LXC;
