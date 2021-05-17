@@ -4,7 +4,7 @@
 #
 
 # Mac OS X paths
-BASE_DIR        = /Users/kevinsho
+BASE_DIR        = /Users/kshort
 XALAN_HOME      = $(BASE_DIR)/xalan-j_2_7_2
 FOP_HOME        = $(BASE_DIR)/fop-2.5/fop
 FOP_HOME        = $(BASE_DIR)/fop-2.1

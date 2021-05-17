@@ -11,21 +11,21 @@
 <!ENTITY euro "&#8364;">
 ]>
 <?xml-stylesheet type="application/xml" href="resume2xhtml.xsl"?>
-<resume date="12 Nov 2020">
+<resume date="17 May 2021">
   <contact_info first="Kevin" middle="L" last="Short">
-    <street>219 Destiny Drive</street>
-    <city>Gray Court</city>
-    <state>SC</state>
-    <zip>29645</zip>
+    <street>200 Walnut Hill Ave #110</street>
+    <city>Hillsboro</city>
+    <state>TX</state>
+    <zip>76645</zip>
     <cell>(603) 785-7165</cell>
     <email>kevinshortnh@gmail.com</email>
     <website>http://www.kevinshortnh.com/</website>
   </contact_info>
   <objectives>
     <!--
-    <objectiveTech>Seeking a Software Development, DevOps, Site Reliability Engineering, or Automation position in a senior role.</objectiveTech>
+    <objectiveTech>Seeking a Site Reliability Engineering, DevOps, Software Development, or Automation position in a senior role.</objectiveTech>
     -->
-    <objectiveTech>Seeking a DevOps, Site Reliability Engineering, Automation, or Software Development position in a senior role.</objectiveTech>
+    <objectiveTech>Seeking a Site Reliability Engineering, DevOps, Software Development, or Automation position in a senior role.</objectiveTech>
     <objectiveAll>
             Proven track record of building highly available, scalable, and robust software systems.
             Brought start-up and early stage projects to successful, timely completion.
@@ -67,7 +67,34 @@
     <overview_item>Over 40 years' commercial software development experience. BA in Computer Science.</overview_item>
   </overview>
   <experience>
-    <period start_month="10" start_year="2020">
+    <period start_month="1" start_year="2021" end_month="5" end_year="2021">
+      <assignment>
+        <institution>NS1.</institution>
+        <url>http://www.ns1.com/</url>
+        <location>New York, NY</location>
+        <position title="Senior Engineer (Site Reliability Engineer)"/>
+      </assignment>
+      <tasks>
+        <taskTerse>taskTerse</taskTerse>
+        <taskTech>
+          Sole SRE responsibility for NS1's Monitoring products and infrastructure.
+          Daily experience writing and troubleshooting Ansible, Terraform, Python, Golang, and Bash.
+          Built Infrastructure-as-Code (IaC) with Ansible for deployment of Docker-ized components across core and 26 edge regions.
+          Built IaC with Ansible, Terraform, and Hashicorp Nomad for deployment of Staging and Product Soak environments.
+          This resulted in improved repeatability, cycle times, and reliability of our operational environment.
+          Participated in On-Call Rotation, frequent Off-Hours Issue Resolution, and daily War Rooms.
+        </taskTech>
+        <taskSkills>
+          Skills: Ansible, Terraform, Python, Go, Bash;
+          Cloud: AWS, Digital Ocean;
+          Linux: Ubuntu;
+          Containers and VM: Docker, docker-compose, Vagrant;
+          Data and Messaging: MongoDB, Redis, RabbitMQ;
+          SCM: GitHub.
+        </taskSkills>
+      </tasks>
+    </period>
+    <period start_month="10" start_year="2020" end_month="1" end_year="2021">
       <assignment>
         <institution>Ultimate Kronos Group, Inc.</institution>
         <url>http://www.ultimatesoftware.com/</url>
@@ -294,7 +321,7 @@
         <taskTech>New feature design and development included: health checking and load
                     balancing features that interacted with server side agents, VMware ESXi
                     hypervisor, and SNMP agents.</taskTech>
-        <taskTech>Shared responsibility for: disaster recovery and failover: active/passive,
+        <taskTech>Shared responsibility for: disaster recovery and fail-over: active/passive,
                     active/active, and N+1 configurations; and configuration management.</taskTech>
         <taskTech>Built the NetBSD-based products using cross-compilation on Mac OS X.</taskTech>
         <taskSkills>Skills: C, assembler, Tcl, Python, Perl; NetBSD, Mac OS X, FreeBSD,
@@ -531,7 +558,7 @@
                     monitoring and control features include optical power detection,
                     traffic-direction LEDs, visual alarms, and craft interface that provides access
                     to the unit's identification data. The product is a bi-directional dense
-                    wavelength division multiplexor (DWDM) with power loss detection on the primary
+                    wavelength division multiplexer (DWDM) with power loss detection on the primary
                     fiber that can trigger alarm LEDs and relays. Integrated power taps allow
                     monitoring of incoming and outgoing signals in the primary fiber.</taskTech>
         <taskSkills>Skills: C</taskSkills>
@@ -1133,6 +1160,15 @@
         <link url="http://www.ansible.com/home">Ansible</link>
       </skill>
       <skill force="current">
+        <link url="https://www.terraform.io/">Terraform</link>
+      </skill>
+      <skill force="current">
+        <link url="https://www.terraform.io/">Terraform</link>
+      </skill>
+      <skill force="current">
+        <link url="https://www.nomadproject.io/">Nomad</link>
+      </skill>
+      <skill force="current">
         <link url="http://rundeck.org/">Rundeck</link>
       </skill>
       <skill force="current">
@@ -1252,7 +1288,18 @@
         <link url="http://www.microsoft.com/windows/">Microsoft Windows</link>
       </skill>
     </skill_category>
+    <skill_category name="Message Queuing">
+      <skill last_used="2021">
+        <link url="https://www.rabbitmq.com/">RabbitMQ</link>
+      </skill>
+    </skill_category>
     <skill_category name="Database Engines">
+      <skill last_used="2021">
+        <link url="https://www.mongodb.com/">MongoDB</link>
+      </skill>
+      <skill last_used="2021">
+        <link url="https://redis.io/">Redis</link>
+      </skill>
       <skill last_used="2014">
         <link url="http://cassandra.apache.org/">Apache Cassandra</link>
       </skill>
